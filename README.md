@@ -12,8 +12,8 @@ Ook heeft de Nederlandse inwoner geen overzicht meer van alle energieleverancier
 * Een map van Nederland die het gemiddeld energieverbruik per postcode laat zien;
   * In de map kan er gekozen worden tussen stroom en gas;
   * Hierbij kan men het energieverbruik per jaar met elkaar vergelijken;
-* Een map van Nederland waar men de energieleveranciers kan bekijken;
-  * Op deze map kan men zien waar deze energieleveranciers hun energie (stroom en gas) vandaan halen;
+* Een grafiek (staaf of donut) waar energieleveranciers hun energie vandaan halen;
+  * Op deze grafiek kan men zien waar deze energieleveranciers hun energie (stroom en gas) vandaan halen;
   * Als men op een leverancier klikt wordt er een bargrafiek weergegeven waar te zien komt waar het stroom en gas vandaan komt. Zoals kernenergie of windmolen parken.
 
 ### Pagina’s
@@ -21,9 +21,12 @@ In ieder geval komen er vier verschillende pagina’s. Een pagina met uitleg ove
 
 Een pagina met een wereldmap met het gemiddelde energie verbruik over de jaren heen. Zodat men kan vergelijken of er meer energie wordt verbruikt. Onder de wereldmap wordt een uitleg gegeven over de visualisatie en een legenda onder de visualisatie. De pagina met de wereldmap legt ook alvast een link met Nederland. Hierin wordt verduidelijkt dat Nederland onder de loop wordt genomen. 
 
-De pagina erna wordt de visualisatie weergeven die een kaart van Nederland laat zien met het gemiddeld energieverbruik per postcode. Ook hier wordt weer een uitleg en conclusie gegeven over de kaart. Daarbij wordt er weer een link gelegd wat er voor energieleveranciers er zijn in Nederland, want de laatste pagina laat de energieleveranciers van Nederland zien. Door op een leverancier te klikken komt er een bargrafiek tevoorschijn die laat zien waar het stroom en gas vandaan komt.
+De pagina erna wordt de visualisatie weergegeven die een kaart van Nederland laat zien met het gemiddeld energieverbruik per postcode. Ook hier wordt weer een uitleg en conclusie gegeven over de kaart. Daarbij wordt er weer een link gelegd wat er voor energieleveranciers er zijn in Nederland, want de laatste pagina laat de energieleveranciers van Nederland zien. Door op een leverancier te klikken komt er een bargrafiek tevoorschijn die laat zien waar het stroom en gas vandaan komt.
 
 ### Schetsen
+![Visualisatie 1 Wereldmap Energieverbruik](doc/schets_1.png)
+![Visualisatie 2 Nederland Energieverbruik](doc/schets_2.png)
+![Visualisatie 3 Nederlandse Energieleveranciers](doc/schets_3.png)
 
 ### Data
 * Data World Bank stelt het gemiddeld verbruik van stroom en gas per land beschikbaar;
