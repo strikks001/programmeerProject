@@ -25,8 +25,6 @@ De pagina erna wordt de visualisatie weergegeven die een kaart van Nederland laa
 
 ### Schetsen
 ![Visualisatie 1 Wereldmap Energieverbruik](doc/schets_1.png)
-![Visualisatie 2 Nederland Energieverbruik](doc/schets_2.png)
-![Visualisatie 3 Nederlandse Energieleveranciers](doc/schets_3.png)
 
 ### Data
 * Data World Bank stelt het gemiddeld verbruik van stroom en gas per land beschikbaar;
