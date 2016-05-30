@@ -24,7 +24,7 @@ Een pagina met een wereldmap met het gemiddelde energie verbruik over de jaren h
 De pagina erna wordt de visualisatie weergegeven die een kaart van Nederland laat zien met het gemiddeld energieverbruik per postcode. Ook hier wordt weer een uitleg en conclusie gegeven over de kaart. Daarbij wordt er weer een link gelegd wat er voor energieleveranciers er zijn in Nederland, want de laatste pagina laat de energieleveranciers van Nederland zien. Door op een leverancier te klikken komt er een bargrafiek tevoorschijn die laat zien waar het stroom en gas vandaan komt.
 
 ### Schetsen
-![Visualisatie 1 Wereldmap Energieverbruik](doc/schets_1.png)
+![Visualisatie 1 Wereldmap Energieverbruik](doc/schets.png)
 ![Visualisatie 2 Nederland Energieverbruik](doc/schets_2.png)
 ![Visualisatie 3 Nederlandse energieleveranciers](doc/schets_3.png)
 
