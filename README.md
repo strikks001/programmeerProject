@@ -1,4 +1,5 @@
 # Programmeer Project Data 2016 
+###### Sanne Strikkers 11170816
 
 ### Het probleem
 Het probleem bij de inwoners van Nederland is dat men geen inzicht heeft in het gemiddeld energie (stroom en gas) verbruik. De meeste mensen houden niet bij hoeveel energie zij verbruiken. Zo kan er vergeleken worden per jaar of men meer energie verbruikt. 
@@ -40,4 +41,3 @@ Om de visualisaties tot stand te laten komen moet er D3 JavaScript (www.d3js.org
 ### Technische problemen of limieten
 Er zou een probleem kunnen komen bij het visualiseren van het laatste component die de energieleveranciers laat zien. Hier is nog vrij weinig data van of verwarrende data van beschikbaar. Waardoor de visualisatie moeilijk te visualiseren wordt, maar deze visualisatie is wel het belangrijkst. Dit is het belangrijkste visualisatie, omdat het de link legt tussen de vorige visualisaties (wereldmap en een map met een focus op Nederland).
 
-###### Sanne Strikkers 11170816
