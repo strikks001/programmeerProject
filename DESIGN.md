@@ -65,3 +65,11 @@ Op de laatste pagina kan men de energieleveranciers van Nederland bekijken. Daar
     * Zowel groen als grijs
 * Alle postcodes met plaatsen en provincies van Nederland
   * http://download.geonames.org/export/zip/
+
+### Data implementatie
+
+De data van alle verbruiksgegevens per huishouden in Nederland wordt door middel van python samengevoegd met de data van alle provincies en gemeentes. Dit gaat waarschijnlijk vrij lang duren tot dat het omgezet is in JSON formaat. Aangezien het 7 miljoen postcodes zijn.
+
+Ook de data van elektriciteit per huishouden van de wereld en de data van energieleveranciers wordt met python omgezet naar JSON formaat.
+
+Via D3 en JavaScript worden de JSON bestanden opgehaald. Dit wordt zo min mogelijk aangevraagd. Anders gaat het laden van de pagina te lang duren.
