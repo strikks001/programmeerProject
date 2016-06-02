@@ -1,0 +1,690 @@
+[
+    {
+        "AUT": {
+            "country": "Austria", 
+            "year": "2010", 
+            "data": "4903", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "BEL": {
+            "country": "Belgium", 
+            "year": "2010", 
+            "data": "4369", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "BGR": {
+            "country": "Bulgaria", 
+            "year": "2010", 
+            "data": "3531", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "CYP": {
+            "country": "Cyprus", 
+            "year": "2010", 
+            "data": "5791", 
+            "fillKey": "mid2"
+        }
+    }, 
+    {
+        "CZE": {
+            "country": "Czech Rep.", 
+            "year": "2010", 
+            "data": "3254", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "DNK": {
+            "country": "Denmark", 
+            "year": "2010", 
+            "data": "4051", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "EST": {
+            "country": "Estonia", 
+            "year": "2010", 
+            "data": "3487", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "FIN": {
+            "country": "Finland", 
+            "year": "2010", 
+            "data": "9045", 
+            "fillKey": "high"
+        }
+    }, 
+    {
+        "FRA": {
+            "country": "France", 
+            "year": "2010", 
+            "data": "5793", 
+            "fillKey": "mid2"
+        }
+    }, 
+    {
+        "DEU": {
+            "country": "Germany", 
+            "year": "2010", 
+            "data": "3515", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "GRC": {
+            "country": "Greece", 
+            "year": "2010", 
+            "data": "4023", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "HUN": {
+            "country": "Hungary", 
+            "year": "2010", 
+            "data": "2800", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "IRL": {
+            "country": "Ireland", 
+            "year": "2010", 
+            "data": "5295", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "ITA": {
+            "country": "Italy", 
+            "year": "2010", 
+            "data": "2767", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "LVA": {
+            "country": "Latvia", 
+            "year": "2010", 
+            "data": "2340", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "LTU": {
+            "country": "Lithuania", 
+            "year": "2010", 
+            "data": "1948", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "LUX": {
+            "country": "Luxembourg", 
+            "year": "2010", 
+            "data": "3968", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "NLD": {
+            "country": "Netherlands", 
+            "year": "2010", 
+            "data": "3325", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "NOR": {
+            "country": "Norway", 
+            "year": "2010", 
+            "data": "18196", 
+            "fillKey": "high2"
+        }
+    }, 
+    {
+        "POL": {
+            "country": "Poland", 
+            "year": "2010", 
+            "data": "1993", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "PRT": {
+            "country": "Portugal", 
+            "year": "2010", 
+            "data": "3684", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "ROU": {
+            "country": "Romania", 
+            "year": "2010", 
+            "data": "1578", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "SVK": {
+            "country": "Slovakia", 
+            "year": "2010", 
+            "data": "2525", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "SVN": {
+            "country": "Slovenia", 
+            "year": "2010", 
+            "data": "4061", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "ESP": {
+            "country": "Spain", 
+            "year": "2010", 
+            "data": "4334", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "SWE": {
+            "country": "Sweden", 
+            "year": "2010", 
+            "data": "8708", 
+            "fillKey": "high"
+        }
+    }, 
+    {
+        "GBR": {
+            "country": "United Kingdom", 
+            "year": "2010", 
+            "data": "4512", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "ALB": {
+            "country": "Albania", 
+            "year": "2010", 
+            "data": "3269", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "HRV": {
+            "country": "Croatia", 
+            "year": "2010", 
+            "data": "4128", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "ISL": {
+            "country": "Iceland", 
+            "year": "2010", 
+            "data": "8413", 
+            "fillKey": "mid3"
+        }
+    }, 
+    {
+        "MKD": {
+            "country": "Macedonia", 
+            "year": "2010", 
+            "data": "5536", 
+            "fillKey": "mid2"
+        }
+    }, 
+    {
+        "CHE": {
+            "country": "Switzerland", 
+            "year": "2010", 
+            "data": "5347", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "TUR": {
+            "country": "Turkey", 
+            "year": "2010", 
+            "data": "2212", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "KAZ": {
+            "country": "Kazakhstan", 
+            "year": "2010", 
+            "data": "1961", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "RUS": {
+            "country": "Russia", 
+            "year": "2010", 
+            "data": "2368", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "UKR": {
+            "country": "Ukraine", 
+            "year": "2010", 
+            "data": "2075", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "CAN": {
+            "country": "Canada", 
+            "year": "2010", 
+            "data": "11007", 
+            "fillKey": "high2"
+        }
+    }, 
+    {
+        "USA": {
+            "country": "United States", 
+            "year": "2010", 
+            "data": "12957", 
+            "fillKey": "high2"
+        }
+    }, 
+    {
+        "ARG": {
+            "country": "Argentina", 
+            "year": "2010", 
+            "data": "3054", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "BOL": {
+            "country": "Bolivia", 
+            "year": "2010", 
+            "data": "1042", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "BRA": {
+            "country": "Brazil", 
+            "year": "2010", 
+            "data": "1860", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "CHL": {
+            "country": "Chile", 
+            "year": "2010", 
+            "data": "2105", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "COL": {
+            "country": "Colombia", 
+            "year": "2010", 
+            "data": "1650", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "MEX": {
+            "country": "Mexico", 
+            "year": "2010", 
+            "data": "1688", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "PRY": {
+            "country": "Paraguay", 
+            "year": "2010", 
+            "data": "2220", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "PER": {
+            "country": "Peru", 
+            "year": "2010", 
+            "data": "1159", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "URY": {
+            "country": "Uruguay", 
+            "year": "2010", 
+            "data": "2577", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "CHN": {
+            "country": "China", 
+            "year": "2010", 
+            "data": "1195", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "HKG": {
+            "country": "Hong-Kong", 
+            "year": "2010", 
+            "data": "4513", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "IND": {
+            "country": "India", 
+            "year": "2010", 
+            "data": "855", 
+            "fillKey": "low"
+        }
+    }, 
+    {
+        "IDN": {
+            "country": "Indonesia", 
+            "year": "2010", 
+            "data": "1489", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "JPN": {
+            "country": "Japan", 
+            "year": "2010", 
+            "data": "5990", 
+            "fillKey": "mid2"
+        }
+    }, 
+    {
+        "NPL": {
+            "country": "Nepal", 
+            "year": "2010", 
+            "data": "290", 
+            "fillKey": "low"
+        }
+    }, 
+    {
+        "PAK": {
+            "country": "Pakistan", 
+            "year": "2010", 
+            "data": "2177", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "PHL": {
+            "country": "Philippines", 
+            "year": "2010", 
+            "data": "1154", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "PRK": {
+            "country": "South Korea", 
+            "year": "2010", 
+            "data": "3698", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "TWN": {
+            "country": "Taiwan", 
+            "year": "2010", 
+            "data": "6751", 
+            "fillKey": "mid2"
+        }
+    }, 
+    {
+        "THA": {
+            "country": "Thailand", 
+            "year": "2010", 
+            "data": "2087", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "AUS": {
+            "country": "Australia", 
+            "year": "2010", 
+            "data": "7353", 
+            "fillKey": "mid3"
+        }
+    }, 
+    {
+        "NZL": {
+            "country": "New Zealand", 
+            "year": "2010", 
+            "data": "8063", 
+            "fillKey": "mid3"
+        }
+    }, 
+    {
+        "DZA": {
+            "country": "Algeria", 
+            "year": "2010", 
+            "data": "1903", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "EGY": {
+            "country": "Egypt", 
+            "year": "2010", 
+            "data": "2904", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "MAR": {
+            "country": "Morocco", 
+            "year": "2010", 
+            "data": "1368", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "TUN": {
+            "country": "Tunisia", 
+            "year": "2010", 
+            "data": "1472", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "CMR": {
+            "country": "Cameroon", 
+            "year": "2010", 
+            "data": "451", 
+            "fillKey": "low"
+        }
+    }, 
+    {
+        "COD": {
+            "country": "Congo DR", 
+            "year": "2010", 
+            "data": "1550", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "CIV": {
+            "country": "Ivory Coast", 
+            "year": "2010", 
+            "data": "801", 
+            "fillKey": "low"
+        }
+    }, 
+    {
+        "ETH": {
+            "country": "Ethiopia", 
+            "year": "2010", 
+            "data": "367", 
+            "fillKey": "low"
+        }
+    }, 
+    {
+        "GAB": {
+            "country": "Gabon", 
+            "year": "2010", 
+            "data": "2416", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "GHA": {
+            "country": "Ghana", 
+            "year": "2010", 
+            "data": "690", 
+            "fillKey": "low"
+        }
+    }, 
+    {
+        "KEN": {
+            "country": "Kenya", 
+            "year": "2010", 
+            "data": "926", 
+            "fillKey": "low"
+        }
+    }, 
+    {
+        "NER": {
+            "country": "Niger", 
+            "year": "2010", 
+            "data": "1191", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "NGA": {
+            "country": "Nigeria", 
+            "year": "2010", 
+            "data": "648", 
+            "fillKey": "low"
+        }
+    }, 
+    {
+        "SEN": {
+            "country": "Senegal", 
+            "year": "2010", 
+            "data": "1158", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "TCD": {
+            "country": "Chad", 
+            "year": "2010", 
+            "data": "831", 
+            "fillKey": "low"
+        }
+    }, 
+    {
+        "ZAF": {
+            "country": "South Africa", 
+            "year": "2010", 
+            "data": "3704", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "SWZ": {
+            "country": "Swaziland", 
+            "year": "2010", 
+            "data": "3032", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "TZA": {
+            "country": "Tanzania", 
+            "year": "2010", 
+            "data": "1481", 
+            "fillKey": "low2"
+        }
+    }, 
+    {
+        "IRN": {
+            "country": "Iran", 
+            "year": "2010", 
+            "data": "2995", 
+            "fillKey": "low3"
+        }
+    }, 
+    {
+        "ISR": {
+            "country": "Israel", 
+            "year": "2010", 
+            "data": "6721", 
+            "fillKey": "mid2"
+        }
+    }, 
+    {
+        "JOR": {
+            "country": "Jordan", 
+            "year": "2010", 
+            "data": "4412", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "KWT": {
+            "country": "Kuwait", 
+            "year": "2010", 
+            "data": "44975", 
+            "fillKey": "high3"
+        }
+    }, 
+    {
+        "QAT": {
+            "country": "Qatar", 
+            "year": "2010", 
+            "data": "25358", 
+            "fillKey": "high3"
+        }
+    }, 
+    {
+        "SAU": {
+            "country": "Saudi Arabia", 
+            "year": "2010", 
+            "data": "21801", 
+            "fillKey": "high3"
+        }
+    }, 
+    {
+        "SYR": {
+            "country": "Syria", 
+            "year": "2010", 
+            "data": "5133", 
+            "fillKey": "mid"
+        }
+    }, 
+    {
+        "ARE": {
+            "country": "United Arab Emirates", 
+            "year": "2010", 
+            "data": "18673", 
+            "fillKey": "high2"
+        }
+    }
+]

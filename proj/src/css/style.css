@@ -17,7 +17,6 @@ Sanne Strikkers
 /*--------------------
  General
 --------------------*/
-
 body {
 	margin: 0px;
 	font-family: "Raleway", Sans-serif;
@@ -53,7 +52,14 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #94C137;
+}
+
+.section-title h3 {
+	text-transform: uppercase;
+	font-weight: 200;
+letter-spacing: 0.4px;
+font-family: "Raleway", Sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -64,6 +70,11 @@ a, a:hover, a:focus, a:active, a.active {
 
 section {
 	padding: 35px 0 60px;
+}
+
+/*automatic dropdown*/
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
 }
 
 /*--------------------
@@ -127,7 +138,7 @@ section {
 	.navbar-default
 	{
 		background-color: transparent;
-		padding: 30px 0 0px;
+		padding: 5px 0 0px;
     	-webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
 		transition:padding .3s;
@@ -136,7 +147,7 @@ section {
 }
 
 /*--------------------
-5. Footer
+ Footer
 --------------------*/
 
 footer {
@@ -151,4 +162,59 @@ footer p {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1.6px;
+}
+
+/*--------------------
+ Barchart
+--------------------*/
+
+.bar {
+  fill: grey;
+}
+
+.bar:hover {
+  fill: #252525;
+}
+
+/*.axis {
+	font-size: 10px;
+	color: #252525;
+}*/
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #B7B7B7;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 12px;
+  background: #F5F5F5;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: #94C137;
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
 }

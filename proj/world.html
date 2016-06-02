@@ -1,6 +1,6 @@
 <!--
 
-index.html
+world.html
 
 Computer Science 50
 Programmeer Project 2016
@@ -23,6 +23,8 @@ Sanne Strikkers
     <!-- JavaScript D3 library -->
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
     <!-- app's own CSS -->
     <link href="src/css/style.css" rel="stylesheet" />
@@ -30,7 +32,7 @@ Sanne Strikkers
     <!-- Latest Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <title>Home</title>
+    <title>Energieverbruik van de wereld</title>
 </head>
 
 <body>
@@ -52,16 +54,16 @@ Sanne Strikkers
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav ">
                     <li>
-                        <a href="index.html">Knowledge</a>
+                        <a href="index.html">Kennis</a>
                     </li>
                     <li>
-                        <a href="world.html">World</a>
+                        <a href="world.html">Wereld</a>
                     </li>
                     <li>
-                        <a href="netherlands.html">Netherlands</a>
+                        <a href="netherlands.html">Nederland</a>
                     </li>
                     <li>
-                        <a href="suppliers.html">Energy Suppliers</a>
+                        <a href="suppliers.html">Energieleveranciers</a>
                     </li>
                 </ul>
             </div>
@@ -71,11 +73,29 @@ Sanne Strikkers
     </nav>
     <!-- /.Navigation -->
 </div>
+
 <!-- Container -->
 <div class="container">
-
+    <div id="map-container" style="display: block; margin: auto;"></div>
+    <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4 " id="energy-bar">
+            <div class="section-title">
+                <h3 class="text-center" id="bar-chart-title"></h3></div>
+            <br>
+            <div id="bar-chart"></div>
+        </div>
+    </div>
 </div>
 <!-- /.Container -->
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <p>Sanne Strikkers</p> 
+    </div>
+</footer>
+<!-- ./Footer -->
 
 <!-- DataMap -->
 <script src="http://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
