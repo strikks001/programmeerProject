@@ -7,11 +7,9 @@ Het probleem bij de inwoners van Nederland is dat men geen inzicht heeft in het 
 Ook heeft de Nederlandse inwoner geen overzicht meer van alle energieleveranciers die lopende der jaren zijn bijgekomen. Vroeger begon het met twee of drie energieleverancier, maar nu zijn er wel meer dan tien bijgekomen. Men ziet daarbij ook niet waar deze Nederlandse energieleverancier hun energie vandaan halen. Zijn deze energieleveranciers wel zo groen of grijs zoals ze beweren? De gemiddelde Nederlander laat zich misleiden doordat sommige leveranciers beweren dat zij groen zijn terwijl ze helemaal niet groen zijn. Om voor dat soort leveranciers te kiezen beïnvloedt toch de keuze van de gemiddelde Nederlandse inwoner.
 
 ### Visualisatie
-* Een wereldmap met daarop het gemiddeld energieverbruik per land;
-  * In de wereldmap kan er gekozen worden tussen stroom en gas;
-  * Eventueel kan er gekozen worden tussen verschillende jaren;
+* Een wereldmap met daarop het gemiddeld elektriciteitsverbruik per huishouden per land in het jaar 2014;
+  * Als men op een land klikt dan komt er een bar grafiek tevoorschijn met daarop het elektriciteitsverbruik van vier verschillende jaren (2000, 2005, 2010 en 2014). Daarbij kan men Nederland vergelijken met andere landen.
 * Een map van Nederland die het gemiddeld energieverbruik per postcode laat zien;
-  * In de map kan er gekozen worden tussen stroom en gas;
   * Hierbij kan men het energieverbruik per jaar met elkaar vergelijken;
 * Een grafiek (staaf of donut) waar energieleveranciers hun energie vandaan halen;
   * Op deze grafiek kan men zien waar deze energieleveranciers hun energie (stroom en gas) vandaan halen;
@@ -20,7 +18,7 @@ Ook heeft de Nederlandse inwoner geen overzicht meer van alle energieleverancier
 ### Pagina’s
 In ieder geval komen er vier verschillende pagina’s. Een pagina met uitleg over energie in het algemeen, groene en grijze stroom, welke leveranciers bestaan er in Nederland, wat zijn de netbeheerders. Op deze pagina wordt er ook uitgelegd wat de website wil laten zien. Daarbij worden er nog drie pagina’s toegevoegd waarop de drie verschillende visualisaties worden geplaatst. 
 
-Een pagina met een wereldmap met het gemiddelde energie verbruik over de jaren heen. Zodat men kan vergelijken of er meer energie wordt verbruikt. Onder de wereldmap wordt een uitleg gegeven over de visualisatie en een legenda onder de visualisatie. De pagina met de wereldmap legt ook alvast een link met Nederland. Hierin wordt verduidelijkt dat Nederland onder de loop wordt genomen. 
+Een pagina met een wereldmap met het gemiddelde energie verbruik. Wanneer men op een land klikt komt er een barhart. Zodat men kan vergelijken of er meer energie wordt verbruikt. Onder de wereldmap wordt een uitleg gegeven over de visualisatie en een legenda onder de visualisatie. De pagina met de wereldmap legt ook alvast een link met Nederland door de bar grafieken met elkaar te vergelijken. Hierin wordt verduidelijkt dat Nederland onder de loop wordt genomen. 
 
 De pagina erna wordt de visualisatie weergegeven die een kaart van Nederland laat zien met het gemiddeld energieverbruik per postcode. Ook hier wordt weer een uitleg en conclusie gegeven over de kaart. Daarbij wordt er weer een link gelegd wat er voor energieleveranciers er zijn in Nederland, want de laatste pagina laat de energieleveranciers van Nederland zien. Door op een leverancier te klikken komt er een bargrafiek tevoorschijn die laat zien waar het stroom en gas vandaan komt.
 

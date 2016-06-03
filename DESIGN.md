@@ -17,7 +17,7 @@ Hier wordt er uitgelegd wat het verband is tussen alle pagina’s. Ook worden er
 #### Pagina 1
 ![Pagina 1](doc/page1_world.png)
 
-Op deze pagina wordt een wereldmap weergegeven. Hierbij kan men kiezen uit meerdere jaren. Ook kan men op een jaar klikken waardoor er een bar grafiek ontstaat waardoor men landen met elkaar kan vergelijken, onder andere Nederland. Een optionele keuze (ivm tijd) kan men een land invoeren en toevoegen aan de bar grafiek. 
+Op deze pagina wordt een wereldmap weergegeven. Ook kan men op een land klikken waardoor er een bar grafiek ontstaat waardoor men landen met elkaar kan vergelijken, onder andere Nederland. Een optionele keuze (ivm tijd) kan men een land invoeren en toevoegen aan de bar grafiek. 
 
 Onder de wereldmap staat een legenda. Onder de legenda bevindt zich weer een uitleg over de kaart.
 
