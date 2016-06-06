@@ -1,0 +1,1784 @@
+[
+    {
+        "company": "Nuon", 
+        "score": "14", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Robin Energie B.V.", 
+        "score": "13,4", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Gazprom Marketing &trading Retail Ltd.", 
+        "score": "13", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Qwint", 
+        "score": "9", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "DELTA", 
+        "score": "5", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "SEPA Green Energy BV", 
+        "score": "3", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "DGB Energie", 
+        "score": "2,94", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Anode", 
+        "score": "2,9", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "energiedirect.nl", 
+        "score": "2,4", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Dong Energy", 
+        "score": "1,9", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Essent", 
+        "score": "1,2", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Electrabel", 
+        "score": "1,1", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "E.ON", 
+        "score": "0,9", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Eneco", 
+        "score": "0,6", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Atoomstroom", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "BudgetEnergie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Cosperatieve Duurzame Energie Unie U.A. (DE Unie)", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Cosperatieve vereniging NLD energie U.A.", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "De Ned. Energie Maatschappij", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Eneco Consumenten", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Fenor B.V.", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Greenchoice", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "HVC Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Huismerk Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Innova Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "LEON Zeewolde", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "MAIN Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Noordhollandse Energie Cosperatie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Oxxio", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Qurrent Nederland B.V.", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Republiq Community NL B.V. hodn Vandebron", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "UnitedConsumers Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "WoonEnergie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Gazprom Marketing &trading Retail Ltd.", 
+        "score": "28", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Robin Energie B.V.", 
+        "score": "27,3", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "DELTA", 
+        "score": "27", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Anode", 
+        "score": "26,4", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Nuon", 
+        "score": "23", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "SEPA Green Energy BV", 
+        "score": "23", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "energiedirect.nl", 
+        "score": "22,9", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Qwint", 
+        "score": "17", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Essent", 
+        "score": "14,8", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Dong Energy", 
+        "score": "11,2", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Electrabel", 
+        "score": "10,5", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "DGB Energie", 
+        "score": "5,67", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "E.ON", 
+        "score": "5,1", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Eneco", 
+        "score": "4,4", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Oxxio", 
+        "score": "2,42", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Atoomstroom", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "BudgetEnergie", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Cosperatieve Duurzame Energie Unie U.A. (DE Unie)", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Cosperatieve vereniging NLD energie U.A.", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "De Ned. Energie Maatschappij", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Eneco Consumenten", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Fenor B.V.", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Greenchoice", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "HVC Energie", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Huismerk Energie", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Innova Energie", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "LEON Zeewolde", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "MAIN Energie", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Noordhollandse Energie Cosperatie", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Qurrent Nederland B.V.", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Republiq Community NL B.V. hodn Vandebron", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "UnitedConsumers Energie", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "WoonEnergie", 
+        "score": "0", 
+        "composition": "kolen", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Atoomstroom", 
+        "score": "100", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Anode", 
+        "score": "20,1", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "DELTA", 
+        "score": "7", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Gazprom Marketing &trading Retail Ltd.", 
+        "score": "7", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Robin Energie B.V.", 
+        "score": "6,4", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Nuon", 
+        "score": "5", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "SEPA Green Energy BV", 
+        "score": "5", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "energiedirect.nl", 
+        "score": "4,9", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Qwint", 
+        "score": "4", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Dong Energy", 
+        "score": "3,3", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Essent", 
+        "score": "2,5", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Electrabel", 
+        "score": "2", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "E.ON", 
+        "score": "1,5", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "DGB Energie", 
+        "score": "1,26", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Eneco", 
+        "score": "1,1", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Oxxio", 
+        "score": "0,59", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "BudgetEnergie", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Cosperatieve Duurzame Energie Unie U.A. (DE Unie)", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Cosperatieve vereniging NLD energie U.A.", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "De Ned. Energie Maatschappij", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Eneco Consumenten", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Fenor B.V.", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Greenchoice", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "HVC Energie", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Huismerk Energie", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Innova Energie", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "LEON Zeewolde", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "MAIN Energie", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Noordhollandse Energie Cosperatie", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Qurrent Nederland B.V.", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Republiq Community NL B.V. hodn Vandebron", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "UnitedConsumers Energie", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "WoonEnergie", 
+        "score": "0", 
+        "composition": "kern", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "UnitedConsumers Energie", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "WoonEnergie", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Anode", 
+        "score": "47,6", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "SEPA Green Energy BV", 
+        "score": "44", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Republiq Community NL B.V. hodn Vandebron", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Qurrent Nederland B.V.", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Qwint", 
+        "score": "34", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Atoomstroom", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "BudgetEnergie", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Noordhollandse Energie Cosperatie", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Robin Energie B.V.", 
+        "score": "52,9", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "MAIN Energie", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Innova Energie", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "DGB Energie", 
+        "score": "11,13", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "HVC Energie", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Nuon", 
+        "score": "50", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "LEON Zeewolde", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Cosperatieve Duurzame Energie Unie U.A. (DE Unie)", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Cosperatieve vereniging NLD energie U.A.", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "De Ned. Energie Maatschappij", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Eneco", 
+        "score": "39,8", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Oxxio", 
+        "score": "7,42", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Electrabel", 
+        "score": "46,5", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "energiedirect.nl", 
+        "score": "44,1", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "DELTA", 
+        "score": "40", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "E.ON", 
+        "score": "14,3", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Greenchoice", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Huismerk Energie", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Gazprom Marketing &trading Retail Ltd.", 
+        "score": "52", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Fenor B.V.", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Eneco Consumenten", 
+        "score": "0", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Essent", 
+        "score": "22,3", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Dong Energy", 
+        "score": "31,2", 
+        "composition": "aardgas", 
+        "kind": "grijs"
+    }, 
+    {
+        "company": "Cosperatieve vereniging NLD energie U.A.", 
+        "score": "41", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "LEON Zeewolde", 
+        "score": "17", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Cosperatieve Duurzame Energie Unie U.A. (DE Unie)", 
+        "score": "1,34", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Greenchoice", 
+        "score": "1,01", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Huismerk Energie", 
+        "score": "1", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Republiq Community NL B.V. hodn Vandebron", 
+        "score": "1", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "HVC Energie", 
+        "score": "0,82", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco", 
+        "score": "0,01", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Essent", 
+        "score": "0,0059", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Anode", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Atoomstroom", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "BudgetEnergie", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DELTA", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DGB Energie", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "De Ned. Energie Maatschappij", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Dong Energy", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "E.ON", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Electrabel", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco Consumenten", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Fenor B.V.", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Gazprom Marketing &trading Retail Ltd.", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Innova Energie", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "MAIN Energie", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Noordhollandse Energie Cosperatie", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Nuon", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Oxxio", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qurrent Nederland B.V.", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qwint", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Robin Energie B.V.", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "SEPA Green Energy BV", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "UnitedConsumers Energie", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "WoonEnergie", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "energiedirect.nl", 
+        "score": "0", 
+        "composition": "zon", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Fenor B.V.", 
+        "score": "100", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qurrent Nederland B.V.", 
+        "score": "100", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Huismerk Energie", 
+        "score": "99", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Cosperatieve Duurzame Energie Unie U.A. (DE Unie)", 
+        "score": "98,66", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Innova Energie", 
+        "score": "85", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "LEON Zeewolde", 
+        "score": "83", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Republiq Community NL B.V. hodn Vandebron", 
+        "score": "79", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Cosperatieve vereniging NLD energie U.A.", 
+        "score": "59", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Greenchoice", 
+        "score": "43", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "E.ON", 
+        "score": "28,9", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco Consumenten", 
+        "score": "22", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Essent", 
+        "score": "14,3", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DELTA", 
+        "score": "10", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "UnitedConsumers Energie", 
+        "score": "10", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "De Ned. Energie Maatschappij", 
+        "score": "8", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Dong Energy", 
+        "score": "7,3", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco", 
+        "score": "7,3", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "energiedirect.nl", 
+        "score": "6,2", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Nuon", 
+        "score": "5", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Electrabel", 
+        "score": "4", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "HVC Energie", 
+        "score": "3,76", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Anode", 
+        "score": "2,8", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qwint", 
+        "score": "2", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Atoomstroom", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "BudgetEnergie", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DGB Energie", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Gazprom Marketing &trading Retail Ltd.", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "MAIN Energie", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Noordhollandse Energie Cosperatie", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Oxxio", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Robin Energie B.V.", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "SEPA Green Energy BV", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "WoonEnergie", 
+        "score": "0", 
+        "composition": "wind", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "BudgetEnergie", 
+        "score": "100", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "MAIN Energie", 
+        "score": "100", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "WoonEnergie", 
+        "score": "100", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "De Ned. Energie Maatschappij", 
+        "score": "92", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Oxxio", 
+        "score": "89,24", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco Consumenten", 
+        "score": "78", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "UnitedConsumers Energie", 
+        "score": "70", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Dong Energy", 
+        "score": "45,1", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco", 
+        "score": "41,8", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qwint", 
+        "score": "34", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "E.ON", 
+        "score": "33,8", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Electrabel", 
+        "score": "27,9", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Essent", 
+        "score": "21,7", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "energiedirect.nl", 
+        "score": "19,6", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Greenchoice", 
+        "score": "15", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Innova Energie", 
+        "score": "15", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DELTA", 
+        "score": "4", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Nuon", 
+        "score": "3", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Anode", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Atoomstroom", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Cosperatieve Duurzame Energie Unie U.A. (DE Unie)", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Cosperatieve vereniging NLD energie U.A.", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DGB Energie", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Fenor B.V.", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Gazprom Marketing &trading Retail Ltd.", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "HVC Energie", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Huismerk Energie", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "LEON Zeewolde", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Noordhollandse Energie Cosperatie", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qurrent Nederland B.V.", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Republiq Community NL B.V. hodn Vandebron", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Robin Energie B.V.", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "SEPA Green Energy BV", 
+        "score": "0", 
+        "composition": "water", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco", 
+        "score": "4,8", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Anode", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Atoomstroom", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "BudgetEnergie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Cosperatieve Duurzame Energie Unie U.A. (DE Unie)", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Cosperatieve vereniging NLD energie U.A.", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DELTA", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DGB Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "De Ned. Energie Maatschappij", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Dong Energy", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "E.ON", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Electrabel", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco Consumenten", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Essent", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Fenor B.V.", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Gazprom Marketing &trading Retail Ltd.", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Greenchoice", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "HVC Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Huismerk Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Innova Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "LEON Zeewolde", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "MAIN Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Noordhollandse Energie Cosperatie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Nuon", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Oxxio", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qurrent Nederland B.V.", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qwint", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Republiq Community NL B.V. hodn Vandebron", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Robin Energie B.V.", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "SEPA Green Energy BV", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "UnitedConsumers Energie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "WoonEnergie", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "energiedirect.nl", 
+        "score": "0", 
+        "composition": "overig", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Noordhollandse Energie Cosperatie", 
+        "score": "100", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "HVC Energie", 
+        "score": "95,42", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DGB Energie", 
+        "score": "79", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Greenchoice", 
+        "score": "40,9", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "SEPA Green Energy BV", 
+        "score": "25", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Essent", 
+        "score": "23,2", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Republiq Community NL B.V. hodn Vandebron", 
+        "score": "20", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "UnitedConsumers Energie", 
+        "score": "20", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "E.ON", 
+        "score": "15,5", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Electrabel", 
+        "score": "8", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "DELTA", 
+        "score": "6", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco", 
+        "score": "0,3", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Anode", 
+        "score": "0,1", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Atoomstroom", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "BudgetEnergie", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Cosperatieve Duurzame Energie Unie U.A. (DE Unie)", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Cosperatieve vereniging NLD energie U.A.", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "De Ned. Energie Maatschappij", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Dong Energy", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Eneco Consumenten", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Fenor B.V.", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Gazprom Marketing &trading Retail Ltd.", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Huismerk Energie", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Innova Energie", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "LEON Zeewolde", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "MAIN Energie", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Nuon", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Oxxio", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qurrent Nederland B.V.", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Qwint", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "Robin Energie B.V.", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "WoonEnergie", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }, 
+    {
+        "company": "energiedirect.nl", 
+        "score": "0", 
+        "composition": "biomassa", 
+        "kind": "groen"
+    }
+]

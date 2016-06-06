@@ -168,6 +168,10 @@ footer p {
  Barchart
 --------------------*/
 
+.charts {
+  float: none;
+}
+
 .bar {
   fill: grey;
 }
@@ -176,10 +180,9 @@ footer p {
   fill: #252525;
 }
 
-/*.axis {
-	font-size: 10px;
-	color: #252525;
-}*/
+#bar-chart {
+  display: none;
+}
 
 .axis path,
 .axis line {
@@ -218,3 +221,4 @@ footer p {
   top: 100%;
   left: 0;
 }
+
