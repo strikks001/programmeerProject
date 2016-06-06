@@ -10,9 +10,9 @@ Sanne Strikkers
 11170816
 
 */
-var data = [];
 
-// load some files into a queue for recieving data
+var data = [];
+// load files into a queue for recieving data
 queue()
 .defer(d3.json, 'data/world/sjv_world_2000.json')
 .defer(d3.json, 'data/world/sjv_world_2005.json')
@@ -20,7 +20,15 @@ queue()
 .defer(d3.json, 'data/world/sjv_world_2014.json')
 .await(makeData);
 
-// setting up the map
+// making the map responsive
+d3.select(window).on('resize', function() {
+	map.resize();
+});
+
+/*
+	Initialize the world map.
+	Like coloring and tool-tips.
+*/
 var map = new Datamap({
 	element: document.getElementById('map-container'),
 	scope: 'world',
@@ -43,6 +51,12 @@ var map = new Datamap({
 		highlightBorderWidth: 0.9,
 		highlightBorderColor: '#A4A4A4',
 		highlightFillColor: '#F2F2F2',
+		popupTemplate: function (geo, data) {
+            return ['<div class="hoverinfo text-center">',
+                    'Country: <strong>' + geo.properties.name,
+                    '</strong><br>SJV: <strong>' + data.data,
+                    '</div>'].join('');
+                }
 	},
 	done: function (datamap) {
 		datamap.svg.selectAll('.datamaps-subunit').on('click', function (geography) {
@@ -50,29 +64,26 @@ var map = new Datamap({
 			d3.select("#bar-chart")
 			.html("");
 
-			update(code, "#bar-chart");
+			setBarchart(code, "#bar-chart");
 			$("html, body").animate({scrollTop: $('#energy-bar').offset().top }, 1000);
 			d3.select("#bar-chart").style("display", "block");
 		});
 	}
 });
 
-// making the map responsive
-d3.select(window).on('resize', function() {
-	map.resize();
-});
-
 /*
-Getting data from loaded files.
-Push the data in a public array as JSON objects.
+	Getting data from loaded files.
+	Push the data in a public array as JSON objects.
 */
 function makeData(error, year2000, year2005, year2010, year2014) {
+	// error checking
 	if (error) {
 		console.log("We cannot retrieve the data.");
 		d3.select("#map-container")
 		.html("<div class='text-center'><h3>Sorry.<br><br> We cannot retrieve the data.</h3></div>");
 		throw error;
 	};
+	// for each file save the data in the public list
 	year2000.forEach(function (d) {
 		data.push({"country": findProp(d, d3.keys(d)[0] + ".country"), "code": d3.keys(d)[0], "year":findProp(d, d3.keys(d) + ".year"), "value": findProp(d, d3.keys(d) + ".data")});
 	});
@@ -87,48 +98,65 @@ function makeData(error, year2000, year2005, year2010, year2014) {
 		data.push({"country": findProp(d, d3.keys(d)[0] + ".country"), "code": d3.keys(d)[0],"year":findProp(d, d3.keys(d)[0] + ".year"), "value": findProp(d, d3.keys(d) + ".data")});
 	});
 
-	update("NLD", "#bar-chart-nl");
+	// initialize the barchart for the netherlands
+	setBarchart("NLD", "#bar-chart-nl");
 }
 
-function update(code, place){
-	console.log(code);
+/*
+	Initialize a list for setting up the barchart.
+	code; country code, 
+	position; position of the barchart
+*/
+function setBarchart(code, position){
 	var bar_data = [];
+
+	// add some data about the countries into an empty list
 	for (var i = 0; i < data.length; i++) {
 		if(code == data[i].code) {
 			bar_data.push({"country": data[i].country, "year": data[i].year, "value": data[i].value});
 		}
 	}
+	// check if there is some data in the list
 	if(bar_data.length < 1) {
 		d3.select("#bar-chart-title")
 		.html("Sorry.<br><br> There is no available data for this country.");
+	// and create a barchart
 	} else {
-		createBarchart(bar_data, place);
+		createBarchart(bar_data, position);
 	}
 }
 
-function createBarchart(data, place) {
+/*
+	Creates the barchart.
+	data; the list of information, 
+	position; position of the barchart
+*/
+function createBarchart(data, position) {
+	// if the passed country is the netherlands then update that title
 	if (data[0].country == "Netherlands") {
-			d3.select("#bar-chart-title-nl")
-			.html(data[0].country);
+		d3.select("#bar-chart-title-nl")
+		.html(data[0].country);
+	// otherwise update the other title with the clicked country
 	} else {
-					d3.select("#bar-chart-title")
-			.html(data[0].country);
+		d3.select("#bar-chart-title")
+		.html(data[0].country);
 	}
 
+	// setting up the height and width of the chart
 	var margin = {top: 20, right: 20, bottom: 30, left: 60},
 	width = 400 - margin.left - margin.right,
 	height = 300 - margin.top - margin.bottom;
 
+	// x-axis
 	var x = d3.scale.ordinal()
 	.rangeRoundBands([0, width], .75);
-
-	var y = d3.scale.linear()
-	.range([height, 0]);
-
 	var xAxis = d3.svg.axis()
 	.scale(x)
 	.orient("bottom");
 
+	// y-axis
+	var y = d3.scale.linear()
+	.range([height, 0]);
 	var yAxis = d3.svg.axis()
 	.scale(y)
 	.orient("left")
@@ -137,6 +165,7 @@ function createBarchart(data, place) {
 	x.domain(data.map(function(d) { return d.year;}));
 	y.domain([0, d3.max(data, function(d) { return d.value; })]);
 
+	// tooltip when hovering the bars
 	var tip = d3.tip()
 	.attr('class', 'd3-tip')
 	.offset([-10, 0])
@@ -144,7 +173,8 @@ function createBarchart(data, place) {
 		return "<strong>" + d.value + "</strong> kWh";
 	});
 
-	var svg = d3.select(place)
+	// initialze the part for the chart
+	var svg = d3.select(position)
 	.append("svg")
 	.attr("width", width + margin.left + margin.right)
 	.attr("height", height + margin.top + margin.bottom)
@@ -152,11 +182,13 @@ function createBarchart(data, place) {
 	.attr("class", "text-center ")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+	// set x-axis
 	svg.append("g")
 	.attr("class", "x axis")
 	.attr("transform", "translate(0," + height + ")")
 	.call(xAxis);
 
+	// set y-axis
 	svg.append("g")
 	.attr("class", "y axis")
 	.call(yAxis)
@@ -167,6 +199,7 @@ function createBarchart(data, place) {
 	.style("text-anchor", "end")
 	.text("Stroom (per kWh)");
 
+	// add bars
 	svg.selectAll(".bar")
 	.data(data)
 	.enter().append("rect")
@@ -178,6 +211,7 @@ function createBarchart(data, place) {
 	.on('mouseover', tip.show)
 	.on('mouseout', tip.hide);
 
+	// add tooltip to the chart
 	svg.call(tip);
 }
 

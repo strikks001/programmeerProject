@@ -16,56 +16,56 @@ Sanne Strikkers
 
 /*--------------------
  General
---------------------*/
-body {
-	margin: 0px;
-	font-family: "Raleway", Sans-serif;
-}
+ --------------------*/
+ body {
+   margin: 0px;
+   font-family: "Raleway", Sans-serif;
+ }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: 200;
-	letter-spacing: 0.4px;
-	font-family: "Raleway", Sans-serif;
-	color: #232323;
-}
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-weight: 200;
+   letter-spacing: 0.4px;
+   font-family: "Raleway", Sans-serif;
+   color: #232323;
+ }
 
-p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
-	font-weight: 300;
-	line-height: 28px;
-	letter-spacing: 0.2px;
-	color: #252525;
-}
+ p {
+   font-family: 'Raleway', sans-serif;
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 28px;
+   letter-spacing: 0.2px;
+   color: #252525;
+ }
 
-a:hover, a:focus, a:active, a.active {
-    color: #fec503;
+ a:hover, a:focus, a:active, a.active {
+  color: #fec503;
 }
 a, a:hover, a:focus, a:active, a.active {
-    outline: 0;
+  outline: 0;
 }
 
 ::selection {
-    text-shadow: none;
-    background: #94C137;
+  text-shadow: none;
+  background: #94C137;
 }
 
 .section-title h3 {
 	text-transform: uppercase;
 	font-weight: 200;
-letter-spacing: 0.4px;
-font-family: "Raleway", Sans-serif;
+  letter-spacing: 0.4px;
+  font-family: "Raleway", Sans-serif;
 }
 
 @media (min-width: 768px) {
 	section {
-	    padding: 150px 0;
-	}
+   padding: 150px 0;
+ }
 }
 
 section {
@@ -74,16 +74,16 @@ section {
 
 /*automatic dropdown*/
 .show-on-hover:hover > ul.dropdown-menu {
-    display: block;    
+  display: block;    
 }
 
 /*--------------------
  Reset bootstrap
---------------------*/
+ --------------------*/
 
-.row-0-gutter {
-    margin-left: -13px;
-    margin-right: -13px;
+ .row-0-gutter {
+  margin-left: -13px;
+  margin-right: -13px;
 }
 
 .col-0-gutter {
@@ -93,25 +93,25 @@ section {
 
 /*--------------------
  Navigation
---------------------*/
-.navbar-default {
-	background-color: #fff!important;
-	border-color: transparent!important;
-}
-.navbar-default .navbar-collapse {
-	border-color: rgba(255,255,255,.02)
-}
-.navbar-default .nav li a {
-    font-family: "Roboto",sans-serif;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    color: #000;
-    border-bottom: 1px solid;
-    border-color: #000;
-    margin: 10px 15px;
-    padding: 0 0 2px 0;
+ --------------------*/
+ .navbar-default {
+   background-color: #fff!important;
+   border-color: transparent!important;
+ }
+ .navbar-default .navbar-collapse {
+   border-color: rgba(255,255,255,.02)
+ }
+ .navbar-default .nav li a {
+  font-family: "Roboto",sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #000;
+  border-bottom: 1px solid;
+  border-color: #000;
+  margin: 10px 15px;
+  padding: 0 0 2px 0;
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
@@ -139,40 +139,42 @@ section {
 	{
 		background-color: transparent;
 		padding: 5px 0 0px;
-    	-webkit-transition:padding .3s;
-		-moz-transition:padding .3s;
-		transition:padding .3s;
-		border:0
-	}
+   -webkit-transition:padding .3s;
+   -moz-transition:padding .3s;
+   transition:padding .3s;
+   border:0
+ }
 }
 
 /*--------------------
  Footer
---------------------*/
+ --------------------*/
 
-footer {
-    padding: 30px;
-    background-color: #000;    
+ footer {
+  padding: 30px;
+  background-color: #000;
+  margin-top: 50px;
+  margin-bottom: -25px;    
 }
 
 footer p {
-    color: #B7B7B7;
-    margin: 0;
-    font-size: 10px;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 1.6px;
+  color: #B7B7B7;
+  margin: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.6px;
 }
 
 /*--------------------
  Barchart
---------------------*/
+ --------------------*/
 
-.charts {
-  float: none;
-}
+ .charts {
 
-.bar {
+ }
+
+ .bar {
   fill: grey;
 }
 
@@ -195,6 +197,7 @@ footer p {
   display: none;
 }
 
+/* Creates the tooltip */
 .d3-tip {
   line-height: 1;
   padding: 12px;
@@ -220,5 +223,91 @@ footer p {
   margin: -1px 0 0 0;
   top: 100%;
   left: 0;
+}
+
+/*--------------------
+  Sections
+--------------------*/
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.section-title p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 33px;
+  margin: 25px 100px 30px 100px;
+}
+
+/*--------------------
+  Legend
+--------------------*/
+
+.mz-module .section-title {
+  padding: 40px 0;
+}
+
+.light-bg {
+  background: #f1f1f1;
+  padding-bottom: 50px;
+}
+
+.mz-about-dark {
+  background-color: #2B2B2B;
+}
+.mz-about-container {
+  padding: 0 50px;
+}
+
+.mz-module-about {
+  padding: 20px;
+}
+
+.mz-about-default {
+  background-color: #252525;
+}
+
+.mz-module-about-legend p{
+ font-size: 11px;
+ font-weight: 300;
+ line-height: 28px;
+ letter-spacing: 0.2px;
+ text-transform: uppercase;
+ color: #FFFFFF;
+}
+
+.mz-module-about p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #9C9C9C;
+}
+
+.full-circle {
+ height: 25px;
+ -moz-border-radius:12px;
+ -webkit-border-radius: 12px;
+ width: 25px;
+ line-height: 28px;
+ margin: 20px;
+}
+
+.legend {
+  padding-bottom: 50px;
+}
+
+.legend h4 {
+    margin-top: -50px;
+}
+
+.legend p {
+      margin-bottom: 25px;
+      font-size: 15px;
 }
 

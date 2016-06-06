@@ -28,94 +28,237 @@ Sanne Strikkers
 
     <!-- app's own CSS -->
     <link href="src/css/style.css" rel="stylesheet" />
-    <!-- Latest Bootstrap compiled and minified CSS -->
+    <!-- latest Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- animate-->
-    <link rel="stylesheet" href="animate.min.css">
 
     <title>Energieverbruik van de wereld</title>
 </head>
 
 <body>
-    <!-- Navigation -->
+    <!-- navigation -->
     <div class="text-center" >
       <img class="navbar-logo" src="src/img/logo.png" width="165" alt="Logo Energy Knowledge">
-      <nav class="navbar navbar-default">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav ">
-                    <li>
-                        <a href="index.html">Kennis</a>
-                    </li>
-                    <li>
-                        <a href="world.html">Wereld</a>
-                    </li>
-                    <li>
-                        <a href="netherlands.html">Nederland</a>
-                    </li>
-                    <li>
-                        <a href="suppliers.html">Energieleveranciers</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+        <!-- brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <!-- /.Navigation -->
-</div>
+        <!-- collect the nav links -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+                <li>
+                    <a href="index.html">Kennis</a>
+                </li>
+                <li>
+                    <a href="world.html">Wereld</a>
+                </li>
+                <li>
+                    <a href="netherlands.html">Nederland</a>
+                </li>
+                <li>
+                    <a href="suppliers.html">Energieleveranciers</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<!-- /.navigation -->
 
-<!-- Container -->
+<!-- container -->
 <div class="container">
+    <!-- world Map Energy use per household -->
     <div id="map-container" style="display: block; margin: auto;"></div>
-    
-    <div class="row charts">
-        <div class="col-md-6 ">
-            <div class="section-title">
-                <h3 class="text-center" id="bar-chart-title-nl"></h3>
+
+    <!-- legend and explanation text -->
+    <section id="about" class="mz-module">
+        <!-- legend -->
+        <div class="row row-0-gutter center-block legend">
+            <!-- legend title -->
+            <h4>Gemiddeld stroomverbruik per huishouden in 2014</h4>
+            <p>Bron: <a href="https://www.wec-indicators.enerdata.eu/household-electricity-use.html" target="_blank">wec-indicators.enerdata.eu</a></p>
+            
+            <!-- legend content -->
+            <div class="col-md-2 col-0-gutter mz-about-default text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #fff5eb;"></div>
+                    <p>< 1.000</p>
+                </div>
             </div>
-            <br>
-            <div class="text-center" id="bar-chart-nl"></div>
-        </div>
-        <div class="col-md-6" " id="energy-bar">
-            <div class="section-title">
-                <h3 id="bar-chart-title" class="text-center"></h3>
+            <!-- ./ legend content -->
+
+            <!-- legend content -->
+            <div class="col-md-2 col-0-gutter mz-about-dark text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #fee6ce;"></div>
+                    <p>1.000 - 2.500</p>
+                </div>
             </div>
-            <br>
-            <div class="text-center" id="bar-chart"></div>
+            <!-- ./legend content -->
+
+            <!-- legend content -->
+            <div class="col-md-2 col-0-gutter mz-about-default text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #fdd0a2;"></div>
+                    <p>2.500 - 4.000</p>
+                </div>
+            </div>
+            <!-- ./legend content -->
+
+            <!-- legend content -->
+            <div class="col-md-2 col-0-gutter mz-about-dark text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #fdae6b;"></div>
+                    <p>4.000 - 5.500</p>
+                </div>
+            </div>
+            <!-- ./legend content -->
+
+            <!-- legend content-->
+            <div class="col-md-2 col-0-gutter mz-about-default text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #fd8d3c;"></div>
+                    <p>5.500 - 7.000</p>
+                </div>
+            </div>
+            <!-- ./legend content -->
+
+            <!-- legend content -->
+            <div class="col-md-2 col-0-gutter mz-about-dark text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #f16913;"></div>
+                    <p>7.000 - 8.500</p>
+                </div>
+            </div>
+            <!-- ./legend content -->
+
+            <!-- legend content -->
+            <div class="col-md-2 col-0-gutter mz-about-default text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #d94801;"></div>
+                    <p>8.500 - 10.000</p>
+                </div>
+            </div>
+            <!-- ./legend content -->
+
+            <!-- legend content -->
+            <div class="col-md-2 col-0-gutter mz-about-dark text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #a63603;"></div>
+                    <p>10.000 - 20.00</p>
+                </div>
+            </div>
+            <!-- ./legend content -->
+
+            <!-- legend content -->
+            <div class="col-md-2 col-0-gutter mz-about-default text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #7f2704;"></div>
+                    <p>20.000 ></p>
+                </div>
+            </div>
+            <!-- ./legend content -->
+
+            <!-- legend content -->
+            <div class="col-md-2 col-0-gutter mz-about-dark text-center">
+                <div class="mz-module-about-legend">
+                    <div class="full-circle center-block" style=" background-color: #F2F2F2;"></div>
+                    <p>Niet beschikbaar</p>
+                </div>
+            </div>
+            <!-- ./legend content -->
         </div>
-    </div>
 
-</div>
-<!-- /.Container -->
+        <!-- explanation -->
+        <div class="light-bg">
+            <div class="row">
+                <!-- explanation title -->
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <h2>STROOM VERBRUIK</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- explanation content -->
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <div class="mz-about-container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                sed do eiusmod empor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center">
+                           <div class="mz-about-container">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./explanation content -->
+                    </div>
+                    <!-- /.explanation -->
+                </section>
+                <!-- ./legend and explanation text -->
 
-<!-- Footer -->
-<footer>
-    <div class="container text-center">
-        <p>Sanne Strikkers</p> 
-    </div>
-</footer>
-<!-- ./Footer -->
+                <!-- barcharts -->
+                <div class="row charts">
+                    <!-- barchart of the netherlands -->
+                    <div class="col-md-6 ">
+                        <div class="section-title">
+                            <h3 class="text-center" id="bar-chart-title-nl"></h3>
+                        </div>
+                        <br>
+                        <div class="text-center" id="bar-chart-nl"></div>
+                    </div>
+                    <!-- ./barchart of the netherlands -->
 
-<!-- DataMap -->
-<script src="http://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
-<!-- JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<!-- app's own JavaScript -->
-<script src="src/js/app.js"></script>
-<script src="src/js/world.js"></script>
-<!-- Latest Bootstrap compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-</body>
+                    <!-- barchart of clicked country -->
+                    <div class="col-md-6" " id="energy-bar">
+                        <div class="section-title">
+                            <h3 id="bar-chart-title" class="text-center"></h3>
+                        </div>
+                        <br>
+                        <div class="text-center" id="bar-chart"></div>
+                    </div>
+                    <!-- ./barchart of clicked country -->
+                </div>
+                <!-- ./barcharts -->
+            </div>
+            <!-- /.Container -->
 
-</html>
+            <!-- footer -->
+            <footer>
+                <div class="container text-center">
+                    <p>Sanne Strikkers</p> 
+                </div>
+            </footer>
+            <!-- ./footer -->
+
+            <!-- dataMap -->
+            <script src="http://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
+            <!-- JQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+            <!-- app's own JavaScript -->
+            <script src="src/js/app.js"></script>
+            <script src="src/js/world.js"></script>
+            <!-- latest Bootstrap compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        </body>
+
+        </html>
