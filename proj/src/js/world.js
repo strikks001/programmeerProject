@@ -108,21 +108,21 @@ function makeData(error, year2000, year2005, year2010, year2014) {
 	position; position of the barchart
 */
 function setBarchart(code, position){
-	var bar_data = [];
+	var barData = [];
 
 	// add some data about the countries into an empty list
 	for (var i = 0; i < data.length; i++) {
 		if(code == data[i].code) {
-			bar_data.push({"country": data[i].country, "year": data[i].year, "value": data[i].value});
+			barData.push({"country": data[i].country, "year": data[i].year, "value": data[i].value});
 		}
 	}
 	// check if there is some data in the list
-	if(bar_data.length < 1) {
+	if(barData.length < 1) {
 		d3.select("#bar-chart-title")
 		.html("Sorry.<br><br> Er is geen informatie beschikbaar voor dit land.");
 	// and create a barchart
 	} else {
-		createBarchart(bar_data, position);
+		createBarchart(barData, position);
 	}
 }
 

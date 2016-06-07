@@ -233,62 +233,62 @@ footer p {
 
 /*--------------------
   Sections
---------------------*/
+  --------------------*/
 
-.section-title {
-  padding-bottom: 30px;
-}
+  .section-title {
+    padding-bottom: 30px;
+  }
 
-.section-title h2 {
-  font-size: 45px;
-  text-transform: uppercase;
-}
+  .section-title h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+  }
 
-.section-title p {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 33px;
-  margin: 25px 100px 30px 100px;
-}
+  .section-title p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 33px;
+    margin: 25px 100px 30px 100px;
+  }
 
 /*--------------------
   Legend
---------------------*/
+  --------------------*/
 
-.mz-module .section-title {
-  padding: 40px 0;
-}
+  .mz-module .section-title {
+    padding: 40px 0;
+  }
 
-.light-bg {
-  background: #f1f1f1;
-  padding-bottom: 50px;
-}
+  .light-bg {
+    background: #f1f1f1;
+    padding-bottom: 50px;
+  }
 
-.mz-about-dark {
-  background-color: #2B2B2B;
-}
-.mz-about-container {
-  padding: 0 50px;
-}
+  .mz-about-dark {
+    background-color: #2B2B2B;
+  }
+  .mz-about-container {
+    padding: 0 50px;
+  }
 
-.mz-module-about {
-  padding: 20px;
-}
+  .mz-module-about {
+    padding: 20px;
+  }
 
-.mz-about-default {
-  background-color: #252525;
-}
+  .mz-about-default {
+    background-color: #252525;
+  }
 
-.mz-module-about-legend p{
- font-size: 11px;
- font-weight: 300;
- line-height: 28px;
- letter-spacing: 0.2px;
- text-transform: uppercase;
- color: #FFFFFF;
-}
+  .mz-module-about-legend p{
+   font-size: 11px;
+   font-weight: 300;
+   line-height: 28px;
+   letter-spacing: 0.2px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+ }
 
-.mz-module-about p {
+ .mz-module-about p {
   font-size: 14px;
   font-weight: 400;
   line-height: 27px;
@@ -309,32 +309,44 @@ footer p {
 }
 
 .legend h4 {
-    margin-top: -50px;
+  margin-top: -50px;
 }
 
 .legend p {
-      margin-bottom: 25px;
-      font-size: 15px;
+  margin-bottom: 25px;
+  font-size: 15px;
 }
 
 /*--------------------
   Donut Chart
---------------------*/
+  --------------------*/
 
-.arc text {
-  font: 10px sans-serif;
-  text-anchor: middle;
-}
+  .arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+  }
 
-.arc path {
-  stroke: #fff;
-}
+  .arc path {
+    stroke: #fff;
+  }
 
-.donut-chart {
-  margin-top: 35px;
-}
+  .donut-chart {
+    margin-top: 35px;
+  }
 
-.donut-part {
+  .donut-part {
     margin-top: 70px;
-}
+  }
+
+  .donut-d3-tip {
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    line-height: 1;
+    padding: 12px;
+    background: #F5F5F5;
+    border-radius: 2px;
+    text-align: center;
+  }
 
