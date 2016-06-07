@@ -77,6 +77,12 @@ section {
   display: block;    
 }
 
+.active {
+  background-color: #f1f1f1!important;
+  border: 1px solid #ddd!important;
+  color: black!important;
+}
+
 /*--------------------
  Reset bootstrap
  --------------------*/
@@ -309,5 +315,26 @@ footer p {
 .legend p {
       margin-bottom: 25px;
       font-size: 15px;
+}
+
+/*--------------------
+  Donut Chart
+--------------------*/
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+.donut-chart {
+  margin-top: 35px;
+}
+
+.donut-part {
+    margin-top: 70px;
 }
 

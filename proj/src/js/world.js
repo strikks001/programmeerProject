@@ -80,7 +80,7 @@ function makeData(error, year2000, year2005, year2010, year2014) {
 	if (error) {
 		console.log("We cannot retrieve the data.");
 		d3.select("#map-container")
-		.html("<div class='text-center'><h3>Sorry.<br><br> We cannot retrieve the data.</h3></div>");
+		.html("<div class='text-center'><h3>Sorry.<br><br> Wij kunnen geen data ophalen.</h3></div>");
 		throw error;
 	};
 	// for each file save the data in the public list
@@ -119,7 +119,7 @@ function setBarchart(code, position){
 	// check if there is some data in the list
 	if(bar_data.length < 1) {
 		d3.select("#bar-chart-title")
-		.html("Sorry.<br><br> There is no available data for this country.");
+		.html("Sorry.<br><br> Er is geen informatie beschikbaar voor dit land.");
 	// and create a barchart
 	} else {
 		createBarchart(bar_data, position);
