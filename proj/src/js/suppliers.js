@@ -21,6 +21,7 @@ iRadius = min / 2 * 0.85;
 
 // general colors 
 var color = d3.scale.ordinal()
+.domain(["aardgas", "kolen", "kern","zon","wind","water","biomassa","overig"])
 .range(["#d73027", "#f46d43" , "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850" ]);
 
 // the thickness of the donut
@@ -76,9 +77,7 @@ d3.selectAll(".list-group-item")
 		dataList = [];
 		data.forEach(function(d){
 			if(value == d.company) {
-				if (parseFloat(d.score) != 0) {
 					dataList.push({"composition": d.composition, "value": parseFloat(d.score)});
-				}
 			}
 		});
 		makeDonut(dataList);
@@ -98,42 +97,17 @@ d3.selectAll(".list-group-item")
 	// tooltip when hovering the bars
 	var div = d3.select("body").append("div").attr("class", "donut-d3-tip");
 
-	//add path to donut
+	// add path to donut
 	var path = g.datum(dataList).selectAll("path")
 	.data(pie)
 	.enter().append("path")
 	.attr("class","piechart")
-	.attr("fill", function(d,i){ return color(i); })
 	.attr("d", arc)
-	 .each(function(d){ this._current = d; });
+	.attr("fill", function(d, i){return color(i); })
+	.each(function(d){ this._current = d; });
 
 	// add transition to new paths
 	g.datum(dataList).selectAll("path").data(pie).transition().duration(600).attrTween("d", arcTween);
-
-	// add any new paths to the donurt
-	g.datum(dataList).selectAll("path")
-	.data(pie)
-	.enter().append("path")
-	.attr("class","piechart")
-	.attr("fill", function(d,i){ return color(i); })
-	.attr("d", arc)
-	.each(function(d){ this._current = d; });
-
-	g.datum(dataList).selectAll('text')
-        .data(pie)
-        .enter().append("text")
-        .attr("transform", function (d) {
-            return "translate(" + arc.centroid(d) + ")";
-        })
-        .attr("dy", ".4em")
-        .attr("text-anchor", "middle")
-        .text(function(d){
-            return d.value + "%" +d.data.composition;
-        })
-        .style({
-            fill:'black',
-            'font-size':'10px'
-        });
 
 	// on mose hover the donut then add a tool tip
 	path
@@ -149,9 +123,6 @@ d3.selectAll(".list-group-item")
 
 	// remove data not being used
 	g.datum(dataList).selectAll("path")
-	.data(pie).exit().remove();
-
-		g.datum(dataList).selectAll("text")
 	.data(pie).exit().remove();
 }
 

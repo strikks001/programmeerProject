@@ -9,41 +9,43 @@
 # 11170816
 # 
 import csv, sys, json
-from json_generator import json_generator
+
+# creating json files
+def createJson(data_list, sub):
+        # convert the list to JSON format
+        json_str = json.dumps(data_list, indent = 4, ensure_ascii=False)
+
+        jsonfile = '%s.json' %sub
+        with open(jsonfile, 'w') as f:
+            try:
+                f.write(json_str)
+            except csv.Error as e:
+                sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
+
 # searching for provinces, towns, latitude en longitude
-def getProvince(zipcode):
-    place_info = list()
-    for i in range(len(code_dict)):
-        if int(code_dict[i][0]) == int(zipcode):
-            place_info = [code_dict[i][1], code_dict[i][2], code_dict[i][3], code_dict[i][4]]
-            return place_info
+def getResult(data_list):
+	product = sup_dict[i][4]
+	sjv = sup_dict[i][5]
+
+    for i in range(len(sup_dict)):
+    	if product == "ELK":
+    		if sjv <= 1000:
+    			data_list.append({"street": sup_dict[i][0], "place": sup_dict[i][3], "product": product, "sjv": sjv, "size": 10})
+    	else:
+    		# f
+    return data_list
 
 # open csv file and read it into a dictionary
-nl_sjv = 'csv/nl_sjv.csv'
-nl_codes = 'csv/nl_codes.csv'
-with open(nl_sjv, 'r') as sjv, open(nl_codes, 'r') as code:
-    reader_sjv = csv.reader(sjv, delimiter=';')
-    reader_code = csv.reader(code, delimiter=';')
+suppliers = 'csv/nl_sjv.csv'
+with open(suppliers, 'r') as sup:
+    reader = csv.reader(sup, delimiter=';')
     # ignore first line
-    next(reader_sjv, None)
-    next(reader_code, None)
+    next(reader, None)
     try:
-        sjv_dict = list(reader_sjv)
-        code_dict = list(reader_code)
+        sup_dict = list(reader)
     except csv.Error as e:
         sys.exit('file %s, line %d: %s' % (nl_sjv, reader.line_num, e))
 
-sjv_data = []
-for i in range(len(sjv_dict)):
-    street = sjv_dict[i][0]
-    zipcode_from = sjv_dict[i][1]
-    zipcode_to = sjv_dict[i][2]
-    place = sjv_dict[i][3]
-    product = sjv_dict[i][4]
-    sjv = sjv_dict[i][5]
+data_list = []
 
-    sjv_data.append({"type": "Feature", "properties": {"street": street, "zipcode_from": zipcode_from, "zipcode_to": zipcode_to, "place": place, "product": product, "sjv":sjv, "province": getProvince(sjv_dict[i][1][:4]), "town": getProvince(sjv_dict[i][2][:4])}, "geometry": {"type": "MultiPolygon"}})
-
-createJson(sjv_data, "/data/sjv_nl")
-
-
+createJson(getResult(data_list), "../data/netherlands/netherlands")

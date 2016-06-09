@@ -349,10 +349,5 @@ footer p {
     border-radius: 2px;
     text-align: center;
   }
-polyline{
-  opacity: .3;
-  stroke: black;
-  stroke-width: 2px;
-  fill: none;
-}
+
 
