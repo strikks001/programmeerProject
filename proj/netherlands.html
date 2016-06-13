@@ -23,76 +23,95 @@ Sanne Strikkers
     <!-- JavaScript D3 library -->
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
     <!-- app's own CSS -->
     <link href="src/css/style.css" rel="stylesheet" />
-
-    <!-- Latest Bootstrap compiled and minified CSS -->
+    <!-- latest Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <title>Energieverbruik in Nederland</title>
+    <title>Energieverbruik van Nederland</title>
 </head>
 
 <body>
-    <!-- Navigation -->
+    <!-- navigation -->
     <div class="text-center" >
       <img class="navbar-logo" src="src/img/logo.png" width="165" alt="Logo Energy Knowledge">
-      <nav class="navbar navbar-default">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav ">
-                    <li>
-                        <a href="index.html">Kennis</a>
-                    </li>
-                    <li>
-                        <a href="world.html">Wereld</a>
-                    </li>
-                    <li>
-                        <a href="netherlands.html">Nederland</a>
-                    </li>
-                    <li>
-                        <a href="suppliers.html">Energieleveranciers</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+        <!-- brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <!-- /.Navigation -->
-</div>
+        <!-- collect the nav links -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+                <li>
+                    <a href="index.html">Kennis</a>
+                </li>
+                <li>
+                    <a href="world.html">Wereld</a>
+                </li>
+                <li>
+                    <a href="netherlands.html">Nederland</a>
+                </li>
+                <li>
+                    <a href="suppliers.html">Energieleveranciers</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<!-- /.navigation -->
 
-<!-- Container -->
+<!-- container -->
 <div class="container">
-
+    <form class="form-inline">
+        <div class="form-group">
+            <label class="sr-only" for="place-input">Place</label>
+            <input type="text" class="form-control" id="place-input" placeholder="Place">
+        </div>
+        <button type="submit" id="place-submit" onClick="update()" class="btn btn-default">Search</button>
+        <div class="form-group">    <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Product
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Stroom</a></li>
+            <li><a href="#">Gas</a></li>
+        </ul>
+    </div></div>
+</form>
+<div id="bubble-chart"></div>
 </div>
 <!-- /.Container -->
 
-<!-- Footer -->
+<!-- footer -->
 <footer>
     <div class="container text-center">
         <p>Sanne Strikkers</p> 
     </div>
 </footer>
-<!-- ./Footer -->
+<!-- ./footer -->
 
-<!-- DataMap -->
+<!-- dataMap -->
 <script src="http://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
 <!-- JQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <!-- app's own JavaScript -->
 <script src="src/js/app.js"></script>
-<!-- Latest Bootstrap compiled and minified JavaScript -->
+<script src="src/js/netherlands.js"></script>
+<!-- latest Bootstrap compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 

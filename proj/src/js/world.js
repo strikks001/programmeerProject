@@ -18,7 +18,7 @@ queue()
 .defer(d3.json, 'data/world/sjv_world_2005.json')
 .defer(d3.json, 'data/world/sjv_world_2010.json')
 .defer(d3.json, 'data/world/sjv_world_2014.json')
-.await(makeData);
+.await(createData);
 
 // making the map responsive
 d3.select(window).on('resize', function() {
@@ -75,7 +75,7 @@ var map = new Datamap({
 	Getting data from loaded files.
 	Push the data in a public array as JSON objects.
 */
-function makeData(error, year2000, year2005, year2010, year2014) {
+function createData(error, year2000, year2005, year2010, year2014) {
 	// error checking
 	if (error) {
 		console.log("We cannot retrieve the data.");

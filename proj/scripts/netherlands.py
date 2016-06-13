@@ -10,6 +10,9 @@
 # 
 import csv, sys, json
 
+data_list_gas = []
+data_list_stroom = []
+
 # creating json files
 def createJson(data_list, sub):
         # convert the list to JSON format
@@ -17,35 +20,78 @@ def createJson(data_list, sub):
 
         jsonfile = '%s.json' %sub
         with open(jsonfile, 'w') as f:
-            try:
-                f.write(json_str)
-            except csv.Error as e:
-                sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
+        	try:
+        		f.write(json_str)
+        	except csv.Error as e:
+        		sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
 
 # searching for provinces, towns, latitude en longitude
-def getResult(data_list):
-	product = sup_dict[i][4]
-	sjv = sup_dict[i][5]
+def getResult():
+	for i in range(100):
+		product = sup_dict[i][4]
+		sjv = int(sup_dict[i][5])
+		street = sup_dict[i][0]
+		place = sup_dict[i][3]
 
-    for i in range(len(sup_dict)):
-    	if product == "ELK":
-    		if sjv <= 1000:
-    			data_list.append({"street": sup_dict[i][0], "place": sup_dict[i][3], "product": product, "sjv": sjv, "size": 10})
-    	else:
-    		# f
-    return data_list
+		# print product
+		if product == "ELK":
+			if sjv <= 1000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 5, "color": "#ffffff"})
+			elif sjv > 1000 and sjv <= 2000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 8, "color": "#fff5eb"})
+			elif sjv > 2000 and sjv <= 3000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 10, "color": "#fee6ce"})
+			elif sjv > 3000 and sjv <= 4000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 13, "color": "#fdd0a2"})
+			elif sjv > 4000 and sjv <= 5000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 15, "color": "#fdae6b"})
+			elif sjv > 5000 and sjv <= 6000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 18, "color": "#fd8d3c"})
+			elif sjv > 6000 and sjv <= 7000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 20, "color": "#f16913"})
+			elif sjv > 7000 and sjv <= 8000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 23, "color": "#d94801"})
+			elif sjv > 8000 and sjv <= 9000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 25, "color": "#a63603"})
+			elif sjv > 9000 and sjv <= 10000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 28, "color": "#7f2704"})
+			elif sjv > 10000 and sjv <= 20000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 30, "color": "#3f1302"})
+			elif sjv > 20000:
+				data_list_stroom.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 32, "color": "#0c0300"})
+		if product == "GAS":
+			if sjv <= 500:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 5, "color": "#fff5eb"})
+			elif sjv > 500 and sjv <= 1000:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 8, "color": "#fee6ce"})
+			elif sjv > 1000 and sjv <= 1500:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 10, "color": "#fdd0a2"})
+			elif sjv > 1500 and sjv <= 2000:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 13, "color": "#fdae6b"})
+			elif sjv > 2000 and sjv <= 2500:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 15, "color": "#fd8d3c"})
+			elif sjv > 2500 and sjv <= 3000:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 18, "color": "#f16913"})
+			elif sjv > 3000 and sjv <= 3500:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 20, "color": "#d94801"})
+			elif sjv > 3500 and sjv <= 4000:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 23, "color": "#a63603"})
+			elif sjv > 4000 and sjv <= 4500:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 25, "color": "#7f2704"})
+			elif sjv > 4500:
+				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 28, "color": "#3f1302"})
 
 # open csv file and read it into a dictionary
 suppliers = 'csv/nl_sjv.csv'
 with open(suppliers, 'r') as sup:
-    reader = csv.reader(sup, delimiter=';')
+	reader = csv.reader(sup, delimiter=';')
     # ignore first line
-    next(reader, None)
-    try:
-        sup_dict = list(reader)
-    except csv.Error as e:
-        sys.exit('file %s, line %d: %s' % (nl_sjv, reader.line_num, e))
+	next(reader, None)
+	try:
+		sup_dict = list(reader)
+	except csv.Error as e:
+		sys.exit('file %s, line %d: %s' % (nl_sjv, reader.line_num, e))
 
-data_list = []
-
-createJson(getResult(data_list), "../data/netherlands/netherlands")
+getResult();
+createJson(data_list_stroom, "../data/netherlands/netherlands_elk")
+createJson(data_list_gas, "../data/netherlands/netherlands_gas")
