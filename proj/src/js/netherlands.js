@@ -11,18 +11,20 @@ Sanne Strikkers
 
 */
 
-var data_elek = [];
-var data_gas = [];
+var dataElek = [];
+var dataGas = [];
+var elek = true;
+var gas = false;
 
 var diameter = 500, //max size of the bubbles
     color    = d3.scale.category20b(); //color category
 
-var bubble = d3.layout.pack()
+    var bubble = d3.layout.pack()
     .sort(null)
     .size([diameter, diameter])
     .padding(1.5);
 
-var svg = d3.select("#bubble-chart")
+    var svg = d3.select("#bubble-chart")
     .append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
@@ -37,8 +39,8 @@ queue()
 /*
 	Getting data from loaded files.
 	Push the data in a public array as JSON objects.
-*/
-function createData(error, elek, gas) {
+	*/
+	function createData(error, elek, gas) {
 	// error checking
 	if (error) {
 		console.log("We cannot retrieve the data.");
@@ -49,56 +51,109 @@ function createData(error, elek, gas) {
 
 	// for each file save the data in the public list
 	elek.forEach(function (d) {
-		data_elek.push({"street": d.street, "place": d.place, "sjv": d.sjv, "color": d.color, "size": d.size});
+		dataElek.push({"street": d.street, "place": d.place, "sjv": d.sjv, "color": d.color, "size": d.size});
 	});
 
 	gas.forEach(function (d) {
-		data_gas.push({"street": d.street, "place": d.place, "sjv": d.sjv, "color": d.color, "size": d.size});
+		dataGas.push({"street": d.street, "place": d.place, "sjv": d.sjv, "color": d.color, "size": d.size});
 	});
 
-	createBubbles();
+	createBubbles(dataElek);
 }
 
-function createBubbles() {
+function createBubbles(dataList) {
+
 	//convert numerical values from strings to numbers
-    var data = data_elek.map(function(d){ d.value = +d.sjv; return d; });
+	var data = dataList.map(function(d){ d.value = +d.sjv; return d; });
 
     //bubbles needs very specific format, convert data to this.
-    var nodes = bubble.nodes({children:data_elek}).filter(function(d) {return !d.children; });
+    var nodes = bubble.nodes({children:dataList}).filter(function(d) {return !d.children; });
 
-    //setup the chart
-    var bubbles = svg.append("g")
-        .attr("transform", "translate(0,0)")
-        .selectAll(".bubble")
-        .data(nodes)
-        .enter();
+	// assign new data to existing DOM 
+	var vis = svg.selectAll('circle')
+	.data(nodes);
 
-    //create the bubbles
-    bubbles.append("circle")
-        .attr("r", function(d){ return d.r; })
-        .attr("cx", function(d){ return d.x; })
-        .attr("cy", function(d){ return d.y; })
-        .style("fill", function(d) { return color(d.sjv); });
+	// tooltip 
+	var tooltip = d3.select("body")
+	.append("div")
+	.attr("class", "bubble-tool-tip")
+	.text("tooltip");
 
-    //format the text for each bubble
-    bubbles.append("text")
-        .attr("x", function(d){ return d.x; })
-        .attr("y", function(d){ return d.y + 5; })
-        .attr("text-anchor", "middle")
-        .text(function(d){return d.sjv; })
-        .style({
-            "fill":"white", 
-            "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
-            "font-size": "12px"
-        });
+	var duration = 300;
+	var delay = 0;
+
+	// update - this is created before enter.append. it only applies to updating nodes.
+	vis.transition()
+	.duration(duration)
+	.delay(function(d, i) {delay = i * 7; return delay;}) 
+	.attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
+	.attr('r', function(d) { return d.r; })
+	.style("fill", function(d) { return color(d.sjv); });
+
+	// enter - only applies to incoming elements (once emptying data)	
+	vis.enter().append('circle')
+	.on("mouseover", function(d) {
+		tooltip.html("<div class='text-center'><strong>" + d.place + "</strong><br>SJV: " + d.sjv + "</div>");
+		tooltip.style("visibility", "visible");
+	})
+	.on("mousemove", function() {
+		return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
+	})
+	.on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+	.attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
+	.attr('r', function(d) { return d.r; })
+	.transition()
+	.duration(duration * 1.2)
+	.style("fill", function(d) { return color(d.sjv); });
+
+    // //format the text for each bubble
+    // vis.append("text")
+    // .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
+    // .attr('r', function(d) { return d.r; })
+    // .attr("text-anchor", "middle")
+    // .text(function(d){return d.sjv; })
+    // .style({
+    // 	"fill":"white", 
+    // 	"font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
+    // 	"font-size": "12px"
+    // });
+
+	// exit
+	vis.exit()
+	.transition()
+	.duration(duration + delay)
+	.remove();
 }
 
-	d3.select("#place-input")
-	.on("input", function () {
-		var value = this.value;
-		update(value);
-	});
+d3.select("#place-input")
+.on("input", function () {
+	var value = this.value;
+	update(value);
+});
 
-function update(place) {
 
+d3.selectAll('input[name="options-radios"]')
+.on("click", function () {
+	var value = d3.select(this).property("value");
+	if (value == "stroom") {
+		elek = true;
+		gas = false;
+
+		createBubbles(dataElek);
+	} else {
+		gas = true;
+		elek = false;
+
+		createBubbles(dataGas);
+	}
+});
+
+function update(value) {
+	value = value.toLowerCase();
+	if (elek == true) {
+		
+	} else (gas == true) {
+		
+	}
 }
+
