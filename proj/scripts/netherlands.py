@@ -27,7 +27,7 @@ def createJson(data_list, sub):
 
 # searching for provinces, towns, latitude en longitude
 def getResult():
-	for i in range(100):
+	for i in range(len(sup_dict)):
 		product = sup_dict[i][4]
 		sjv = int(sup_dict[i][5])
 		street = sup_dict[i][0]
@@ -81,6 +81,34 @@ def getResult():
 			elif sjv > 4500:
 				data_list_gas.append({"street": street, "place": place, "product": product, "sjv": sjv, "size": 28, "color": "#3f1302"})
 
+
+
+def reduces(data_list):
+	nextPlace = None
+	data = []
+	total = 0
+	counter = 1
+	avg = 0
+	for i in range(len(data_list)):
+		if i < (len(data_list) - 1):
+			nextPlace = data_list[i + 1]
+			total += data_list[i]['sjv']
+			if nextPlace['place'] == data_list[i]['place']:
+				counter += 1
+			else:
+				avg = total / counter
+				data.append({"place": data_list[i]['place'], "product": data_list[i]['product'], "sjv": avg})
+				total = 0
+				counter = 1
+		else:
+			total += data_list[-1]['sjv']
+			avg = total / counter
+			data.append({"place": data_list[-1]['place'], "product": data_list[-1]['product'], "sjv": avg})
+			total = 0
+			counter = 1
+	return data
+
+
 # open csv file and read it into a dictionary
 suppliers = 'csv/nl_sjv.csv'
 with open(suppliers, 'r') as sup:
@@ -92,6 +120,7 @@ with open(suppliers, 'r') as sup:
 	except csv.Error as e:
 		sys.exit('file %s, line %d: %s' % (nl_sjv, reader.line_num, e))
 
-getResult();
-createJson(data_list_stroom, "../data/netherlands/netherlands_elk")
-createJson(data_list_gas, "../data/netherlands/netherlands_gas")
+getResult()
+reduces(data_list_stroom)
+createJson(reduces(data_list_stroom), "../data/netherlands/netherlands_elk")
+createJson(reduces(data_list_gas), "../data/netherlands/netherlands_gas")

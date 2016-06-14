@@ -64,9 +64,9 @@ d3.selectAll(".list-group-item")
 	Creates an array of data with the selected energy company.
 	Then it wil show a donut chart.
 	value; selected energy company.
-	*/
-	function createData(value) { 
-		d3.json("data/suppliers/suppliers.json", function(error, data) {
+*/
+function createData(value) { 
+	d3.json("data/suppliers/suppliers.json", function(error, data) {
 		// error checking
 		if (error) {
 			console.log("We cannot retrieve the data.");
@@ -77,19 +77,19 @@ d3.selectAll(".list-group-item")
 		dataList = [];
 		data.forEach(function(d){
 			if(value == d.company) {
-					dataList.push({"composition": d.composition, "value": parseFloat(d.score)});
+				dataList.push({"composition": d.composition, "value": parseFloat(d.score)});
 			}
 		});
 		makeDonut(dataList);
 	});
-	}
+}
 
 /**
 	Makes a donut chart with the given data.
 	It will update the donut chart when there is other data.
 	dataList; list with values of the selected company.
-	*/
-	function makeDonut(dataList) {
+*/
+function makeDonut(dataList) {
 	// setting up the values for the donut
 	pie.value(function(d) {return d.value; })
 	.sort(null);
@@ -99,12 +99,12 @@ d3.selectAll(".list-group-item")
 
 	// add path to donut
 	var path = g.datum(dataList).selectAll("path")
-	.data(pie)
-	.enter().append("path")
-	.attr("class","piechart")
-	.attr("d", arc)
-	.attr("fill", function(d, i){return color(i); })
-	.each(function(d){ this._current = d; });
+		.data(pie)
+		.enter().append("path")
+			.attr("class","piechart")
+			.attr("d", arc)
+			.attr("fill", function(d, i){return color(i); })
+			.each(function(d){ this._current = d; });
 
 	// add transition to new paths
 	g.datum(dataList).selectAll("path").data(pie).transition().duration(600).attrTween("d", arcTween);
@@ -130,11 +130,11 @@ d3.selectAll(".list-group-item")
 	Store the displayed angles in _current.
 	Then, interpolate from _current to the new angles.
 	During the transition, _current is updated in-place by d3.interpolate.
-	*/
-	function arcTween(a) {
-		var i = d3.interpolate(this._current, a);
-		this._current = i(0);
-		return function(t) {
-			return arc(i(t));
-		};
-	}
+*/
+function arcTween(a) {
+	var i = d3.interpolate(this._current, a);
+	this._current = i(0);
+	return function(t) {
+		return arc(i(t));
+	};
+}

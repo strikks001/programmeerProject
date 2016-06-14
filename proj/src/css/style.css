@@ -366,5 +366,11 @@ footer p {
     border-radius: 2px;
   }
 
+  circle.selected {
+    fill: blue;
+    stroke: black;
+    stroke-width: 1.5px;
+}
+
 
 

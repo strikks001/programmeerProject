@@ -80,20 +80,20 @@ Sanne Strikkers
             <label class="sr-only" for="place-input">Place</label>
             <input type="text" class="form-control" id="place-input" placeholder="Place">
         </div>
-        <button type="submit" id="place-submit" class="btn btn-default">Search</button>
+        <input type="button" id="place-submit" class="btn btn-default" value="Search"/>
         <div class="radio">
             <label>
-                <input type="radio" name="options-radios" id="stroom-radio" value="stroom" checked>Stroom
+                <input type="radio" class="product-radio" name="options-radios" id="stroom-radio" value="stroom" checked>Stroom
             </label>
         </div>
         <div class="radio">
             <label>
-                <input type="radio" name="options-radios" id="gas-radio" value="gas">Gas
+                <input type="radio" class="product-radio" name="options-radios" id="gas-radio" value="gas">Gas
             </label>
         </div>
     </form>
-    <div id="bubble-chart"></div>
 </div>
+    <div id="bubble-chart" class="text-center"></div>
 <!-- /.Container -->
 
 <!-- footer -->
