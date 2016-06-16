@@ -353,23 +353,17 @@ footer p {
 /*--------------------
   Bubble Chart
   --------------------*/
-
-  .bubble-tool-tip {
-    position: absolute;
-    z-index: 10;
-    visibility: hidden;
-    width: auto;
-    height: auto;
-    line-height: 1;
-    padding: 12px;
-    background: #F5F5F5;
-    border-radius: 2px;
-  }
-
-  circle.selected {
-    fill: blue;
-    stroke: black;
-    stroke-width: 1.5px;
+.btn span.glyphicon {         
+  opacity: 0;       
+}
+.btn.active span.glyphicon {        
+  opacity: 1;       
+}
+.btn-dropwdown {
+  height: 34px;
+}
+#map-form {
+  margin-bottom: 50px;
 }
 
 
