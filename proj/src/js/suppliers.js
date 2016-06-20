@@ -10,53 +10,41 @@ Sanne Strikkers
 11170816
 
 */
-var dataList = [];
-var pallette = [];
 var names = ["Kolen", "Kern", "Aardgas","zon","wind","water","biomassa","overig groen", "overig Grijs"];
 var colors = ["#d73027", "#f46d43" , "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850" ];
 
-for (var i = 0; i < colors.length; i++) {
-	pallette.push({"name": names[i], "color": colors[i]});
-}
-makeLegend(pallette);
+var svg = d3.select(".donut-chart")
+	.append("svg")
+	.attr("class", "donut-svg")
+	.append("g")
 
-// measurements for the donut chart
-var width = 520,
-height = 520,
-min = Math.min(width, height),
-oRadius = min / 2 * 0.65,
-iRadius = min / 2 * 0.85;
-
-// general colors 
-var color = d3.scale.ordinal()
-.domain(names)
-.range(colors);
-
-// the thickness of the donut
-var arc = d3.svg.arc()
-.outerRadius(oRadius)
-.innerRadius(iRadius);
-
-// the size of the chart
-var svg = d3.select(".donut-chart").append("svg")
-.attr("width", width)
-.attr("height", height);
-
+svg.append("g")
+	.attr("class", "slices")
 svg.append("g")
 	.attr("class", "labels");
 svg.append("g")
 	.attr("class", "lines");
+svg.append("g")
+	.attr("class", "texts");
 
-// setting up the pie layout for the donut
-var pie = d3.layout.pie();
+// general colors 
+var color = d3.scale.ordinal()
+	.domain(names)
+	.range(colors);
 
-// creates the pie chart container
-var g = svg.append('g')
-.attr('transform', function(){
-	if ( window.innerWidth >= 60 ) var shiftWidth = width / 2;
-	if ( window.innerWidth < 960 ) var shiftWidth = width / 3;
-	return 'translate(' + shiftWidth + ',' + height / 2 + ')';
-});
+var width = 650,
+height = 500,
+radius = Math.min(width, height) / 2;
+
+var arc = d3.svg.arc()
+	.outerRadius(radius * 0.8)
+	.innerRadius(radius * 0.5);
+
+var outerArc = d3.svg.arc()
+	.innerRadius(radius * 1.0)
+	.outerRadius(radius * 0.9);
+
+svg.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 // set up the first view
 createData("Essent");
@@ -68,7 +56,6 @@ d3.selectAll(".list-group-item")
 	d3.select(this).attr("class", "list-group-item active");
 	// show the donut chart with some created data of the selected company
 	var value = d3.select(this).attr("value");
-	console.log(value);
 	createData(value);
 });
 
@@ -101,54 +88,152 @@ function createData(value) {
 	Makes a donut chart with the given data.
 	It will update the donut chart when there is other data.
 	dataList; list with values of the selected company.
-*/
+	*/
 function makeDonut(dataList) {
-	// setting up the values for the donut
-	pie.value(function(d) {return d.value; })
-	.sort(null);
-	
 	// tooltip when hovering the bars
 	var div = d3.select("body").append("div").attr("class", "donut-d3-tip");
 
-	// add path to donut
-	var path = g.datum(dataList).selectAll("path")
-		.data(pie)
-		.enter().append("path")
-			.attr("class","piechart")
-			.attr("d", arc)
-			.attr("fill", function(d, i){return color(i); })
-			.each(function(d){ this._current = d; });
+	var pie = d3.layout.pie()
+	.sort(null)
+	.value(function(d) {
+		return d.value;
+	});
+	
+	var duration = 1500;
+	var key = function(d){return d.data.composition; };
 
+	/* ------- SLICE ARCS -------*/
 
-	// add transition to new paths
-	g.datum(dataList).selectAll("path").data(pie).transition().duration(600).attrTween("d", arcTween);
+	var slice = svg.select(".slices").selectAll("path.slice")
+	.data(pie(dataList), key)
 
-	// on mose hover the donut then add a tool tip
-	path
-	.on("mousemove", function(d){
-		div.style("left", d3.event.pageX+10+"px");
-		div.style("top", d3.event.pageY-25+"px");
-		div.style("display", "inline-block");
-		div.html("<strong>" + d.data.composition + "</strong><br>" + d.value + "%");
-	})
-	.on("mouseout", function(d){
-		div.style("display", "none");
+	slice.enter()
+	.insert("path")
+	.attr("class", "slice")
+	.style("fill", function(d) { return color(d.data.composition); })
+	.each(function(d) {
+		this._current = d;
 	});
 
-	// remove data not being used
-	g.datum(dataList).selectAll("path")
-	.data(pie).exit().remove();
-}
+	slice		
+	.transition().duration(duration)
+	.attrTween("d", function(d) {
+		var interpolate = d3.interpolate(this._current, d);
+		var _this = this;
+		return function(t) {
+			_this._current = interpolate(t);
+			return arc(_this._current);
+		};
+	});
 
-/**
-	Store the displayed angles in _current.
-	Then, interpolate from _current to the new angles.
-	During the transition, _current is updated in-place by d3.interpolate.
-*/
-function arcTween(a) {
-	var i = d3.interpolate(this._current, a);
-	this._current = i(0);
-	return function(t) {
-		return arc(i(t));
-	};
+
+	slice
+	.exit().transition().delay(duration).duration(0)
+	.remove();
+
+	/* ------- TEXT LABELS -------*/
+
+	var text = svg.select(".labels").selectAll("text")
+	.data(pie(dataList), key);
+
+	text.enter()
+	.append("text")
+	.attr("dy", ".35em")
+	.style("opacity", 0)
+	.text(function(d) {
+		return d.data.composition;
+	})
+	.each(function(d) {
+		this._current = d;
+	});
+	
+	function midAngle(d){
+		return d.startAngle + (d.endAngle - d.startAngle)/2;
+	}
+
+	text.transition().duration(duration)
+	.style("opacity", function(d) {
+		return d.data.value == 0 ? 0 : 1;
+	})
+	.attrTween("transform", function(d) {
+		var interpolate = d3.interpolate(this._current, d);
+		var _this = this;
+		return function(t) {
+			var d2 = interpolate(t);
+			_this._current = d2;
+			var pos = outerArc.centroid(d2);
+			pos[0] = radius * (midAngle(d2) < Math.PI ? 1 : -1);
+			return "translate("+ pos +")";
+		};
+	})
+	.styleTween("text-anchor", function(d){
+		var interpolate = d3.interpolate(this._current, d);
+		return function(t) {
+			var d2 = interpolate(t);
+			return midAngle(d2) < Math.PI ? "start":"end";
+		};
+	});
+
+	text
+	.exit().transition().delay(duration)
+	.remove();
+
+	/* ------- SLICE TO TEXT POLYLINES -------*/
+
+	var polyline = svg.select(".lines").selectAll("polyline")
+	.data(pie(dataList), key);
+	
+	polyline.enter()
+	.append("polyline")
+	.style("opacity", 0)
+	.each(function(d) {
+		this._current = d;
+	});
+	
+	polyline.transition().duration(duration)
+	.style("opacity", function(d) {
+		return d.data.value == 0 ? 0 : .5;
+	})
+	.attrTween("points", function(d){
+		this._current = this._current;
+		var interpolate = d3.interpolate(this._current, d);
+		var _this = this;
+		return function(t) {
+			var d2 = interpolate(t);
+			_this._current = d2;
+			var pos = outerArc.centroid(d2);
+			pos[0] = radius * 0.95 * (midAngle(d2) < Math.PI ? 1 : -1);
+			return [arc.centroid(d2), outerArc.centroid(d2), pos];
+		};			
+	});
+	
+	polyline
+	.exit().transition().delay(duration)
+	.remove();
+
+	var texts = svg.select(".texts").selectAll("text")
+	.data(pie(dataList), key);
+
+	texts.enter()
+		.append("text")
+		.attr("x", 0 )
+		.attr("y", 0 + radius/10 )
+		.attr("class", "text-tooltip")        
+		.style("text-anchor", "middle")
+		.attr("font-weight", "bold")
+		.style("font-size", radius/5.0+"px")
+		.each(function(d) {
+			this._current = d;
+		});
+
+
+	slice.on("mouseover", function(obj){
+		svg.select("text.text-tooltip")
+		.attr("fill", color(obj.data.composition))
+		.text(obj.value + "%");
+	});
+
+	slice.on("mouseout", function(obj){
+		svg.select("text.text-tooltip").text("");
+	});
 }

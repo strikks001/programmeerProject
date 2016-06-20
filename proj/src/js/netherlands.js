@@ -11,14 +11,12 @@ Sanne Strikkers
 
 */
 
-var svgMap = d3.select('svg');
-var div = d3.select("body").append("div").attr("class", "donut-d3-tip");
-
 var year = "2010";
 var product = "electricity";
 
 var dataList = [];
 
+// legend information
 var palletteElec = [];
 var palletteGas = [];
 var colorsElec = ["#F2F2F2", "#f6faf4","#f7fcf5","#e5f5e0","#c7e9c0","#a1d99b","#74c476","#41ab5d","#238b45","#006d2c", "#00441b", "#083a1c"];
@@ -31,22 +29,26 @@ for (var i = 0; i < colorsElec.length; i++) {
 for (var i = 0; i < colorsGas.length; i++) {
 	palletteGas.push({"name": namesGas[i], "color": colorsGas[i]})
 }
+// setting up the first view
 makeLegend(palletteElec);
+mapUpdate("data/netherlands/electricity/netherlands_elek_2010.json");
+
 // when selecting another variable, the map will be updated
 d3.selectAll("select")
 .on("change", function () {
 	year = d3.select(this).property('value');
 	choiceUpdate();
 });
-
 d3.selectAll(".radio-product")
 .on("click", function () {
 	product = d3.select(this).attr("value");
 	choiceUpdate();
 });
 
-mapUpdate("data/netherlands/electricity/netherlands_elek_2010.json");
-
+/*
+	When selecting an option then change it.
+	Also the legend will update.
+*/
 function choiceUpdate() {
 	if (product == "electricity") {
 		if (year == "2010") {
@@ -75,10 +77,18 @@ function choiceUpdate() {
 	}
 }
 
+/*
+	Changes the title for the map
+	text; text to be shown on the map.
+*/
 function titleChange(text) {
 	d3.select("#title-change").html(text);
 }
 
+/*
+	Updates the map when clicked a variable.
+	file; load the right file with the selected year.
+*/
 function mapUpdate(file) {
 	dataList.length = 0;
 	// get data from json file and update the map with these values
@@ -96,34 +106,34 @@ function mapUpdate(file) {
 	});
 }
 
+/*
+	Fills the map with colors.
+	Shows the tooltips at the communities.
+	data; data to be shown in the map and tooltips
+*/
 function setMap(data) {
+	var svgMap = d3.select('svg');
+	var div = d3.select("body").append("div").attr("class", "donut-d3-tip");
+	
+	// fill the communities in the netherlands
 	var path = svgMap.selectAll("path")
-		.data(data, function(d) {return (d && d.code) || d3.select(this).attr("id"); })
-		.attr('fill', function(d){return d.color;});
-
-	if (product == "electricity") {
-		// tooltip when hovering the bars
-		path
-		.on("mousemove", function(d){
-			div.style("left", d3.event.pageX+10+"px");
-			div.style("top", d3.event.pageY-25+"px");
-			div.style("display", "inline-block");
+	.data(data, function(d) {return (d && d.code) || d3.select(this).attr("id"); })
+	.attr('fill', function(d){return d.color;});
+	
+	// tooltip when hovering the bars
+	path
+	.on("mousemove", function(d){
+		div.style("left", d3.event.pageX+10+"px");
+		div.style("top", d3.event.pageY-25+"px");
+		div.style("display", "inline-block");
+		// if the product is electricity then show kWh otherwise m3
+		if (product == "electricity") {
 			div.html("<strong>" + d.community + "</strong><br>SJV: " + d.sjv + " kWh");
-		})
-		.on("mouseout", function(d){
-			div.style("display", "none");
-		});
-	} else {
-		// tooltip when hovering the bars
-		path
-		.on("mousemove", function(d){
-			div.style("left", d3.event.pageX+10+"px");
-			div.style("top", d3.event.pageY-25+"px");
-			div.style("display", "inline-block");
+		} else {
 			div.html("<strong>" + d.community + "</strong><br>SJV: " + d.sjv + " m3");
-		})
-		.on("mouseout", function(d){
-			div.style("display", "none");
-		});
-	}
+		}
+	})
+	.on("mouseout", function(d){
+		div.style("display", "none");
+	});
 }

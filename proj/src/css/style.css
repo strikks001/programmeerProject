@@ -327,35 +327,28 @@ footer p {
   Donut Chart
   --------------------*/
 
-  .arc text {
-    font: 10px sans-serif;
-    text-anchor: middle;
-  }
 
-  .arc path {
-    stroke: #fff;
-  }
+.donut-svg {
+  width: 650px;
+  height: 500px;
+  margin-top: 90px;
+}
 
-  .donut-part {
-    margin-top: 70px;
-  }
+path.slice{
+  stroke-width:2px;
+}
 
-  .donut-d3-tip {
-    position: absolute;
-    display: none;
-    width: auto;
-    height: auto;
-    line-height: 1;
-    padding: 12px;
-    background: #F5F5F5;
-    border-radius: 2px;
-    text-align: center;
-  }
+polyline{
+  opacity: .3;
+  stroke: grey;
+  stroke-width: 1px;
+  fill: none;
+}
 
-  .sup-select {
-    margin-top: -80px;
-    margin-bottom: -80px;
-  }
+text{
+  font-family: "Raleway", Sans-serif;
+}
+
 
 /*--------------------
   Bubble Chart
