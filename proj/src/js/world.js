@@ -12,6 +12,16 @@ Sanne Strikkers
 */
 
 var data = [];
+
+// legend information
+var pallette = [];
+var colors = ["#F2F2F2","#fff5eb","#fee6ce","#fdd0a2","#fdae6b","#fd8d3c","#f16913","#d94801","#a63603","#7f2704"];
+var names = ["geen data", "< 1.000", "1.000 - 2.500", "2.500 - 4.000", "4.000 - 5.500", "5.500 - 7.000", "7.000 - 8.500", "8.500 - 10.000", "10.000 - 20.00", "20.000 >"];
+for (var i = 0; i < colors.length; i++) {
+	pallette.push({"name": names[i], "color": colors[i]});
+}
+makeLegend(pallette);
+
 // load files into a queue for recieving data
 queue()
 .defer(d3.json, 'data/world/sjv_world_2000.json')
@@ -61,12 +71,16 @@ var map = new Datamap({
 	done: function (datamap) {
 		datamap.svg.selectAll('.datamaps-subunit').on('click', function (geography) {
 			code = geography.id;
+			// empty the barchart
 			d3.select("#bar-chart")
-			.html("");
-
+				.html("");
+			// set the barchart
 			setBarchart(code, "#bar-chart");
+			// animate to the barchart
 			$("html, body").animate({scrollTop: $('#energy-bar').offset().top }, 1000);
-			d3.select("#bar-chart").style("display", "block");
+			// show the barchart
+			d3.select("#bar-chart")
+				.style("display", "block");
 		});
 	}
 });
@@ -119,7 +133,7 @@ function setBarchart(code, position){
 	// check if there is some data in the list
 	if(barData.length < 1) {
 		d3.select("#bar-chart-title")
-		.html("Sorry.<br><br> Er is geen informatie beschikbaar voor dit land.");
+			.html("Sorry.<br><br> Er is geen informatie beschikbaar voor dit land.");
 	// and create a barchart
 	} else {
 		createBarchart(barData, position);
@@ -144,77 +158,80 @@ function createBarchart(data, position) {
 
 	// setting up the height and width of the chart
 	var margin = {top: 20, right: 20, bottom: 30, left: 60},
-	width = 400 - margin.left - margin.right,
-	height = 300 - margin.top - margin.bottom;
+	width = 500 - margin.left - margin.right,
+	height = 400 - margin.top - margin.bottom;
 
 	// x-axis
 	var x = d3.scale.ordinal()
-	.rangeRoundBands([0, width], .75);
+		.rangeRoundBands([0, width], .75);
 	var xAxis = d3.svg.axis()
-	.scale(x)
-	.orient("bottom");
+		.scale(x)
+		.orient("bottom");
 
 	// y-axis
 	var y = d3.scale.linear()
-	.range([height, 0]);
+		.range([height, 0]);
 	var yAxis = d3.svg.axis()
-	.scale(y)
-	.orient("left")
-	.ticks(7);
+		.scale(y)
+		.orient("left")
+		.ticks(15);
 
 	x.domain(data.map(function(d) { return d.year;}));
-	y.domain([0, d3.max(data, function(d) { return d.value; })]);
+	y.domain([0, 25000]);
 
 	// tooltip when hovering the bars
 	var tip = d3.tip()
-	.attr('class', 'd3-tip')
-	.offset([-10, 0])
-	.html(function(d) {
-		return "<strong>" + d.value + "</strong> kWh";
-	});
+		.attr('class', 'd3-tip')
+		.offset([-10, 0])
+		.html(function(d) {
+			return "<strong>" + d.value + "</strong> kWh";
+		});
 
 	// initialze the part for the chart
 	var svg = d3.select(position)
-	.append("svg")
-	.attr("width", width + margin.left + margin.right)
-	.attr("height", height + margin.top + margin.bottom)
-	.append("g")
-	.attr("class", "text-center ")
-	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		.append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+		.append("g")
+			.attr("class", "text-center ")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	// set x-axis
 	svg.append("g")
-	.attr("class", "x axis")
-	.attr("transform", "translate(0," + height + ")")
-	.call(xAxis);
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + height + ")")
+		.call(xAxis);
 
 	// set y-axis
 	svg.append("g")
-	.attr("class", "y axis")
-	.call(yAxis)
-	.append("text")
-	.attr("transform", "rotate(-90)")
-	.attr("y", 6)
-	.attr("dy", ".71em")
-	.style("text-anchor", "end")
-	.text("Stroom (per kWh)");
+		.attr("class", "y axis")
+		.call(yAxis)
+		.append("text")
+			.attr("transform", "rotate(-90)")
+			.attr("y", 6)
+			.attr("dy", ".71em")
+			.style("text-anchor", "end")
+			.text("Stroom (per kWh)");
 
 	// add bars
 	svg.selectAll(".bar")
-	.data(data)
-	.enter().append("rect")
-	.attr("class", "bar")
-	.attr("x", function(d) { return x(d.year); })
-	.attr("width", x.rangeBand())
-	.attr("y", function(d) { return y(d.value); })
-	.attr("height", function(d) { return height - y(d.value); })
-	.on('mouseover', tip.show)
-	.on('mouseout', tip.hide);
+		.data(data)
+		.enter().append("rect")
+			.attr("class", "bar")
+			.attr("x", function(d) { return x(d.year); })
+			.attr("width", x.rangeBand())
+			.attr("y", function(d) { return y(d.value); })
+			.attr("height", function(d) { return height - y(d.value); })
+			.on('mouseover', tip.show)
+			.on('mouseout', tip.hide);
 
 	// add tooltip to the chart
 	svg.call(tip);
 }
 
+/*
+	Finds the property of a key
+*/
 function findProp(obj, prop, defval){
 	if (typeof defval == 'undefined') defval = null;
 	prop = prop.split('.');

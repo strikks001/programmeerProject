@@ -3,7 +3,7 @@
         "AUT": {
             "country": "Austria", 
             "year": "2014", 
-            "data": "4653", 
+            "data": 4653, 
             "fillKey": "mid"
         }
     }, 
@@ -11,7 +11,7 @@
         "BEL": {
             "country": "Belgium", 
             "year": "2014", 
-            "data": "3872", 
+            "data": 3872, 
             "fillKey": "low3"
         }
     }, 
@@ -19,7 +19,7 @@
         "BGR": {
             "country": "Bulgaria", 
             "year": "2014", 
-            "data": "3321", 
+            "data": 3321, 
             "fillKey": "low3"
         }
     }, 
@@ -27,7 +27,7 @@
         "CYP": {
             "country": "Cyprus", 
             "year": "2014", 
-            "data": "4438", 
+            "data": 4438, 
             "fillKey": "mid"
         }
     }, 
@@ -35,7 +35,7 @@
         "CZE": {
             "country": "Czech Rep.", 
             "year": "2014", 
-            "data": "3064", 
+            "data": 3064, 
             "fillKey": "low3"
         }
     }, 
@@ -43,7 +43,7 @@
         "DNK": {
             "country": "Denmark", 
             "year": "2014", 
-            "data": "3878", 
+            "data": 3878, 
             "fillKey": "low3"
         }
     }, 
@@ -51,7 +51,7 @@
         "EST": {
             "country": "Estonia", 
             "year": "2014", 
-            "data": "2957", 
+            "data": 2957, 
             "fillKey": "low3"
         }
     }, 
@@ -59,7 +59,7 @@
         "FIN": {
             "country": "Finland", 
             "year": "2014", 
-            "data": "8041", 
+            "data": 8041, 
             "fillKey": "mid3"
         }
     }, 
@@ -67,7 +67,7 @@
         "FRA": {
             "country": "France", 
             "year": "2014", 
-            "data": "5036", 
+            "data": 5036, 
             "fillKey": "mid"
         }
     }, 
@@ -75,7 +75,7 @@
         "DEU": {
             "country": "Germany", 
             "year": "2014", 
-            "data": "3079", 
+            "data": 3079, 
             "fillKey": "low3"
         }
     }, 
@@ -83,7 +83,7 @@
         "GRC": {
             "country": "Greece", 
             "year": "2014", 
-            "data": "3758", 
+            "data": 3758, 
             "fillKey": "low3"
         }
     }, 
@@ -91,7 +91,7 @@
         "HUN": {
             "country": "Hungary", 
             "year": "2014", 
-            "data": "2717", 
+            "data": 2717, 
             "fillKey": "low3"
         }
     }, 
@@ -99,7 +99,7 @@
         "IRL": {
             "country": "Ireland", 
             "year": "2014", 
-            "data": "4723", 
+            "data": 4723, 
             "fillKey": "mid"
         }
     }, 
@@ -107,7 +107,7 @@
         "ITA": {
             "country": "Italy", 
             "year": "2014", 
-            "data": "2432", 
+            "data": 2432, 
             "fillKey": "low2"
         }
     }, 
@@ -115,7 +115,7 @@
         "LVA": {
             "country": "Latvia", 
             "year": "2014", 
-            "data": "2243", 
+            "data": 2243, 
             "fillKey": "low2"
         }
     }, 
@@ -123,7 +123,7 @@
         "LTU": {
             "country": "Lithuania", 
             "year": "2014", 
-            "data": "1999", 
+            "data": 1999, 
             "fillKey": "low2"
         }
     }, 
@@ -131,7 +131,7 @@
         "LUX": {
             "country": "Luxembourg", 
             "year": "2014", 
-            "data": "3795", 
+            "data": 3795, 
             "fillKey": "low3"
         }
     }, 
@@ -139,7 +139,7 @@
         "NLD": {
             "country": "Netherlands", 
             "year": "2014", 
-            "data": "3291", 
+            "data": 3291, 
             "fillKey": "low3"
         }
     }, 
@@ -147,7 +147,7 @@
         "NOR": {
             "country": "Norway", 
             "year": "2014", 
-            "data": "15324", 
+            "data": 15324, 
             "fillKey": "high2"
         }
     }, 
@@ -155,7 +155,7 @@
         "POL": {
             "country": "Poland", 
             "year": "2014", 
-            "data": "1897", 
+            "data": 1897, 
             "fillKey": "low2"
         }
     }, 
@@ -163,7 +163,7 @@
         "PRT": {
             "country": "Portugal", 
             "year": "2014", 
-            "data": "3545", 
+            "data": 3545, 
             "fillKey": "low3"
         }
     }, 
@@ -171,7 +171,7 @@
         "ROU": {
             "country": "Romania", 
             "year": "2014", 
-            "data": "1674", 
+            "data": 1674, 
             "fillKey": "low2"
         }
     }, 
@@ -179,7 +179,7 @@
         "SVK": {
             "country": "Slovakia", 
             "year": "2014", 
-            "data": "2724", 
+            "data": 2724, 
             "fillKey": "low3"
         }
     }, 
@@ -187,7 +187,7 @@
         "SVN": {
             "country": "Slovenia", 
             "year": "2014", 
-            "data": "3883", 
+            "data": 3883, 
             "fillKey": "low3"
         }
     }, 
@@ -195,7 +195,7 @@
         "ESP": {
             "country": "Spain", 
             "year": "2014", 
-            "data": "3944", 
+            "data": 3944, 
             "fillKey": "low3"
         }
     }, 
@@ -203,7 +203,7 @@
         "SWE": {
             "country": "Sweden", 
             "year": "2014", 
-            "data": "7752", 
+            "data": 7752, 
             "fillKey": "mid3"
         }
     }, 
@@ -211,7 +211,7 @@
         "GBR": {
             "country": "United Kingdom", 
             "year": "2014", 
-            "data": "3941", 
+            "data": 3941, 
             "fillKey": "low3"
         }
     }, 
@@ -219,7 +219,7 @@
         "ALB": {
             "country": "Albania", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -227,7 +227,7 @@
         "HRV": {
             "country": "Croatia", 
             "year": "2014", 
-            "data": "3544", 
+            "data": 3544, 
             "fillKey": "low3"
         }
     }, 
@@ -235,7 +235,7 @@
         "ISL": {
             "country": "Iceland", 
             "year": "2014", 
-            "data": "6593", 
+            "data": 6593, 
             "fillKey": "mid2"
         }
     }, 
@@ -243,7 +243,7 @@
         "MKD": {
             "country": "Macedonia", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -251,7 +251,7 @@
         "CHE": {
             "country": "Switzerland", 
             "year": "2014", 
-            "data": "4973", 
+            "data": 4973, 
             "fillKey": "mid"
         }
     }, 
@@ -259,7 +259,7 @@
         "TUR": {
             "country": "Turkey", 
             "year": "2014", 
-            "data": "2339", 
+            "data": 2339, 
             "fillKey": "low2"
         }
     }, 
@@ -267,7 +267,7 @@
         "KAZ": {
             "country": "Kazakhstan", 
             "year": "2014", 
-            "data": "2193", 
+            "data": 2193, 
             "fillKey": "low2"
         }
     }, 
@@ -275,7 +275,7 @@
         "RUS": {
             "country": "Russia", 
             "year": "2014", 
-            "data": "2496", 
+            "data": 2496, 
             "fillKey": "low2"
         }
     }, 
@@ -283,7 +283,7 @@
         "UKR": {
             "country": "Ukraine", 
             "year": "2014", 
-            "data": "2150", 
+            "data": 2150, 
             "fillKey": "low2"
         }
     }, 
@@ -291,7 +291,7 @@
         "CAN": {
             "country": "Canada", 
             "year": "2014", 
-            "data": "11135", 
+            "data": 11135, 
             "fillKey": "high2"
         }
     }, 
@@ -299,7 +299,7 @@
         "USA": {
             "country": "United States", 
             "year": "2014", 
-            "data": "12305", 
+            "data": 12305, 
             "fillKey": "high2"
         }
     }, 
@@ -307,7 +307,7 @@
         "ARG": {
             "country": "Argentina", 
             "year": "2014", 
-            "data": "3787", 
+            "data": 3787, 
             "fillKey": "low3"
         }
     }, 
@@ -315,7 +315,7 @@
         "BOL": {
             "country": "Bolivia", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -323,7 +323,7 @@
         "BRA": {
             "country": "Brazil", 
             "year": "2014", 
-            "data": "2056", 
+            "data": 2056, 
             "fillKey": "low2"
         }
     }, 
@@ -331,7 +331,7 @@
         "CHL": {
             "country": "Chile", 
             "year": "2014", 
-            "data": "2333", 
+            "data": 2333, 
             "fillKey": "low2"
         }
     }, 
@@ -339,7 +339,7 @@
         "COL": {
             "country": "Colombia", 
             "year": "2014", 
-            "data": "1719", 
+            "data": 1719, 
             "fillKey": "low2"
         }
     }, 
@@ -347,7 +347,7 @@
         "MEX": {
             "country": "Mexico", 
             "year": "2014", 
-            "data": "1652", 
+            "data": 1652, 
             "fillKey": "low2"
         }
     }, 
@@ -355,7 +355,7 @@
         "PRY": {
             "country": "Paraguay", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -363,7 +363,7 @@
         "PER": {
             "country": "Peru", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -371,7 +371,7 @@
         "URY": {
             "country": "Uruguay", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -379,7 +379,7 @@
         "CHN": {
             "country": "China", 
             "year": "2014", 
-            "data": "1591", 
+            "data": 1591, 
             "fillKey": "low2"
         }
     }, 
@@ -387,7 +387,7 @@
         "HKG": {
             "country": "Hong-Kong", 
             "year": "2014", 
-            "data": "4829", 
+            "data": 4829, 
             "fillKey": "mid"
         }
     }, 
@@ -395,7 +395,7 @@
         "IND": {
             "country": "India", 
             "year": "2014", 
-            "data": "1165", 
+            "data": 1165, 
             "fillKey": "low2"
         }
     }, 
@@ -403,7 +403,7 @@
         "IDN": {
             "country": "Indonesia", 
             "year": "2014", 
-            "data": "1332", 
+            "data": 1332, 
             "fillKey": "low2"
         }
     }, 
@@ -411,7 +411,7 @@
         "JPN": {
             "country": "Japan", 
             "year": "2014", 
-            "data": "5275", 
+            "data": 5275, 
             "fillKey": "mid"
         }
     }, 
@@ -419,7 +419,7 @@
         "NPL": {
             "country": "Nepal", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -427,7 +427,7 @@
         "PAK": {
             "country": "Pakistan", 
             "year": "2014", 
-            "data": "2137", 
+            "data": 2137, 
             "fillKey": "low2"
         }
     }, 
@@ -435,7 +435,7 @@
         "PHL": {
             "country": "Philippines", 
             "year": "2014", 
-            "data": "1125", 
+            "data": 1125, 
             "fillKey": "low2"
         }
     }, 
@@ -443,7 +443,7 @@
         "PRK": {
             "country": "South Korea", 
             "year": "2014", 
-            "data": "3307", 
+            "data": 3307, 
             "fillKey": "low3"
         }
     }, 
@@ -451,7 +451,7 @@
         "TWN": {
             "country": "Taiwan", 
             "year": "2014", 
-            "data": "6959", 
+            "data": 6959, 
             "fillKey": "mid2"
         }
     }, 
@@ -459,7 +459,7 @@
         "THA": {
             "country": "Thailand", 
             "year": "2014", 
-            "data": "2420", 
+            "data": 2420, 
             "fillKey": "low2"
         }
     }, 
@@ -467,7 +467,7 @@
         "AUS": {
             "country": "Australia", 
             "year": "2014", 
-            "data": "6964", 
+            "data": 6964, 
             "fillKey": "mid2"
         }
     }, 
@@ -475,7 +475,7 @@
         "NZL": {
             "country": "New Zealand", 
             "year": "2014", 
-            "data": "7545", 
+            "data": 7545, 
             "fillKey": "mid3"
         }
     }, 
@@ -483,7 +483,7 @@
         "DZA": {
             "country": "Algeria", 
             "year": "2014", 
-            "data": "2745", 
+            "data": 2745, 
             "fillKey": "low3"
         }
     }, 
@@ -491,7 +491,7 @@
         "EGY": {
             "country": "Egypt", 
             "year": "2014", 
-            "data": "3056", 
+            "data": 3056, 
             "fillKey": "low3"
         }
     }, 
@@ -499,7 +499,7 @@
         "MAR": {
             "country": "Morocco", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -507,7 +507,7 @@
         "TUN": {
             "country": "Tunisia", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -515,7 +515,7 @@
         "CMR": {
             "country": "Cameroon", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -523,7 +523,7 @@
         "COD": {
             "country": "Congo DR", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -531,7 +531,7 @@
         "CIV": {
             "country": "Ivory Coast", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -539,7 +539,7 @@
         "ETH": {
             "country": "Ethiopia", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -547,7 +547,7 @@
         "GAB": {
             "country": "Gabon", 
             "year": "2014", 
-            "data": "3049", 
+            "data": 3049, 
             "fillKey": "low3"
         }
     }, 
@@ -555,7 +555,7 @@
         "GHA": {
             "country": "Ghana", 
             "year": "2014", 
-            "data": "744", 
+            "data": 744, 
             "fillKey": "low"
         }
     }, 
@@ -563,7 +563,7 @@
         "KEN": {
             "country": "Kenya", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -571,7 +571,7 @@
         "NER": {
             "country": "Niger", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -579,7 +579,7 @@
         "NGA": {
             "country": "Nigeria", 
             "year": "2014", 
-            "data": "589", 
+            "data": 589, 
             "fillKey": "low"
         }
     }, 
@@ -587,7 +587,7 @@
         "SEN": {
             "country": "Senegal", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -595,7 +595,7 @@
         "TCD": {
             "country": "Chad", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -603,7 +603,7 @@
         "ZAF": {
             "country": "South Africa", 
             "year": "2014", 
-            "data": "3254", 
+            "data": 3254, 
             "fillKey": "low3"
         }
     }, 
@@ -611,7 +611,7 @@
         "SWZ": {
             "country": "Swaziland", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -619,7 +619,7 @@
         "TZA": {
             "country": "Tanzania", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -627,7 +627,7 @@
         "IRN": {
             "country": "Iran", 
             "year": "2014", 
-            "data": "3041", 
+            "data": 3041, 
             "fillKey": "low3"
         }
     }, 
@@ -635,7 +635,7 @@
         "ISR": {
             "country": "Israel", 
             "year": "2014", 
-            "data": "6481", 
+            "data": 6481, 
             "fillKey": "mid2"
         }
     }, 
@@ -643,7 +643,7 @@
         "JOR": {
             "country": "Jordan", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -651,7 +651,7 @@
         "KWT": {
             "country": "Kuwait", 
             "year": "2014", 
-            "data": "37672", 
+            "data": 37672, 
             "fillKey": "high3"
         }
     }, 
@@ -659,7 +659,7 @@
         "QAT": {
             "country": "Qatar", 
             "year": "2014", 
-            "data": "31834", 
+            "data": 31834, 
             "fillKey": "high3"
         }
     }, 
@@ -667,7 +667,7 @@
         "SAU": {
             "country": "Saudi Arabia", 
             "year": "2014", 
-            "data": "23805", 
+            "data": 23805, 
             "fillKey": "high3"
         }
     }, 
@@ -675,7 +675,7 @@
         "SYR": {
             "country": "Syria", 
             "year": "2014", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -683,7 +683,7 @@
         "ARE": {
             "country": "United Arab Emirates", 
             "year": "2014", 
-            "data": "18656", 
+            "data": 18656, 
             "fillKey": "high2"
         }
     }

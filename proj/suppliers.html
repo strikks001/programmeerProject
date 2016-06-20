@@ -30,6 +30,8 @@ Sanne Strikkers
     <link href="src/css/style.css" rel="stylesheet" />
     <!-- latest Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- dropdown styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
 
     <title>Energieleveranciers van Nederland</title>
 </head>
@@ -75,103 +77,58 @@ Sanne Strikkers
 
     <!-- container 17-->
     <div class="container">
-        <div class=" donut-part row">
-            <div class="col-md-3">
+        <div class=" donut-part row text-center">
+        <div class="col-md-3">
                 <div class="list-group">
-                    <a href="#" value="Fenor B.V." class="list-group-item">Fenor B.V.</a>
-                    <a href="#" value="Qurrent Nederland B.V." class="list-group-item">Qurrent Nederland B.V.</a>
-                    <a href="#" value="Huismerk Energie" class="list-group-item">Huismerk Energie</a>
-                    <a href="#" value="Cosperatieve Duurzame Energie Unie U.A. (DE Unie)" class="list-group-item">Duurzame Energie Unie</a>
-                    <a href="#" value="Innova Energie" class="list-group-item">Innova Energie</a>
-                    <a href="#" value="LEON Zeewolde" class="list-group-item">LEON Zeewolde</a>
-                    <a href="#" value="Republiq Community NL B.V. hodn Vandebron" class="list-group-item">Vandebron</a>
-                    <a href="#" value="Cosperatieve vereniging NLD energie U.A." class="list-group-item">Noordelijk Lokaal Duurzaam (NLD)</a>
-                    <a href="#" value="Greenchoice" class="list-group-item">Greenchoice</a>
-                    <a href="#" value="E.ON" class="list-group-item">E.ON</a>
-                    <a href="#" value="Eneco" class="list-group-item ">Eneco</a>
-                    <a href="#" value="Essent" class="list-group-item active">Essent</a>
-                    <a href="#" value="DELTA" class="list-group-item">DELTA</a>
-                    <a href="#" value="UnitedConsumers Energie" class="list-group-item">UnitedConsumers Energie</a>
-                    <a href="#" value="Dong Energy" class="list-group-item">Dong Energy</a>
-                    <a href="#" value="energiedirect.nl" class="list-group-item">energiedirect.nl</a>
+                    <a value="Fenor B.V." class="list-group-item">Fenor B.V.</a>
+                    <a value="Qurrent Nederland B.V." class="list-group-item">Qurrent Nederland B.V.</a>
+                    <a value="Huismerk Energie" class="list-group-item">Huismerk Energie</a>
+                    <a value="Cosperatieve Duurzame Energie Unie U.A. (DE Unie)" class="list-group-item">Duurzame Energie Unie</a>
+                    <a value="Innova Energie" class="list-group-item">Innova Energie</a>
+                    <a value="LEON Zeewolde" class="list-group-item">LEON Zeewolde</a>
+                    <a value="Republiq Community NL B.V. hodn Vandebron" class="list-group-item">Vandebron</a>
+                    <a value="Cosperatieve vereniging NLD energie U.A." class="list-group-item">Noordelijk Lokaal Duurzaam (NLD)</a>
+                    <a value="Greenchoice" class="list-group-item">Greenchoice</a>
+                    <a value="E.ON" class="list-group-item">E.ON</a>
+                    <a value="Eneco" class="list-group-item ">Eneco</a>
+                    <a value="Essent" class="list-group-item active">Essent</a>
+                    <a value="DELTA" class="list-group-item">DELTA</a>
+                    <a value="UnitedConsumers Energie" class="list-group-item">UnitedConsumers Energie</a>
+                    <a value="Dong Energy" class="list-group-item">Dong Energy</a>
+                    <a value="energiedirect.nl" class="list-group-item">energiedirect.nl</a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="#" value="Nuon" class="list-group-item">Nuon</a>
-                    <a href="#" value="Electrabel" class="list-group-item">Electrabel</a>
-                    <a href="#" value="HVC Energie" class="list-group-item">HVC Energie</a>
-                    <a href="#" value="Anode" class="list-group-item">Anode</a>
-                    <a href="#" value="Qwint" class="list-group-item">Qwint</a>
-                    <a href="#" value="Atoomstroom" class="list-group-item ">Atoomstroom</a>
-                    <a href="#" value="BudgetEnergie" class="list-group-item">BudgetEnergie</a>
-                    <a href="#" value="DGB Energie" class="list-group-item">DGB Energie</a>
-                    <a href="#" value="Gazprom Marketing &trading Retail Ltd." class="list-group-item">Gazprom Marketing &trading Retail</a>
-                    <a href="#" value="MAIN Energie" class="list-group-item">MAIN Energie</a>
-                    <a href="#" value="Noordhollandse Energie Cosperatie" class="list-group-item ">Noordhollandse Energie Cooperatie</a>
-                    <a href="#" value="Oxxio" class="list-group-item">Oxxio</a>
-                    <a href="#" value="Robin Energie B.V." class="list-group-item">Robin Energie B.V.</a>
-                    <a href="#" value="SEPA Green Energy BV" class="list-group-item">SEPA Green Energy B.V.</a>
-                    <a href="#" value="WoonEnergie" class="list-group-item">WoonEnergie</a>
-                    <a href="#" value="De Ned. Energie Maatschappij"" class="list-group-item">Nederlandse Energie Maatschappij</a>
+                    <a value="Nuon" class="list-group-item">Nuon</a>
+                    <a value="Electrabel" class="list-group-item">Electrabel</a>
+                    <a value="HVC Energie" class="list-group-item">HVC Energie</a>
+                    <a value="Anode" class="list-group-item">Anode</a>
+                    <a value="Qwint" class="list-group-item">Qwint</a>
+                    <a value="Atoomstroom" class="list-group-item ">Atoomstroom</a>
+                    <a value="BudgetEnergie" class="list-group-item">BudgetEnergie</a>
+                    <a value="DGB Energie" class="list-group-item">DGB Energie</a>
+                    <a value="Gazprom Marketing &trading Retail Ltd." class="list-group-item">Gazprom Marketing &trading Retail</a>
+                    <a value="MAIN Energie" class="list-group-item">MAIN Energie</a>
+                    <a value="Noordhollandse Energie Cosperatie" class="list-group-item ">Noordhollandse Energie Cooperatie</a>
+                    <a value="Oxxio" class="list-group-item">Oxxio</a>
+                    <a value="Robin Energie B.V." class="list-group-item">Robin Energie B.V.</a>
+                    <a value="SEPA Green Energy BV" class="list-group-item">SEPA Green Energy B.V.</a>
+                    <a value="WoonEnergie" class="list-group-item">WoonEnergie</a>
+                    <a value="De Ned. Energie Maatschappij"" class="list-group-item">Nederlandse Energie Maatschappij</a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="donut-chart"></div>
+                             <div class="row row-0-gutter center-block legend">
+               <!-- legend content -->
+               <div class="black-legend text-center"></div>
+                <!-- ./legend content -->
+            </div>
             </div>
         </div>
         <!-- explanation text -->
         <section id="about" class="mz-module">
-            <div class="row row-0-gutter center-block legend">
-                <div class="col-md-2 col-0-gutter mz-about-default text-center">
-                    <div class="mz-module-about-legend">
-                        <div class="full-circle legend-color center-block" style="background-color: #d73027"></div>
-                        <p class="legend-text">Kolen</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-0-gutter mz-about-default text-center">
-                    <div class="mz-module-about-legend">
-                        <div class="full-circle legend-color center-block" style="background-color: #f46d43"></div>
-                        <p class="legend-text">Kern</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-0-gutter mz-about-default text-center">
-                    <div class="mz-module-about-legend">
-                        <div class="full-circle legend-color center-block" style="background-color: #fdae61"></div>
-                        <p class="legend-text">Aardgas</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-0-gutter mz-about-default text-center">
-                    <div class="mz-module-about-legend">
-                        <div class="full-circle legend-color center-block" style="background-color: #fee08b"></div>
-                        <p class="legend-text">Zon</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-0-gutter mz-about-default text-center">
-                    <div class="mz-module-about-legend">
-                        <div class="full-circle legend-color center-block" style="background-color: #ffffbf"></div>
-                        <p class="legend-text">Wind</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-0-gutter mz-about-default text-center">
-                    <div class="mz-module-about-legend">
-                        <div class="full-circle legend-color center-block" style="background-color: #d9ef8b"></div>
-                        <p class="legend-text">Water</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-0-gutter mz-about-default text-center">
-                    <div class="mz-module-about-legend">
-                        <div class="full-circle legend-color center-block" style="background-color: #66bd63"></div>
-                        <p class="legend-text">Biomassa</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-0-gutter mz-about-default text-center">
-                    <div class="mz-module-about-legend">
-                        <div class="full-circle legend-color center-block" style="background-color: #1a9850"></div>
-                        <p class="legend-text">Overig</p>
-                    </div>
-                </div>
-            </div>
 
             <!-- explanation -->
             <div class="light-bg">
@@ -231,6 +188,8 @@ Sanne Strikkers
                 <script src="src/js/suppliers.js"></script>
                 <!-- latest Bootstrap compiled and minified JavaScript -->
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+                <!-- dropdown JavaScript -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
 </body>
 
 </html>

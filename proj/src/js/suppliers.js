@@ -11,18 +11,26 @@ Sanne Strikkers
 
 */
 var dataList = [];
+var pallette = [];
+var names = ["Kolen", "Kern", "Aardgas","zon","wind","water","biomassa","overig groen", "overig Grijs"];
+var colors = ["#d73027", "#f46d43" , "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850" ];
+
+for (var i = 0; i < colors.length; i++) {
+	pallette.push({"name": names[i], "color": colors[i]});
+}
+makeLegend(pallette);
 
 // measurements for the donut chart
-var width = 600,
-height = 600,
+var width = 520,
+height = 520,
 min = Math.min(width, height),
 oRadius = min / 2 * 0.65,
 iRadius = min / 2 * 0.85;
 
 // general colors 
 var color = d3.scale.ordinal()
-.domain(["aardgas", "kolen", "kern","zon","wind","water","biomassa","overig"])
-.range(["#d73027", "#f46d43" , "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850" ]);
+.domain(names)
+.range(colors);
 
 // the thickness of the donut
 var arc = d3.svg.arc()
@@ -33,6 +41,11 @@ var arc = d3.svg.arc()
 var svg = d3.select(".donut-chart").append("svg")
 .attr("width", width)
 .attr("height", height);
+
+svg.append("g")
+	.attr("class", "labels");
+svg.append("g")
+	.attr("class", "lines");
 
 // setting up the pie layout for the donut
 var pie = d3.layout.pie();
@@ -51,12 +64,11 @@ createData("Essent");
 // select a company to show the donut chart
 d3.selectAll(".list-group-item")
 .on("click", function () {
-	// set selected button active and remove the previous active one
 	d3.select(".active").attr("class", "list-group-item");
-	d3.select(this).attr("class", "list-group-item active")
-
+	d3.select(this).attr("class", "list-group-item active");
 	// show the donut chart with some created data of the selected company
 	var value = d3.select(this).attr("value");
+	console.log(value);
 	createData(value);
 });
 
@@ -80,6 +92,7 @@ function createData(value) {
 				dataList.push({"composition": d.composition, "value": parseFloat(d.score)});
 			}
 		});
+
 		makeDonut(dataList);
 	});
 }
@@ -105,6 +118,7 @@ function makeDonut(dataList) {
 			.attr("d", arc)
 			.attr("fill", function(d, i){return color(i); })
 			.each(function(d){ this._current = d; });
+
 
 	// add transition to new paths
 	g.datum(dataList).selectAll("path").data(pie).transition().duration(600).attrTween("d", arcTween);

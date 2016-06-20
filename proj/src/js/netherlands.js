@@ -19,6 +19,19 @@ var product = "electricity";
 
 var dataList = [];
 
+var palletteElec = [];
+var palletteGas = [];
+var colorsElec = ["#F2F2F2", "#f6faf4","#f7fcf5","#e5f5e0","#c7e9c0","#a1d99b","#74c476","#41ab5d","#238b45","#006d2c", "#00441b", "#083a1c"];
+var colorsGas = ["#F2F2F2", "#fff5eb", "#fee6ce", "#fdd0a2", "#fdae6b", "#fd8d3c", "#f16913", "#d94801", "#a63603", "#7f2704", "#3f1302"];
+var namesElec = ["Geen data", "< 400", "400 - 800", "800 - 1.200", "1.200 - 1.600", "1.600 - 2.000", "2.000 - 2.400", "2.400 - 2.800", "2.800 - 3.200", "3.200 - 3.600", "3.600 - 4.000", "4.000 >"];
+var namesGas = ["Geen data", "< 250", "250 - 500", "500 - 750", "750 - 1.000", "1.000 - 1.250", "1.250 - 1.500", "1.500 - 1.750", "1.750 - 2.000", "2.000 - 2.250", "2.250 >"];
+for (var i = 0; i < colorsElec.length; i++) {
+	palletteElec.push({"name": namesElec[i], "color": colorsElec[i]})
+}
+for (var i = 0; i < colorsGas.length; i++) {
+	palletteGas.push({"name": namesGas[i], "color": colorsGas[i]})
+}
+makeLegend(palletteElec);
 // when selecting another variable, the map will be updated
 d3.selectAll("select")
 .on("change", function () {
@@ -38,25 +51,27 @@ function choiceUpdate() {
 	if (product == "electricity") {
 		if (year == "2010") {
 			mapUpdate("data/netherlands/electricity/netherlands_elek_2010.json");
-			titleChange("Gemiddeld stroom verbruik in 2010");
+			titleChange("Gemiddeld stroomverbruik per huishouden in 2010");
 		} else if (year == "2012") {
 			mapUpdate("data/netherlands/electricity/netherlands_elek_2012.json");
-			titleChange("Gemiddeld stroom verbruik in 2012");
+			titleChange("Gemiddeld stroomverbruik per huishouden in 2012");
 		} else {
 			mapUpdate("data/netherlands/electricity/netherlands_elek_2014.json");
-			titleChange("Gemiddeld stroom verbruik in 2014");
+			titleChange("Gemiddeld stroomverbruik per huishouden in 2014");
 		}
+		makeLegend(palletteElec);
 	} else {
 		if (year == "2010") {
 			mapUpdate("data/netherlands/gas/netherlands_gas_2010.json");
-			titleChange("Gemiddeld gas verbruik in 2010");
+			titleChange("Gemiddeld gasverbruik per huishouden in 2010");
 		} else if (year == "2012") {
 			mapUpdate("data/netherlands/gas/netherlands_gas_2012.json");
-			titleChange("Gemiddeld gas verbruik in 2012");
+			titleChange("Gemiddeld gasverbruik per huishouden in 2012");
 		} else {
 			mapUpdate("data/netherlands/gas/netherlands_gas_2014.json");
-			titleChange("Gemiddeld gas verbruik in 2014");
+			titleChange("Gemiddeld gasverbruik per huishouden in 2014");
 		}
+		makeLegend(palletteGas);
 	}
 }
 
@@ -83,7 +98,7 @@ function mapUpdate(file) {
 
 function setMap(data) {
 	var path = svgMap.selectAll("path")
-		.data(data, function(d) { return (d && d.code) || d3.select(this).attr("id"); })
+		.data(data, function(d) {return (d && d.code) || d3.select(this).attr("id"); })
 		.attr('fill', function(d){return d.color;});
 
 	if (product == "electricity") {
@@ -112,4 +127,3 @@ function setMap(data) {
 		});
 	}
 }
-

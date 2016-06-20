@@ -1,2640 +1,2640 @@
 [
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1680", 
         "sjv": 3700, 
         "community": "Aa en Hunze"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0738", 
         "sjv": 4200, 
         "community": "Aalburg"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0358", 
         "sjv": 3700, 
         "community": "Aalsmeer"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0197", 
         "sjv": 3500, 
         "community": "Aalten"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0305", 
         "sjv": 3950, 
         "community": "Abcoude"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0059", 
         "sjv": 3150, 
         "community": "Achtkarspelen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0482", 
         "sjv": 3200, 
         "community": "Alblasserdam"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0613", 
         "sjv": 3650, 
         "community": "Albrandswaard"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0361", 
         "sjv": 3000, 
         "community": "Alkmaar"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0141", 
         "sjv": 3350, 
         "community": "Almelo"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0034", 
         "sjv": 3600, 
         "community": "Almere"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0484", 
         "sjv": 3300, 
         "community": "Alphen aan den Rijn"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1723", 
         "sjv": 4200, 
         "community": "Alphen-Chaam"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0060", 
         "sjv": 3400, 
         "community": "Ameland"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0307", 
         "sjv": 3200, 
         "community": "Amersfoort"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0362", 
         "sjv": 3100, 
         "community": "Amstelveen"
     }, 
     {
-        "color": "#fd8d3c", 
+        "color": "#74c476", 
         "code": "GM0363", 
         "sjv": 2350, 
         "community": "Amsterdam"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0364", 
         "sjv": 3750, 
         "community": "Andijk"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0366", 
         "sjv": 3800, 
         "community": "Anna Paulowna"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0200", 
         "sjv": 3350, 
         "community": "Apeldoorn"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0003", 
         "sjv": 3000, 
         "community": "Appingedam"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0202", 
         "sjv": 2850, 
         "community": "Arnhem"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0106", 
         "sjv": 3150, 
         "community": "Assen"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0743", 
         "sjv": 4050, 
         "community": "Asten"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0744", 
         "sjv": 4000, 
         "community": "Baarle-Nassau"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0308", 
         "sjv": 3450, 
         "community": "Baarn"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0489", 
         "sjv": 3650, 
         "community": "Barendrecht"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0203", 
         "sjv": 3850, 
         "community": "Barneveld"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0005", 
         "sjv": 3300, 
         "community": "Bedum"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0888", 
         "sjv": 3750, 
         "community": "Beek (L.)"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0370", 
         "sjv": 3800, 
         "community": "Beemster"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0889", 
         "sjv": 3850, 
         "community": "Beesel"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0007", 
         "sjv": 3650, 
         "community": "Bellingwedde"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0491", 
         "sjv": 3650, 
         "community": "Bergambacht"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1724", 
         "sjv": 4100, 
         "community": "Bergeijk"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0893", 
         "sjv": 4150, 
         "community": "Bergen (L.)"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0373", 
         "sjv": 3450, 
         "community": "Bergen (NH.)"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0748", 
         "sjv": 3300, 
         "community": "Bergen op Zoom"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1859", 
         "sjv": 3650, 
         "community": "Berkelland"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1721", 
         "sjv": 4150, 
         "community": "Bernheze"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0568", 
         "sjv": 3900, 
         "community": "Bernisse"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0753", 
         "sjv": 4000, 
         "community": "Best"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0209", 
         "sjv": 3950, 
         "community": "Beuningen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0375", 
         "sjv": 3050, 
         "community": "Beverwijk"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0063", 
         "sjv": 3100, 
         "community": "het Bildt"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0310", 
         "sjv": 3650, 
         "community": "De Bilt"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0585", 
         "sjv": 3650, 
         "community": "Binnenmaas"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1728", 
         "sjv": 3900, 
         "community": "Bladel"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0376", 
         "sjv": 4100, 
         "community": "Blaricum"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0377", 
         "sjv": 3800, 
         "community": "Bloemendaal"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0055", 
         "sjv": 3100, 
         "community": "Boarnsterhim"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0497", 
         "sjv": 3500, 
         "community": "Bodegraven"
     }, 
     {
-        "color": "#ffffff", 
+        "color": "#F2F2F2", 
         "code": "GM1901", 
-        "sjv": 0, 
+        "sjv": "Geen data beschikbaar", 
         "community": "Bodegraven-Reeuwijk"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0755", 
         "sjv": 4200, 
         "community": "Boekel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0009", 
         "sjv": 3550, 
         "community": "Ten Boer"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0064", 
         "sjv": 2850, 
         "community": "Bolsward"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1681", 
         "sjv": 3750, 
         "community": "Borger-Odoorn"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0147", 
         "sjv": 3750, 
         "community": "Borne"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0654", 
         "sjv": 3400, 
         "community": "Borsele"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0499", 
         "sjv": 3450, 
         "community": "Boskoop"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0756", 
         "sjv": 3900, 
         "community": "Boxmeer"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0757", 
         "sjv": 3600, 
         "community": "Boxtel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0758", 
         "sjv": 3300, 
         "community": "Breda"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0311", 
         "sjv": 3750, 
         "community": "Breukelen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0501", 
         "sjv": 3600, 
         "community": "Brielle"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1876", 
         "sjv": 3900, 
         "community": "Bronckhorst"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0213", 
         "sjv": 3650, 
         "community": "Brummen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0899", 
         "sjv": 3400, 
         "community": "Brunssum"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0312", 
         "sjv": 3750, 
         "community": "Bunnik"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0313", 
         "sjv": 4000, 
         "community": "Bunschoten"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0214", 
         "sjv": 4050, 
         "community": "Buren"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0381", 
         "sjv": 3250, 
         "community": "Bussum"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0502", 
         "sjv": 3200, 
         "community": "Capelle aan den IJssel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0383", 
         "sjv": 3450, 
         "community": "Castricum"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0109", 
         "sjv": 3650, 
         "community": "Coevorden"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1706", 
         "sjv": 4050, 
         "community": "Cranendonck"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0611", 
         "sjv": 3750, 
         "community": "Cromstrijen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1684", 
         "sjv": 3550, 
         "community": "Cuijk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0216", 
         "sjv": 3350, 
         "community": "Culemborg"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0148", 
         "sjv": 3850, 
         "community": "Dalfsen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM1891", 
         "sjv": 3100, 
         "community": "Dantumadiel"
     }, 
     {
-        "color": "#f16913", 
+        "color": "#41ab5d", 
         "code": "GM0503", 
         "sjv": 2800, 
         "community": "Delft"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0010", 
         "sjv": 3200, 
         "community": "Delfzijl"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0762", 
         "sjv": 4000, 
         "community": "Deurne"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0150", 
         "sjv": 3200, 
         "community": "Deventer"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0384", 
         "sjv": 3200, 
         "community": "Diemen"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1774", 
         "sjv": 4200, 
         "community": "Dinkelland"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0504", 
         "sjv": 3500, 
         "community": "Dirksland"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0221", 
         "sjv": 3200, 
         "community": "Doesburg"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0222", 
         "sjv": 3400, 
         "community": "Doetinchem"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0766", 
         "sjv": 3750, 
         "community": "Dongen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0058", 
         "sjv": 2900, 
         "community": "Dongeradeel"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0505", 
         "sjv": 3050, 
         "community": "Dordrecht"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0498", 
         "sjv": 3750, 
         "community": "Drechterland"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1719", 
         "sjv": 3750, 
         "community": "Drimmelen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0303", 
         "sjv": 3750, 
         "community": "Dronten"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0225", 
         "sjv": 3800, 
         "community": "Druten"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0226", 
         "sjv": 3650, 
         "community": "Duiven"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1711", 
         "sjv": 3900, 
         "community": "Echt-Susteren"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0385", 
         "sjv": 3800, 
         "community": "Edam-Volendam"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0228", 
         "sjv": 3500, 
         "community": "Ede"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0317", 
         "sjv": 3800, 
         "community": "Eemnes"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1651", 
         "sjv": 3250, 
         "community": "Eemsmond"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0770", 
         "sjv": 4050, 
         "community": "Eersel"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0905", 
         "sjv": 3950, 
         "community": "Eijsden"
     }, 
     {
-        "color": "#ffffff", 
+        "color": "#F2F2F2", 
         "code": "GM1903", 
-        "sjv": 0, 
+        "sjv": "Geen data beschikbaar", 
         "community": "Eijsden-Margraten"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0772", 
         "sjv": 3100, 
         "community": "Eindhoven"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0230", 
         "sjv": 3650, 
         "community": "Elburg"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0114", 
         "sjv": 3500, 
         "community": "Emmen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0388", 
         "sjv": 3150, 
         "community": "Enkhuizen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0153", 
         "sjv": 3200, 
         "community": "Enschede"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0232", 
         "sjv": 3700, 
         "community": "Epe"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0233", 
         "sjv": 3550, 
         "community": "Ermelo"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0777", 
         "sjv": 3600, 
         "community": "Etten-Leur"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM1722", 
         "sjv": 3050, 
         "community": "Ferwerderadiel"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0070", 
         "sjv": 3000, 
         "community": "Franekeradeel"
     }, 
     {
-        "color": "#ffffff", 
+        "color": "#F2F2F2", 
         "code": "GM1921", 
-        "sjv": 0, 
+        "sjv": "Geen data beschikbaar", 
         "community": "De Friese Meren"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0653", 
         "sjv": 3200, 
         "community": "Gaasterl‰n-Sleat"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0779", 
         "sjv": 3550, 
         "community": "Geertruidenberg"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0236", 
         "sjv": 3950, 
         "community": "Geldermalsen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1771", 
         "sjv": 3550, 
         "community": "Geldrop-Mierlo"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1652", 
         "sjv": 4000, 
         "community": "Gemert-Bakel"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0907", 
         "sjv": 3900, 
         "community": "Gennep"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0689", 
         "sjv": 3850, 
         "community": "Giessenlanden"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0784", 
         "sjv": 3700, 
         "community": "Gilze en Rijen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0511", 
         "sjv": 3800, 
         "community": "Goedereede"
     }, 
     {
-        "color": "#ffffff", 
+        "color": "#F2F2F2", 
         "code": "GM1924", 
-        "sjv": 0, 
+        "sjv": "Geen data beschikbaar", 
         "community": "Goeree-Overflakkee"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0664", 
         "sjv": 3150, 
         "community": "Goes"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0785", 
         "sjv": 3800, 
         "community": "Goirle"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0512", 
         "sjv": 3100, 
         "community": "Gorinchem"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0513", 
         "sjv": 3000, 
         "community": "Gouda"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0693", 
         "sjv": 3750, 
         "community": "Graafstroom"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0365", 
         "sjv": 3800, 
         "community": "Graft-De Rijp"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0786", 
         "sjv": 3750, 
         "community": "Grave"
     }, 
     {
-        "color": "#f16913", 
+        "color": "#41ab5d", 
         "code": "GM0518", 
         "sjv": 2700, 
         "community": "'s-Gravenhage (gemeente)"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0241", 
         "sjv": 3600, 
         "community": "Groesbeek"
     }, 
     {
-        "color": "#f16913", 
+        "color": "#41ab5d", 
         "code": "GM0014", 
         "sjv": 2600, 
         "community": "Groningen (gemeente)"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0015", 
         "sjv": 3650, 
         "community": "Grootegast"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1729", 
         "sjv": 3750, 
         "community": "Gulpen-Wittem"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0158", 
         "sjv": 3850, 
         "community": "Haaksbergen"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0788", 
         "sjv": 4300, 
         "community": "Haaren"
     }, 
     {
-        "color": "#f16913", 
+        "color": "#41ab5d", 
         "code": "GM0392", 
         "sjv": 2750, 
         "community": "Haarlem"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0393", 
         "sjv": 3750, 
         "community": "Haarlemmerliede en Spaarnwoude"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0394", 
         "sjv": 3650, 
         "community": "Haarlemmermeer"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1655", 
         "sjv": 3750, 
         "community": "Halderberge"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0160", 
         "sjv": 3800, 
         "community": "Hardenberg"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0243", 
         "sjv": 3400, 
         "community": "Harderwijk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0523", 
         "sjv": 3450, 
         "community": "Hardinxveld-Giessendam"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0017", 
         "sjv": 3400, 
         "community": "Haren"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0395", 
         "sjv": 3750, 
         "community": "Harenkarspel"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0072", 
         "sjv": 2950, 
         "community": "Harlingen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0244", 
         "sjv": 3500, 
         "community": "Hattem"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0396", 
         "sjv": 3200, 
         "community": "Heemskerk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0397", 
         "sjv": 3400, 
         "community": "Heemstede"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0246", 
         "sjv": 3600, 
         "community": "Heerde"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0074", 
         "sjv": 3100, 
         "community": "Heerenveen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0398", 
         "sjv": 3500, 
         "community": "Heerhugowaard"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0917", 
         "sjv": 3100, 
         "community": "Heerlen"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1658", 
         "sjv": 4100, 
         "community": "Heeze-Leende"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0399", 
         "sjv": 3450, 
         "community": "Heiloo"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0400", 
         "sjv": 2950, 
         "community": "Den Helder"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0163", 
         "sjv": 3700, 
         "community": "Hellendoorn"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0530", 
         "sjv": 3600, 
         "community": "Hellevoetsluis"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0794", 
         "sjv": 3500, 
         "community": "Helmond"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0531", 
         "sjv": 3450, 
         "community": "Hendrik-Ido-Ambacht"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0164", 
         "sjv": 3350, 
         "community": "Hengelo (O.)"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0796", 
         "sjv": 3300, 
         "community": "'s-Hertogenbosch"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0252", 
         "sjv": 3900, 
         "community": "Heumen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0797", 
         "sjv": 3900, 
         "community": "Heusden"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0534", 
         "sjv": 3250, 
         "community": "Hillegom"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0798", 
         "sjv": 4150, 
         "community": "Hilvarenbeek"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0402", 
         "sjv": 3050, 
         "community": "Hilversum"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1735", 
         "sjv": 3800, 
         "community": "Hof van Twente"
     }, 
     {
-        "color": "#ffffff", 
+        "color": "#F2F2F2", 
         "code": "GM1911", 
-        "sjv": 0, 
+        "sjv": "Geen data beschikbaar", 
         "community": "Hollands Kroon"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0118", 
         "sjv": 3300, 
         "community": "Hoogeveen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0018", 
         "sjv": 3150, 
         "community": "Hoogezand-Sappemeer"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0405", 
         "sjv": 3250, 
         "community": "Hoorn"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1507", 
         "sjv": 4250, 
         "community": "Horst aan de Maas"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0321", 
         "sjv": 3800, 
         "community": "Houten"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0406", 
         "sjv": 3500, 
         "community": "Huizen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0677", 
         "sjv": 3200, 
         "community": "Hulst"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0353", 
         "sjv": 3700, 
         "community": "IJsselstein"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1884", 
         "sjv": 3750, 
         "community": "Kaag en Braassem"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0166", 
         "sjv": 3250, 
         "community": "Kampen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0678", 
         "sjv": 3450, 
         "community": "Kapelle"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0537", 
         "sjv": 3350, 
         "community": "Katwijk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0928", 
         "sjv": 3250, 
         "community": "Kerkrade"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1598", 
         "sjv": 3850, 
         "community": "Koggenland"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0079", 
         "sjv": 3150, 
         "community": "Kollumerland en Nieuwkruisland"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0588", 
         "sjv": 3650, 
         "community": "Korendijk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0542", 
         "sjv": 3350, 
         "community": "Krimpen aan den IJssel"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1659", 
         "sjv": 4000, 
         "community": "Laarbeek"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1685", 
         "sjv": 4250, 
         "community": "Landerd"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0882", 
         "sjv": 3550, 
         "community": "Landgraaf"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0415", 
         "sjv": 3750, 
         "community": "Landsmeer"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0416", 
         "sjv": 3750, 
         "community": "Langedijk"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1621", 
         "sjv": 3850, 
         "community": "Lansingerland"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0417", 
         "sjv": 3950, 
         "community": "Laren (NH.)"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0022", 
         "sjv": 3550, 
         "community": "Leek"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0545", 
         "sjv": 3300, 
         "community": "Leerdam"
     }, 
     {
-        "color": "#f16913", 
+        "color": "#41ab5d", 
         "code": "GM0080", 
         "sjv": 2700, 
         "community": "Leeuwarden"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0081", 
         "sjv": 3250, 
         "community": "Leeuwarderadeel"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0546", 
         "sjv": 2850, 
         "community": "Leiden"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0547", 
         "sjv": 3300, 
         "community": "Leiderdorp"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM1916", 
         "sjv": 2900, 
         "community": "Leidschendam-Voorburg"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0995", 
         "sjv": 3650, 
         "community": "Lelystad"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0082", 
         "sjv": 3300, 
         "community": "Lemsterland"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1640", 
         "sjv": 4150, 
         "community": "Leudal"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0327", 
         "sjv": 3750, 
         "community": "Leusden"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0694", 
         "sjv": 3650, 
         "community": "Liesveld"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0733", 
         "sjv": 3950, 
         "community": "Lingewaal"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1705", 
         "sjv": 3750, 
         "community": "Lingewaard"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0553", 
         "sjv": 3400, 
         "community": "Lisse"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0808", 
         "sjv": 4450, 
         "community": "Lith"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0140", 
         "sjv": 3350, 
         "community": "Littenseradiel"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0262", 
         "sjv": 3700, 
         "community": "Lochem"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0329", 
         "sjv": 3900, 
         "community": "Loenen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0809", 
         "sjv": 3850, 
         "community": "Loon op Zand"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0331", 
         "sjv": 4000, 
         "community": "Lopik"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0024", 
         "sjv": 3400, 
         "community": "Loppersum"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0168", 
         "sjv": 3950, 
         "community": "Losser"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0333", 
         "sjv": 3600, 
         "community": "Maarssen"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1671", 
         "sjv": 4550, 
         "community": "Maasdonk"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0263", 
         "sjv": 4100, 
         "community": "Maasdriel"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1641", 
         "sjv": 3950, 
         "community": "Maasgouw"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0556", 
         "sjv": 3050, 
         "community": "Maassluis"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0935", 
         "sjv": 3050, 
         "community": "Maastricht"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0936", 
         "sjv": 4000, 
         "community": "Margraten"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM1663", 
         "sjv": 3150, 
         "community": "De Marne"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0025", 
         "sjv": 3700, 
         "community": "Marum"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0420", 
         "sjv": 3650, 
         "community": "Medemblik"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0938", 
         "sjv": 3900, 
         "community": "Meerssen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0083", 
         "sjv": 3250, 
         "community": "Menaldumadeel"
     }, 
     {
-        "color": "#ffffff", 
+        "color": "#F2F2F2", 
         "code": "GM1908", 
-        "sjv": 0, 
+        "sjv": "Geen data beschikbaar", 
         "community": "Menameradiel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1987", 
         "sjv": 3550, 
         "community": "Menterwolde"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0119", 
         "sjv": 3250, 
         "community": "Meppel"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0687", 
         "sjv": 2850, 
         "community": "Middelburg (Z.)"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0559", 
         "sjv": 3450, 
         "community": "Middelharnis"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1842", 
         "sjv": 3550, 
         "community": "Midden-Delfland"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1731", 
         "sjv": 3700, 
         "community": "Midden-Drenthe"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0815", 
         "sjv": 4150, 
         "community": "Mill en Sint Hubert"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0265", 
         "sjv": 3650, 
         "community": "Millingen aan de Rijn"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1709", 
         "sjv": 3750, 
         "community": "Moerdijk"
     }, 
     {
-        "color": "#ffffff", 
+        "color": "#F2F2F2", 
         "code": "GM1927", 
-        "sjv": 0, 
+        "sjv": "Geen data beschikbaar", 
         "community": "Molenwaard"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1955", 
         "sjv": 3800, 
         "community": "Montferland"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0335", 
         "sjv": 3850, 
         "community": "Montfoort"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0944", 
         "sjv": 4000, 
         "community": "Mook en Middelaar"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0424", 
         "sjv": 3650, 
         "community": "Muiden"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0425", 
         "sjv": 3600, 
         "community": "Naarden"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1740", 
         "sjv": 3850, 
         "community": "Neder-Betuwe"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0643", 
         "sjv": 3450, 
         "community": "Nederlek"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0946", 
         "sjv": 4300, 
         "community": "Nederweert"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0304", 
         "sjv": 4150, 
         "community": "Neerijnen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0412", 
         "sjv": 3850, 
         "community": "Niedorp"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0356", 
         "sjv": 3500, 
         "community": "Nieuwegein"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0569", 
         "sjv": 3800, 
         "community": "Nieuwkoop"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0571", 
         "sjv": 3450, 
         "community": "Nieuw-Lekkerland"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0104", 
         "sjv": 3100, 
         "community": "Nijefurd"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0267", 
         "sjv": 3650, 
         "community": "Nijkerk"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0268", 
         "sjv": 2900, 
         "community": "Nijmegen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM1695", 
         "sjv": 2950, 
         "community": "Noord-Beveland"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1699", 
         "sjv": 3450, 
         "community": "Noordenveld"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0171", 
         "sjv": 3550, 
         "community": "Noordoostpolder"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0575", 
         "sjv": 3300, 
         "community": "Noordwijk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0576", 
         "sjv": 3500, 
         "community": "Noordwijkerhout"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0820", 
         "sjv": 4000, 
         "community": "Nuenen, Gerwen en Nederwetten"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0302", 
         "sjv": 3650, 
         "community": "Nunspeet"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0951", 
         "sjv": 3850, 
         "community": "Nuth"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0579", 
         "sjv": 3450, 
         "community": "Oegstgeest"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0823", 
         "sjv": 4200, 
         "community": "Oirschot"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0824", 
         "sjv": 3900, 
         "community": "Oisterwijk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1895", 
         "sjv": 3250, 
         "community": "Oldambt"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0269", 
         "sjv": 3900, 
         "community": "Oldebroek"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0173", 
         "sjv": 3600, 
         "community": "Oldenzaal"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1773", 
         "sjv": 3700, 
         "community": "Olst-Wijhe"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0175", 
         "sjv": 3700, 
         "community": "Ommen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0881", 
         "sjv": 4000, 
         "community": "Onderbanken"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1586", 
         "sjv": 3750, 
         "community": "Oost Gelre"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0826", 
         "sjv": 3600, 
         "community": "Oosterhout"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0580", 
         "sjv": 3500, 
         "community": "Oostflakkee"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0085", 
         "sjv": 3300, 
         "community": "Ooststellingwerf"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0431", 
         "sjv": 3700, 
         "community": "Oostzaan"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0432", 
         "sjv": 3750, 
         "community": "Opmeer"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0086", 
         "sjv": 3350, 
         "community": "Opsterland"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0828", 
         "sjv": 3600, 
         "community": "Oss"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0584", 
         "sjv": 3600, 
         "community": "Oud-Beijerland"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1509", 
         "sjv": 3650, 
         "community": "Oude IJsselstreek"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0437", 
         "sjv": 3450, 
         "community": "Ouder-Amstel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0644", 
         "sjv": 3600, 
         "community": "Ouderkerk"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0589", 
         "sjv": 3700, 
         "community": "Oudewater"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1734", 
         "sjv": 3750, 
         "community": "Overbetuwe"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0590", 
         "sjv": 3350, 
         "community": "Papendrecht"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1894", 
         "sjv": 4200, 
         "community": "Peel en Maas"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0765", 
         "sjv": 3350, 
         "community": "Pekela"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1926", 
         "sjv": 3750, 
         "community": "Pijnacker-Nootdorp"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0439", 
         "sjv": 3400, 
         "community": "Purmerend"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0273", 
         "sjv": 3900, 
         "community": "Putten"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0177", 
         "sjv": 3800, 
         "community": "Raalte"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0595", 
         "sjv": 3800, 
         "community": "Reeuwijk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0703", 
         "sjv": 3250, 
         "community": "Reimerswaal"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0274", 
         "sjv": 3300, 
         "community": "Renkum"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0339", 
         "sjv": 4050, 
         "community": "Renswoude"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1667", 
         "sjv": 4150, 
         "community": "Reusel-De Mierden"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0275", 
         "sjv": 3250, 
         "community": "Rheden"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0340", 
         "sjv": 3750, 
         "community": "Rhenen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0597", 
         "sjv": 3300, 
         "community": "Ridderkerk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0196", 
         "sjv": 3600, 
         "community": "Rijnwaarden"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1672", 
         "sjv": 3600, 
         "community": "Rijnwoude"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1742", 
         "sjv": 3650, 
         "community": "Rijssen-Holten"
     }, 
     {
-        "color": "#f16913", 
+        "color": "#41ab5d", 
         "code": "GM0603", 
         "sjv": 2750, 
         "community": "Rijswijk (ZH.)"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1669", 
         "sjv": 3800, 
         "community": "Roerdalen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0957", 
         "sjv": 3300, 
         "community": "Roermond"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0736", 
         "sjv": 3850, 
         "community": "De Ronde Venen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1674", 
         "sjv": 3450, 
         "community": "Roosendaal"
     }, 
     {
-        "color": "#f16913", 
+        "color": "#41ab5d", 
         "code": "GM0599", 
         "sjv": 2650, 
         "community": "Rotterdam"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0600", 
         "sjv": 3450, 
         "community": "Rozenburg"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0277", 
         "sjv": 4450, 
         "community": "Rozendaal"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0840", 
         "sjv": 4100, 
         "community": "Rucphen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0441", 
         "sjv": 3300, 
         "community": "Schagen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0458", 
         "sjv": 4000, 
         "community": "Schermer"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0279", 
         "sjv": 3650, 
         "community": "Scherpenzeel"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0606", 
         "sjv": 2850, 
         "community": "Schiedam"
     }, 
     {
-        "color": "#f16913", 
+        "color": "#41ab5d", 
         "code": "GM0088", 
         "sjv": 2750, 
         "community": "Schiermonnikoog"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0844", 
         "sjv": 3900, 
         "community": "Schijndel"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0962", 
         "sjv": 4000, 
         "community": "Schinnen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0608", 
         "sjv": 3250, 
         "community": "Schoonhoven"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1676", 
         "sjv": 3350, 
         "community": "Schouwen-Duiveland"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0965", 
         "sjv": 3700, 
         "community": "Simpelveld"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM1702", 
         "sjv": 4250, 
         "community": "Sint Anthonis"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0845", 
         "sjv": 4050, 
         "community": "Sint-Michielsgestel"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0846", 
         "sjv": 3950, 
         "community": "Sint-Oedenrode"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1883", 
         "sjv": 3450, 
         "community": "Sittard-Geleen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0051", 
         "sjv": 3250, 
         "community": "Skarsterl‰n"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0610", 
         "sjv": 3100, 
         "community": "Sliedrecht"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0040", 
         "sjv": 3750, 
         "community": "Slochteren"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM1714", 
         "sjv": 2850, 
         "community": "Sluis"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0090", 
         "sjv": 3050, 
         "community": "Smallingerland"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0091", 
         "sjv": 2850, 
         "community": "Sneek"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0342", 
         "sjv": 3600, 
         "community": "Soest"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0847", 
         "sjv": 4150, 
         "community": "Someren"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0848", 
         "sjv": 4150, 
         "community": "Son en Breugel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0612", 
         "sjv": 3450, 
         "community": "Spijkenisse"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0037", 
         "sjv": 3300, 
         "community": "Stadskanaal"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0180", 
         "sjv": 4150, 
         "community": "Staphorst"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0532", 
         "sjv": 3550, 
         "community": "Stede Broec"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0851", 
         "sjv": 3800, 
         "community": "Steenbergen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1708", 
         "sjv": 3350, 
         "community": "Steenwijkerland"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0971", 
         "sjv": 3800, 
         "community": "Stein (L.)"
     }, 
     {
-        "color": "#ffffff", 
+        "color": "#F2F2F2", 
         "code": "GM1904", 
-        "sjv": 0, 
+        "sjv": "Geen data beschikbaar", 
         "community": "Stichtse Vecht"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0617", 
         "sjv": 3650, 
         "community": "Strijen"
     }, 
     {
-        "color": "#ffffff", 
+        "color": "#F2F2F2", 
         "code": "GM1900", 
-        "sjv": 0, 
+        "sjv": "Geen data beschikbaar", 
         "community": "Sœdwest-Frysl‰n"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0715", 
         "sjv": 3050, 
         "community": "Terneuzen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0093", 
         "sjv": 3250, 
         "community": "Terschelling"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0448", 
         "sjv": 3400, 
         "community": "Texel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1525", 
         "sjv": 3550, 
         "community": "Teylingen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0716", 
         "sjv": 3450, 
         "community": "Tholen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0281", 
         "sjv": 3450, 
         "community": "Tiel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0855", 
         "sjv": 3250, 
         "community": "Tilburg"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0183", 
         "sjv": 4300, 
         "community": "Tubbergen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1700", 
         "sjv": 3900, 
         "community": "Twenterand"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1730", 
         "sjv": 3600, 
         "community": "Tynaarlo"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0737", 
         "sjv": 3150, 
         "community": "Tytsjerksteradiel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0282", 
         "sjv": 3550, 
         "community": "Ubbergen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0856", 
         "sjv": 3700, 
         "community": "Uden"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0450", 
         "sjv": 3500, 
         "community": "Uitgeest"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0451", 
         "sjv": 3400, 
         "community": "Uithoorn"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0184", 
         "sjv": 3950, 
         "community": "Urk"
     }, 
     {
-        "color": "#f16913", 
+        "color": "#41ab5d", 
         "code": "GM0344", 
         "sjv": 2800, 
         "community": "Utrecht (gemeente)"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1581", 
         "sjv": 3800, 
         "community": "Utrechtse Heuvelrug"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0981", 
         "sjv": 3200, 
         "community": "Vaals"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0994", 
         "sjv": 3600, 
         "community": "Valkenburg aan de Geul"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0858", 
         "sjv": 3600, 
         "community": "Valkenswaard"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0047", 
         "sjv": 3300, 
         "community": "Veendam"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0345", 
         "sjv": 3500, 
         "community": "Veenendaal"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0717", 
         "sjv": 3250, 
         "community": "Veere"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0860", 
         "sjv": 3900, 
         "community": "Veghel"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0861", 
         "sjv": 3750, 
         "community": "Veldhoven"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0453", 
         "sjv": 3100, 
         "community": "Velsen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0983", 
         "sjv": 3400, 
         "community": "Venlo"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0984", 
         "sjv": 3900, 
         "community": "Venray"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0620", 
         "sjv": 3500, 
         "community": "Vianen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0622", 
         "sjv": 2850, 
         "community": "Vlaardingen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0048", 
         "sjv": 3600, 
         "community": "Vlagtwedde"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0096", 
         "sjv": 3200, 
         "community": "Vlieland"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0718", 
         "sjv": 2850, 
         "community": "Vlissingen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0623", 
         "sjv": 3550, 
         "community": "Vlist"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0986", 
         "sjv": 3950, 
         "community": "Voerendaal"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0626", 
         "sjv": 3300, 
         "community": "Voorschoten"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0285", 
         "sjv": 3850, 
         "community": "Voorst"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0865", 
         "sjv": 3600, 
         "community": "Vught"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0866", 
         "sjv": 3850, 
         "community": "Waalre"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0867", 
         "sjv": 3550, 
         "community": "Waalwijk"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0627", 
         "sjv": 3350, 
         "community": "Waddinxveen"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0289", 
         "sjv": 2950, 
         "community": "Wageningen"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0629", 
         "sjv": 3600, 
         "community": "Wassenaar"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0852", 
         "sjv": 3600, 
         "community": "Waterland"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0988", 
         "sjv": 3550, 
         "community": "Weert"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0457", 
         "sjv": 2950, 
         "community": "Weesp"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0870", 
         "sjv": 3750, 
         "community": "Werkendam"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0459", 
         "sjv": 3750, 
         "community": "Wervershoof"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0668", 
         "sjv": 4100, 
         "community": "West Maas en Waal"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1701", 
         "sjv": 3750, 
         "community": "Westerveld"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0293", 
         "sjv": 3500, 
         "community": "Westervoort"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1783", 
         "sjv": 3600, 
         "community": "Westland"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0098", 
         "sjv": 3300, 
         "community": "Weststellingwerf"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0614", 
         "sjv": 3950, 
         "community": "Westvoorne"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0189", 
         "sjv": 4000, 
         "community": "Wierden"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0462", 
         "sjv": 3500, 
         "community": "Wieringen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0463", 
         "sjv": 3650, 
         "community": "Wieringermeer"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0296", 
         "sjv": 3800, 
         "community": "Wijchen"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1696", 
         "sjv": 3800, 
         "community": "Wijdemeren"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0352", 
         "sjv": 3850, 
         "community": "Wijk bij Duurstede"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0053", 
         "sjv": 3300, 
         "community": "Winsum"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0294", 
         "sjv": 3550, 
         "community": "Winterswijk"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0873", 
         "sjv": 3800, 
         "community": "Woensdrecht"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0632", 
         "sjv": 3450, 
         "community": "Woerden"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1690", 
         "sjv": 3900, 
         "community": "De Wolden"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0880", 
         "sjv": 3400, 
         "community": "Wormerland"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0351", 
         "sjv": 3800, 
         "community": "Woudenberg"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0874", 
         "sjv": 3800, 
         "community": "Woudrichem"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0710", 
         "sjv": 3250, 
         "community": "Wžnseradiel"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0683", 
         "sjv": 3250, 
         "community": "Wymbritseradiel"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0479", 
         "sjv": 3100, 
         "community": "Zaanstad"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0297", 
         "sjv": 3850, 
         "community": "Zaltbommel"
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0473", 
         "sjv": 3100, 
         "community": "Zandvoort"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0707", 
         "sjv": 3800, 
         "community": "Zederik"
     }, 
     {
-        "color": "#3f1302", 
+        "color": "#083a1c", 
         "code": "GM0478", 
         "sjv": 4100, 
         "community": "Zeevang"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0050", 
         "sjv": 3850, 
         "community": "Zeewolde"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0355", 
         "sjv": 3350, 
         "community": "Zeist"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0299", 
         "sjv": 3500, 
         "community": "Zevenaar"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0476", 
         "sjv": 3650, 
         "community": "Zijpe"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0637", 
         "sjv": 3400, 
         "community": "Zoetermeer"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0638", 
         "sjv": 3650, 
         "community": "Zoeterwoude"
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM0056", 
         "sjv": 3450, 
         "community": "Zuidhorn"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM1892", 
         "sjv": 3800, 
         "community": "Zuidplas"
     }, 
     {
-        "color": "#7f2704", 
+        "color": "#00441b", 
         "code": "GM0879", 
         "sjv": 3950, 
         "community": null
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0301", 
         "sjv": 3050, 
         "community": null
     }, 
     {
-        "color": "#a63603", 
+        "color": "#006d2c", 
         "code": "GM1896", 
         "sjv": 3550, 
         "community": null
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0642", 
         "sjv": 3200, 
         "community": null
     }, 
     {
-        "color": "#d94801", 
+        "color": "#238b45", 
         "code": "GM0193", 
         "sjv": 3050, 
         "community": null

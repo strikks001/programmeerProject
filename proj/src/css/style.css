@@ -280,10 +280,10 @@ footer p {
   }
 
   .mz-module-about-legend p{
-   font-size: 11px;
+   font-size: 10px;
    font-weight: 300;
-   line-height: 28px;
-   letter-spacing: 0.2px;
+   line-height: 10px;
+   letter-spacing: 0.1px;
    text-transform: uppercase;
    color: #FFFFFF;
  }
@@ -296,12 +296,12 @@ footer p {
 }
 
 .full-circle {
- height: 25px;
+ height: 15px;
  -moz-border-radius:12px;
  -webkit-border-radius: 12px;
- width: 25px;
- line-height: 28px;
- margin: 20px;
+ width: 15px;
+ line-height: 18px;
+ margin: 10px;
 }
 
 .legend {
@@ -313,8 +313,14 @@ footer p {
 }
 
 .legend p {
-  margin-bottom: 25px;
-  font-size: 15px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.wrapper {
+  padding-left:20px;
+  padding-right:20px;
+  display:inline-block;
 }
 
 /*--------------------
@@ -328,10 +334,6 @@ footer p {
 
   .arc path {
     stroke: #fff;
-  }
-
-  .donut-chart {
-    margin-top: 35px;
   }
 
   .donut-part {
@@ -350,6 +352,11 @@ footer p {
     text-align: center;
   }
 
+  .sup-select {
+    margin-top: -80px;
+    margin-bottom: -80px;
+  }
+
 /*--------------------
   Bubble Chart
   --------------------*/
@@ -363,7 +370,8 @@ footer p {
   height: 34px;
 }
 #map-form {
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 

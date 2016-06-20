@@ -10,138 +10,126 @@
 # 
 import csv, sys, json
 
+data_list_elec = []
 data_list_gas = []
-data_list_stroom = []
 
-# creating json files
 def createJson(data_list, sub):
-        # convert the list to JSON format
-        json_str = json.dumps(data_list, indent = 4, ensure_ascii=False)
+    "creating json files"
+    # convert the list to JSON format
+    json_str = json.dumps(data_list, indent = 4, ensure_ascii=False)
+    # create JSON file
+    jsonfile = '%s.json' %sub
+    with open(jsonfile, 'w') as f:
+        try:
+            f.write(json_str)
+        except csv.Error as e:
+            sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
 
-        jsonfile = '%s.json' %sub
-        with open(jsonfile, 'w') as f:
-        	try:
-        		f.write(json_str)
-        	except csv.Error as e:
-        		sys.exit('file %s, line %d: %s' % (f, reader.line_num, e))
+def getCommunity(code):
+    "get the community from community code"
+    for i in range(len(code_dict)):
+        if code_dict[i][1] == code:
+            return code_dict[i][0]
 
+def getResult(data_list, input_year):
+    "get data and insert it to a list"
+    for i in range(len(sup_dict)):
+        year = int(sup_dict[i][1])
+        code = sup_dict[i][0]
+        # check if there is data, if not then set on zero
+        if sup_dict[i][2] != '':
+            gas = int(sup_dict[i][2])
+        else:
+            gas = 0
+        
+        if sup_dict[i][3] != '':
+            electricity = int(sup_dict[i][3])
+        else:
+            electricity = 0
 
-# searching for provinces, towns, latitude en longitude
-def getcommunity(postcode):
-	for i in range(len(nl_dict)):
-		if int(postcode) == int(nl_dict[i][0]):
-			return nl_dict[i][3]
-
-
-# searching for provinces, towns, latitude en longitude
-def getResult():
-	for i in range(5000):
-		product = sup_dict[i][4]
-		sjv = int(sup_dict[i][5])
-		street = sup_dict[i][0]
-		place = sup_dict[i][3]
-
-		# print product
-		if product == "ELK":
-			if sjv <= 1000:
-				data_list_stroom.append({"sjv": sjv, "color": "#ffffff", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 1000 and sjv <= 2000:
-				data_list_stroom.append({"sjv": sjv, "color": "#fff5eb", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 2000 and sjv <= 3000:
-				data_list_stroom.append({"sjv": sjv, "color": "#fee6ce", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 3000 and sjv <= 4000:
-				data_list_stroom.append({"sjv": sjv, "color": "#fdd0a2", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 4000 and sjv <= 5000:
-				data_list_stroom.append({"sjv": sjv, "color": "#fdae6b", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 5000 and sjv <= 6000:
-				data_list_stroom.append({"sjv": sjv, "color": "#fd8d3c", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 6000 and sjv <= 7000:
-				data_list_stroom.append({"sjv": sjv,  "color": "#f16913", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 7000 and sjv <= 8000:
-				data_list_stroom.append({"sjv": sjv, "color": "#d94801", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 8000 and sjv <= 9000:
-				data_list_stroom.append({"sjv": sjv, "color": "#a63603", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 9000 and sjv <= 10000:
-				data_list_stroom.append({"sjv": sjv, "color": "#7f2704", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 10000 and sjv <= 20000:
-				data_list_stroom.append({"sjv": sjv, "color": "#3f1302", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-			elif sjv > 20000:
-				data_list_stroom.append({"sjv": sjv, "color": "#0c0300", "community": getcommunity(sup_dict[i][1][:4]), "postcode": sup_dict[i][1][:4]})
-		if product == "GAS":
-			if sjv <= 500:
-				data_list_gas.append({"sjv": sjv, "color": "#fff5eb", "community": getcommunity(sup_dict[i][1][:4])})
-			elif sjv > 500 and sjv <= 1000:
-				data_list_gas.append({"sjv": sjv, "color": "#fee6ce", "community": getcommunity(sup_dict[i][1][:4])})
-			elif sjv > 1000 and sjv <= 1500:
-				data_list_gas.append({"sjv": sjv, "color": "#fdd0a2", "community": getcommunity(sup_dict[i][1][:4])})
-			elif sjv > 1500 and sjv <= 2000:
-				data_list_gas.append({"sjv": sjv, "color": "#fdae6b", "community": getcommunity(sup_dict[i][1][:4])})
-			elif sjv > 2000 and sjv <= 2500:
-				data_list_gas.append({"sjv": sjv, "color": "#fd8d3c", "community": getcommunity(sup_dict[i][1][:4])})
-			elif sjv > 2500 and sjv <= 3000:
-				data_list_gas.append({"sjv": sjv, "color": "#f16913", "community": getcommunity(sup_dict[i][1][:4])})
-			elif sjv > 3000 and sjv <= 3500:
-				data_list_gas.append({"sjv": sjv, "color": "#d94801", "community": getcommunity(sup_dict[i][1][:4])})
-			elif sjv > 3500 and sjv <= 4000:
-				data_list_gas.append({"sjv": sjv, "color": "#a63603", "community": getcommunity(sup_dict[i][1][:4])})
-			elif sjv > 4000 and sjv <= 4500:
-				data_list_gas.append({"sjv": sjv, "color": "#7f2704", "community": getcommunity(sup_dict[i][1][:4])})
-			elif sjv > 4500:
-				data_list_gas.append({"sjv": sjv, "color": "#3f1302", "community": getcommunity(sup_dict[i][1][:4])})
-
-def reduces(data_list):
-	nextPlace = None
-	data = []
-	total = 0
-	counter = 1
-	avg = 0
-	for i in range(len(data_list)):
-		if i < (len(data_list) - 1):
-			nextPlace = data_list[i + 1]
-			total += data_list[i]['sjv']
-			if nextPlace['community'] == data_list[i]['community']:
-				counter += 1
-			else:
-				avg = total / counter
-				data.append({"community": data_list[i]['community'], "color": data_list[i]['color'], "sjv": avg, "postcode": data_list[i]['postcode']})
-				total = 0
-				counter = 1
-		else:
-			total += data_list[-1]['sjv']
-			avg = total / counter
-			data.append({"community": data_list[-1]['community'], "color": data_list[-1]['color'], "sjv": avg, "postcode": data_list[-1]['postcode']})
-			total = 0
-			counter = 1
-	return data
-
-
-# def test(data_list_str):
-# 	test = []
-# 	for i in range(len(data_list_str)):
-# 		# test.append({"community": getcommunity(data_list[i]['place']), "place": data_list[i]['place'], "product": data_list[i]['product'], "sjv": data_list[i]['sjv']})
-# 		# print getcommunity(data_list_str[i]['postcode'])
-# 	# print test
+        # insert data into a list
+        if year == input_year:
+            if electricity == 0:
+                data_list_elec.append({"sjv": "Geen data beschikbaar", "color": "#F2F2F2", "community": getCommunity(code), "code": code})
+            elif electricity > 0 and electricity <= 400:
+                data_list_elec.append({"sjv": electricity, "color": "#f6faf4", "community": getCommunity(code), "code": code})
+            elif electricity > 400 and electricity <= 800:
+                data_list_elec.append({"sjv": electricity, "color": "#f7fcf5", "community": getCommunity(code), "code": code})
+            elif electricity > 800 and electricity <= 1200:
+                data_list_elec.append({"sjv": electricity, "color": "#e5f5e0", "community": getCommunity(code), "code": code})
+            elif electricity > 1200 and electricity <= 1600:
+                data_list_elec.append({"sjv": electricity, "color": "#c7e9c0", "community": getCommunity(code), "code": code})
+            elif electricity > 1600 and electricity <= 2000:
+                data_list_elec.append({"sjv": electricity, "color": "#a1d99b", "community": getCommunity(code), "code": code})
+            elif electricity > 2000 and electricity <= 2400:
+                data_list_elec.append({"sjv": electricity, "color": "#74c476", "community": getCommunity(code), "code": code})
+            elif electricity > 2400 and electricity <= 2800:
+                data_list_elec.append({"sjv": electricity,  "color": "#41ab5d", "community": getCommunity(code), "code": code})
+            elif electricity > 2800 and electricity <= 3200:
+                data_list_elec.append({"sjv": electricity, "color": "#238b45", "community": getCommunity(code), "code": code})
+            elif electricity > 3200 and electricity <= 3600:
+                data_list_elec.append({"sjv": electricity, "color": "#006d2c", "community": getCommunity(code), "code": code})
+            elif electricity > 3600 and electricity <= 4000:
+                data_list_elec.append({"sjv": electricity, "color": "#00441b", "community": getCommunity(code), "code": code})
+            elif electricity > 4000:
+                data_list_elec.append({"sjv": electricity, "color": "#083a1c", "community": getCommunity(code), "code": code})
+            # gas list
+            if gas == 0:
+                data_list_gas.append({"sjv": "Geen data beschikbaar", "color": "#F2F2F2", "community": getCommunity(code), "code": code})
+            elif gas > 0 and gas <= 250:
+                data_list_gas.append({"sjv": gas, "color": "#fff5eb", "community": getCommunity(code), "code": code})
+            elif gas > 250 and gas <= 500:
+                data_list_gas.append({"sjv": gas, "color": "#fee6ce", "community": getCommunity(code), "code": code})
+            elif gas > 500 and gas <= 750:
+                data_list_gas.append({"sjv": gas, "color": "#fdd0a2", "community": getCommunity(code), "code": code})
+            elif gas > 750 and gas <= 1000:
+                data_list_gas.append({"sjv": gas, "color": "#fdae6b", "community": getCommunity(code), "code": code})
+            elif gas > 1000 and gas <= 1250:
+                data_list_gas.append({"sjv": gas, "color": "#fd8d3c", "community": getCommunity(code), "code": code})
+            elif gas > 1250 and gas <= 1500:
+                data_list_gas.append({"sjv": gas, "color": "#f16913", "community": getCommunity(code), "code": code})
+            elif gas > 1500 and gas <= 1750:
+                data_list_gas.append({"sjv": gas, "color": "#d94801", "community": getCommunity(code), "code": code})
+            elif gas > 1750 and gas <= 2000:
+                data_list_gas.append({"sjv": gas, "color": "#a63603", "community": getCommunity(code), "code": code})
+            elif gas > 2000 and gas <= 2250:
+                data_list_gas.append({"sjv": gas, "color": "#7f2704", "community": getCommunity(code), "code": code})
+            elif gas > 2250:
+                data_list_gas.append({"sjv": gas, "color": "#3f1302", "community": getCommunity(code), "code": code})
 
 # open csv file and read it into a dictionary
-suppliers = 'csv/nl_sjv.csv'
-nl_file = 'csv/NL.csv'
-with open(suppliers, 'r') as sup, open(nl_file, 'r') as nl:
-	reader = csv.reader(sup, delimiter=';')
-	reader2 = csv.reader(nl, delimiter=';')
+energy_use = 'csv/nl_sjv.csv'
+community_code = 'csv/gemeente_codes.csv'
+with open(energy_use, 'r') as sjv, open(community_code, 'r') as code:
+    reader = csv.reader(sjv, delimiter=';')
+    reader2 = csv.reader(code, delimiter=';')
     # ignore first line
-	next(reader, None)
-	next(reader2, None)
-	try:
-		sup_dict = list(reader)
-		nl_dict = list(reader2)
-	except csv.Error as e:
-		sys.exit('file %s, line %d: %s' % (nl_sjv, reader.line_num, e))
+    next(reader, None)
+    next(reader2, None)
+    try:
+        # create lists
+        sup_dict = list(reader)
+        code_dict = list(reader2)
+    except csv.Error as e:
+        sys.exit('file %s, line %d: %s' % (nl_gas, reader.line_num, e))
 
+# create electricity files
+getResult(data_list_elec, 2010)
+createJson(data_list_elec, "../data/netherlands/electricity/netherlands_elek_2010")
+data_list_elec = []
+getResult(data_list_elec, 2012)
+createJson(data_list_elec, "../data/netherlands/electricity/netherlands_elek_2012")
+data_list_elec = []
+getResult(data_list_elec, 2014)
+createJson(data_list_elec, "../data/netherlands/electricity/netherlands_elek_2014")
 
-
-getResult()
-# reduces(data_list_stroom)
-# reduces(data_list_gas)
-# test(data_list_stroom)
-createJson(reduces(data_list_stroom), "../data/netherlands/netherlands_elk")
-# createJson(reduces(data_list_gas), "../data/netherlands/netherlands_gas")
+# create gas files
+getResult(data_list_gas, 2010)
+createJson(data_list_gas, "../data/netherlands/gas/netherlands_gas_2010")
+data_list_gas = []
+getResult(data_list_gas, 2012)
+createJson(data_list_gas, "../data/netherlands/gas/netherlands_gas_2012")
+data_list_gas = []
+getResult(data_list_gas, 2014)
+createJson(data_list_gas, "../data/netherlands/gas/netherlands_gas_2014")
+data_list_gas = []

@@ -3,7 +3,7 @@
         "AUT": {
             "country": "Austria", 
             "year": "2005", 
-            "data": "5031", 
+            "data": 5031, 
             "fillKey": "mid"
         }
     }, 
@@ -11,7 +11,7 @@
         "BEL": {
             "country": "Belgium", 
             "year": "2005", 
-            "data": "5876", 
+            "data": 5876, 
             "fillKey": "mid2"
         }
     }, 
@@ -19,7 +19,7 @@
         "BGR": {
             "country": "Bulgaria", 
             "year": "2005", 
-            "data": "3051", 
+            "data": 3051, 
             "fillKey": "low3"
         }
     }, 
@@ -27,7 +27,7 @@
         "CYP": {
             "country": "Cyprus", 
             "year": "2005", 
-            "data": "5550", 
+            "data": 5550, 
             "fillKey": "mid2"
         }
     }, 
@@ -35,7 +35,7 @@
         "CZE": {
             "country": "Czech Rep.", 
             "year": "2005", 
-            "data": "3379", 
+            "data": 3379, 
             "fillKey": "low3"
         }
     }, 
@@ -43,7 +43,7 @@
         "DNK": {
             "country": "Denmark", 
             "year": "2005", 
-            "data": "4194", 
+            "data": 4194, 
             "fillKey": "mid"
         }
     }, 
@@ -51,7 +51,7 @@
         "EST": {
             "country": "Estonia", 
             "year": "2005", 
-            "data": "2840", 
+            "data": 2840, 
             "fillKey": "low3"
         }
     }, 
@@ -59,7 +59,7 @@
         "FIN": {
             "country": "Finland", 
             "year": "2005", 
-            "data": "8495", 
+            "data": 8495, 
             "fillKey": "mid3"
         }
     }, 
@@ -67,7 +67,7 @@
         "FRA": {
             "country": "France", 
             "year": "2005", 
-            "data": "5202", 
+            "data": 5202, 
             "fillKey": "mid"
         }
     }, 
@@ -75,7 +75,7 @@
         "DEU": {
             "country": "Germany", 
             "year": "2005", 
-            "data": "3605", 
+            "data": 3605, 
             "fillKey": "low3"
         }
     }, 
@@ -83,7 +83,7 @@
         "GRC": {
             "country": "Greece", 
             "year": "2005", 
-            "data": "3938", 
+            "data": 3938, 
             "fillKey": "low3"
         }
     }, 
@@ -91,7 +91,7 @@
         "HUN": {
             "country": "Hungary", 
             "year": "2005", 
-            "data": "2777", 
+            "data": 2777, 
             "fillKey": "low3"
         }
     }, 
@@ -99,7 +99,7 @@
         "IRL": {
             "country": "Ireland", 
             "year": "2005", 
-            "data": "5269", 
+            "data": 5269, 
             "fillKey": "mid"
         }
     }, 
@@ -107,7 +107,7 @@
         "ITA": {
             "country": "Italy", 
             "year": "2005", 
-            "data": "2842", 
+            "data": 2842, 
             "fillKey": "low3"
         }
     }, 
@@ -115,7 +115,7 @@
         "LVA": {
             "country": "Latvia", 
             "year": "2005", 
-            "data": "1786", 
+            "data": 1786, 
             "fillKey": "low2"
         }
     }, 
@@ -123,7 +123,7 @@
         "LTU": {
             "country": "Lithuania", 
             "year": "2005", 
-            "data": "1654", 
+            "data": 1654, 
             "fillKey": "low2"
         }
     }, 
@@ -131,7 +131,7 @@
         "LUX": {
             "country": "Luxembourg", 
             "year": "2005", 
-            "data": "4578", 
+            "data": 4578, 
             "fillKey": "mid"
         }
     }, 
@@ -139,7 +139,7 @@
         "NLD": {
             "country": "Netherlands", 
             "year": "2005", 
-            "data": "3404", 
+            "data": 3404, 
             "fillKey": "low3"
         }
     }, 
@@ -147,7 +147,7 @@
         "NOR": {
             "country": "Norway", 
             "year": "2005", 
-            "data": "16848", 
+            "data": 16848, 
             "fillKey": "high2"
         }
     }, 
@@ -155,7 +155,7 @@
         "POL": {
             "country": "Poland", 
             "year": "2005", 
-            "data": "1822", 
+            "data": 1822, 
             "fillKey": "low2"
         }
     }, 
@@ -163,7 +163,7 @@
         "PRT": {
             "country": "Portugal", 
             "year": "2005", 
-            "data": "3501", 
+            "data": 3501, 
             "fillKey": "low3"
         }
     }, 
@@ -171,7 +171,7 @@
         "ROU": {
             "country": "Romania", 
             "year": "2005", 
-            "data": "1269", 
+            "data": 1269, 
             "fillKey": "low2"
         }
     }, 
@@ -179,7 +179,7 @@
         "SVK": {
             "country": "Slovakia", 
             "year": "2005", 
-            "data": "2780", 
+            "data": 2780, 
             "fillKey": "low3"
         }
     }, 
@@ -187,7 +187,7 @@
         "SVN": {
             "country": "Slovenia", 
             "year": "2005", 
-            "data": "4072", 
+            "data": 4072, 
             "fillKey": "mid"
         }
     }, 
@@ -195,7 +195,7 @@
         "ESP": {
             "country": "Spain", 
             "year": "2005", 
-            "data": "4126", 
+            "data": 4126, 
             "fillKey": "mid"
         }
     }, 
@@ -203,7 +203,7 @@
         "SWE": {
             "country": "Sweden", 
             "year": "2005", 
-            "data": "9626", 
+            "data": 9626, 
             "fillKey": "high"
         }
     }, 
@@ -211,7 +211,7 @@
         "GBR": {
             "country": "United Kingdom", 
             "year": "2005", 
-            "data": "4934", 
+            "data": 4934, 
             "fillKey": "mid"
         }
     }, 
@@ -219,7 +219,7 @@
         "ALB": {
             "country": "Albania", 
             "year": "2005", 
-            "data": "3612", 
+            "data": 3612, 
             "fillKey": "low3"
         }
     }, 
@@ -227,7 +227,7 @@
         "HRV": {
             "country": "Croatia", 
             "year": "2005", 
-            "data": "4436", 
+            "data": 4436, 
             "fillKey": "mid"
         }
     }, 
@@ -235,7 +235,7 @@
         "ISL": {
             "country": "Iceland", 
             "year": "2005", 
-            "data": "6785", 
+            "data": 6785, 
             "fillKey": "mid2"
         }
     }, 
@@ -243,7 +243,7 @@
         "MKD": {
             "country": "Macedonia", 
             "year": "2005", 
-            "data": "5145", 
+            "data": 5145, 
             "fillKey": "mid"
         }
     }, 
@@ -251,7 +251,7 @@
         "CHE": {
             "country": "Switzerland", 
             "year": "2005", 
-            "data": "5396", 
+            "data": 5396, 
             "fillKey": "mid"
         }
     }, 
@@ -259,7 +259,7 @@
         "TUR": {
             "country": "Turkey", 
             "year": "2005", 
-            "data": "1880", 
+            "data": 1880, 
             "fillKey": "low2"
         }
     }, 
@@ -267,7 +267,7 @@
         "KAZ": {
             "country": "Kazakhstan", 
             "year": "2005", 
-            "data": "1913", 
+            "data": 1913, 
             "fillKey": "low2"
         }
     }, 
@@ -275,7 +275,7 @@
         "RUS": {
             "country": "Russia", 
             "year": "2005", 
-            "data": "2036", 
+            "data": 2036, 
             "fillKey": "low2"
         }
     }, 
@@ -283,7 +283,7 @@
         "UKR": {
             "country": "Ukraine", 
             "year": "2005", 
-            "data": "0", 
+            "data": "Geen data beschikbaar", 
             "fillKey": "low"
         }
     }, 
@@ -291,7 +291,7 @@
         "CAN": {
             "country": "Canada", 
             "year": "2005", 
-            "data": "11971", 
+            "data": 11971, 
             "fillKey": "high2"
         }
     }, 
@@ -299,7 +299,7 @@
         "USA": {
             "country": "United States", 
             "year": "2005", 
-            "data": "12589", 
+            "data": 12589, 
             "fillKey": "high2"
         }
     }, 
@@ -307,7 +307,7 @@
         "ARG": {
             "country": "Argentina", 
             "year": "2005", 
-            "data": "2376", 
+            "data": 2376, 
             "fillKey": "low2"
         }
     }, 
@@ -315,7 +315,7 @@
         "BOL": {
             "country": "Bolivia", 
             "year": "2005", 
-            "data": "1042", 
+            "data": 1042, 
             "fillKey": "low2"
         }
     }, 
@@ -323,7 +323,7 @@
         "BRA": {
             "country": "Brazil", 
             "year": "2005", 
-            "data": "1612", 
+            "data": 1612, 
             "fillKey": "low2"
         }
     }, 
@@ -331,7 +331,7 @@
         "CHL": {
             "country": "Chile", 
             "year": "2005", 
-            "data": "1971", 
+            "data": 1971, 
             "fillKey": "low2"
         }
     }, 
@@ -339,7 +339,7 @@
         "COL": {
             "country": "Colombia", 
             "year": "2005", 
-            "data": "1594", 
+            "data": 1594, 
             "fillKey": "low2"
         }
     }, 
@@ -347,7 +347,7 @@
         "MEX": {
             "country": "Mexico", 
             "year": "2005", 
-            "data": "1698", 
+            "data": 1698, 
             "fillKey": "low2"
         }
     }, 
@@ -355,7 +355,7 @@
         "PRY": {
             "country": "Paraguay", 
             "year": "2005", 
-            "data": "2985", 
+            "data": 2985, 
             "fillKey": "low3"
         }
     }, 
@@ -363,7 +363,7 @@
         "PER": {
             "country": "Peru", 
             "year": "2005", 
-            "data": "1381", 
+            "data": 1381, 
             "fillKey": "low2"
         }
     }, 
@@ -371,7 +371,7 @@
         "URY": {
             "country": "Uruguay", 
             "year": "2005", 
-            "data": "2025", 
+            "data": 2025, 
             "fillKey": "low2"
         }
     }, 
@@ -379,7 +379,7 @@
         "CHN": {
             "country": "China", 
             "year": "2005", 
-            "data": "701", 
+            "data": 701, 
             "fillKey": "low"
         }
     }, 
@@ -387,7 +387,7 @@
         "HKG": {
             "country": "Hong-Kong", 
             "year": "2005", 
-            "data": "4614", 
+            "data": 4614, 
             "fillKey": "mid"
         }
     }, 
@@ -395,7 +395,7 @@
         "IND": {
             "country": "India", 
             "year": "2005", 
-            "data": "708", 
+            "data": 708, 
             "fillKey": "low"
         }
     }, 
@@ -403,7 +403,7 @@
         "IDN": {
             "country": "Indonesia", 
             "year": "2005", 
-            "data": "1426", 
+            "data": 1426, 
             "fillKey": "low2"
         }
     }, 
@@ -411,7 +411,7 @@
         "JPN": {
             "country": "Japan", 
             "year": "2005", 
-            "data": "5903", 
+            "data": 5903, 
             "fillKey": "mid2"
         }
     }, 
@@ -419,7 +419,7 @@
         "NPL": {
             "country": "Nepal", 
             "year": "2005", 
-            "data": "393", 
+            "data": 393, 
             "fillKey": "low"
         }
     }, 
@@ -427,7 +427,7 @@
         "PAK": {
             "country": "Pakistan", 
             "year": "2005", 
-            "data": "2543", 
+            "data": 2543, 
             "fillKey": "low3"
         }
     }, 
@@ -435,7 +435,7 @@
         "PHL": {
             "country": "Philippines", 
             "year": "2005", 
-            "data": "1131", 
+            "data": 1131, 
             "fillKey": "low2"
         }
     }, 
@@ -443,7 +443,7 @@
         "PRK": {
             "country": "South Korea", 
             "year": "2005", 
-            "data": "3633", 
+            "data": 3633, 
             "fillKey": "low3"
         }
     }, 
@@ -451,7 +451,7 @@
         "TWN": {
             "country": "Taiwan", 
             "year": "2005", 
-            "data": "6497", 
+            "data": 6497, 
             "fillKey": "mid2"
         }
     }, 
@@ -459,7 +459,7 @@
         "THA": {
             "country": "Thailand", 
             "year": "2005", 
-            "data": "1904", 
+            "data": 1904, 
             "fillKey": "low2"
         }
     }, 
@@ -467,7 +467,7 @@
         "AUS": {
             "country": "Australia", 
             "year": "2005", 
-            "data": "6975", 
+            "data": 6975, 
             "fillKey": "mid2"
         }
     }, 
@@ -475,7 +475,7 @@
         "NZL": {
             "country": "New Zealand", 
             "year": "2005", 
-            "data": "7847", 
+            "data": 7847, 
             "fillKey": "mid3"
         }
     }, 
@@ -483,7 +483,7 @@
         "DZA": {
             "country": "Algeria", 
             "year": "2005", 
-            "data": "2031", 
+            "data": 2031, 
             "fillKey": "low2"
         }
     }, 
@@ -491,7 +491,7 @@
         "EGY": {
             "country": "Egypt", 
             "year": "2005", 
-            "data": "2328", 
+            "data": 2328, 
             "fillKey": "low2"
         }
     }, 
@@ -499,7 +499,7 @@
         "MAR": {
             "country": "Morocco", 
             "year": "2005", 
-            "data": "1171", 
+            "data": 1171, 
             "fillKey": "low2"
         }
     }, 
@@ -507,7 +507,7 @@
         "TUN": {
             "country": "Tunisia", 
             "year": "2005", 
-            "data": "1317", 
+            "data": 1317, 
             "fillKey": "low2"
         }
     }, 
@@ -515,7 +515,7 @@
         "CMR": {
             "country": "Cameroon", 
             "year": "2005", 
-            "data": "287", 
+            "data": 287, 
             "fillKey": "low"
         }
     }, 
@@ -523,7 +523,7 @@
         "COD": {
             "country": "Congo DR", 
             "year": "2005", 
-            "data": "1661", 
+            "data": 1661, 
             "fillKey": "low2"
         }
     }, 
@@ -531,7 +531,7 @@
         "CIV": {
             "country": "Ivory Coast", 
             "year": "2005", 
-            "data": "437", 
+            "data": 437, 
             "fillKey": "low"
         }
     }, 
@@ -539,7 +539,7 @@
         "ETH": {
             "country": "Ethiopia", 
             "year": "2005", 
-            "data": "361", 
+            "data": 361, 
             "fillKey": "low"
         }
     }, 
@@ -547,7 +547,7 @@
         "GAB": {
             "country": "Gabon", 
             "year": "2005", 
-            "data": "2602", 
+            "data": 2602, 
             "fillKey": "low3"
         }
     }, 
@@ -555,7 +555,7 @@
         "GHA": {
             "country": "Ghana", 
             "year": "2005", 
-            "data": "678", 
+            "data": 678, 
             "fillKey": "low"
         }
     }, 
@@ -563,7 +563,7 @@
         "KEN": {
             "country": "Kenya", 
             "year": "2005", 
-            "data": "842", 
+            "data": 842, 
             "fillKey": "low"
         }
     }, 
@@ -571,7 +571,7 @@
         "NER": {
             "country": "Niger", 
             "year": "2005", 
-            "data": "1047", 
+            "data": 1047, 
             "fillKey": "low2"
         }
     }, 
@@ -579,7 +579,7 @@
         "NGA": {
             "country": "Nigeria", 
             "year": "2005", 
-            "data": "760", 
+            "data": 760, 
             "fillKey": "low"
         }
     }, 
@@ -587,7 +587,7 @@
         "SEN": {
             "country": "Senegal", 
             "year": "2005", 
-            "data": "1131", 
+            "data": 1131, 
             "fillKey": "low2"
         }
     }, 
@@ -595,7 +595,7 @@
         "TCD": {
             "country": "Chad", 
             "year": "2005", 
-            "data": "816", 
+            "data": 816, 
             "fillKey": "low"
         }
     }, 
@@ -603,7 +603,7 @@
         "ZAF": {
             "country": "South Africa", 
             "year": "2005", 
-            "data": "3972", 
+            "data": 3972, 
             "fillKey": "low3"
         }
     }, 
@@ -611,7 +611,7 @@
         "SWZ": {
             "country": "Swaziland", 
             "year": "2005", 
-            "data": "2692", 
+            "data": 2692, 
             "fillKey": "low3"
         }
     }, 
@@ -619,7 +619,7 @@
         "TZA": {
             "country": "Tanzania", 
             "year": "2005", 
-            "data": "1048", 
+            "data": 1048, 
             "fillKey": "low2"
         }
     }, 
@@ -627,7 +627,7 @@
         "IRN": {
             "country": "Iran", 
             "year": "2005", 
-            "data": "2665", 
+            "data": 2665, 
             "fillKey": "low3"
         }
     }, 
@@ -635,7 +635,7 @@
         "ISR": {
             "country": "Israel", 
             "year": "2005", 
-            "data": "6632", 
+            "data": 6632, 
             "fillKey": "mid2"
         }
     }, 
@@ -643,7 +643,7 @@
         "JOR": {
             "country": "Jordan", 
             "year": "2005", 
-            "data": "3146", 
+            "data": 3146, 
             "fillKey": "low3"
         }
     }, 
@@ -651,7 +651,7 @@
         "KWT": {
             "country": "Kuwait", 
             "year": "2005", 
-            "data": "59295", 
+            "data": 59295, 
             "fillKey": "high3"
         }
     }, 
@@ -659,7 +659,7 @@
         "QAT": {
             "country": "Qatar", 
             "year": "2005", 
-            "data": "20425", 
+            "data": 20425, 
             "fillKey": "high3"
         }
     }, 
@@ -667,7 +667,7 @@
         "SAU": {
             "country": "Saudi Arabia", 
             "year": "2005", 
-            "data": "18002", 
+            "data": 18002, 
             "fillKey": "high2"
         }
     }, 
@@ -675,7 +675,7 @@
         "SYR": {
             "country": "Syria", 
             "year": "2005", 
-            "data": "4454", 
+            "data": 4454, 
             "fillKey": "mid"
         }
     }, 
@@ -683,7 +683,7 @@
         "ARE": {
             "country": "United Arab Emirates", 
             "year": "2005", 
-            "data": "23438", 
+            "data": 23438, 
             "fillKey": "high3"
         }
     }

@@ -30,6 +30,8 @@ Sanne Strikkers
     <link href="src/css/style.css" rel="stylesheet" />
     <!-- latest Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+    <!-- dropdown styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
 
     <title>Energieverbruik van Nederland</title>
 </head>
@@ -75,12 +77,6 @@ Sanne Strikkers
 
 <!-- container -->
 <div class="container">
-<div class="text-center">
-    <h2>Nederland</h2>
-    <h3 id="title-change">Gemiddeld stroom verbruik in 2010</h3>
-</div>
-<br>
-
 <form class="form-inline text-center" id="map-form">
     <div class="form-group">
         <b class="btn-group" data-toggle="buttons">
@@ -96,7 +92,7 @@ Sanne Strikkers
       </div>
         <div class="form-group">
             <!-- Dropdown variables world map -->
-            <select id="options" class="btn btn-default btn-dropwdown center-block">
+            <select id="options" class="selectpicker center-block" title="Kies een jaartal" data-width="fit">
                 <option class="place" value="2010">2010</option>
                 <option class="place" value="2012">2012</option>
                 <option class="place" value="2014">2014</option>
@@ -513,6 +509,52 @@ Sanne Strikkers
     <path clip-path="url(#SVG_CP_1)" fill="#cdc3cc" gem="Súdwest-Fryslân" id="GM1900" fill-rule="evenodd" stroke="#6E6E6E" stroke-width="0.47991" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" d="      M193.3091,61.14928L194.74813,61.86868L194.02862,62.34828L194.50829,62.34828L194.98797,61.86868L196.18716,62.82788L196.90667,62.34828      L196.66683,61.14928L198.34569,60.90947L199.06521,61.38908L199.78472,62.34828L199.78472,63.30749L200.2644,63.54729L199.54488,63.78709      L199.06521,65.46569L198.58553,65.22589L198.10586,65.7055L198.10586,67.1443L198.34569,67.3841L200.50423,67.6239L200.74407,69.06271      L201.46358,70.02192L202.1831,69.78211L203.38228,70.02192L203.62212,71.94032L204.1018,71.94032L204.34163,72.18013L205.30098,71.70052      L205.30098,71.46072L206.50017,71.22092L206.74001,71.70052L207.45952,71.70052L207.69936,72.41993L208.65871,71.94032L209.13839,72.41993      L209.8579,71.46072L211.05709,70.98112L211.29692,71.70052L213.21563,70.74132L213.93514,68.82291L217.77254,65.46569L218.25222,66.4249      L218.97173,66.9045L218.73189,66.9045L218.97173,67.3841L219.4514,67.1443L219.69124,67.6239L219.21157,69.06271L219.21157,70.26172      L218.49205,70.50152L219.21157,71.22092L219.4514,72.41993L218.25222,73.13933L218.97173,75.29754L217.29286,75.29754L217.77254,75.29754      L216.09368,77.69555L215.85384,79.85376L217.29286,80.81296L216.33351,81.77217L214.89449,82.01197L213.45546,84.17018L212.25628,83.69058      L212.01644,83.93038L212.01644,91.60401L208.17904,91.12441L207.9392,93.04282L203.86196,94.00202L202.1831,90.16521L201.22375,89.4458      L196.90667,92.32342L193.78878,95.92043L195.22781,97.59904L194.98797,98.31844L195.94732,99.03785L195.46764,99.99705L193.78878,100.71645      L193.3091,100.23685L192.82943,100.47665L189.95138,99.99705L189.4717,99.99705L189.95138,100.47665L190.67089,103.35427L189.4717,103.59407      L187.07333,102.39506L184.91479,100.23685L183.95544,99.99705L183.23593,98.31844L184.43511,96.40003L187.31316,95.44083L187.79284,94.72143      L188.03268,93.28262L186.83349,90.16521L187.79284,89.6856L188.03268,88.4866L187.79284,87.7672L189.95138,86.08859L188.27252,87.28759      L187.07333,83.21097L187.07333,81.53237L187.553,80.81296L187.79284,78.89456L187.07333,78.65475L186.83349,77.69555L187.31316,77.69555      L187.553,75.53734L187.07333,77.21595L186.59365,77.45575L185.39446,74.33833L184.67495,74.33833L187.07333,74.09853L187.553,74.57814      L186.59365,73.37913L185.39446,68.82291L182.03674,71.70052L181.7969,72.18013L181.55706,70.98112L181.7969,71.22092L182.75625,70.98112      L185.6343,68.10351L185.6343,67.1443L185.39446,66.6647L187.07333,65.46569L187.553,64.74629L188.27252,60.19007L188.75219,60.42987      L188.99203,59.95027L190.19122,60.19007L192.58959,60.90947L192.34975,61.38908L193.06927,61.62888L193.3091,61.14928zM167.16681,82.01197      L177.9595,72.41993L180.59771,71.70052L180.59771,70.74132L180.83755,71.46072L180.59771,71.70052L178.43917,72.41993L171.00421,78.65475      L170.52453,79.61396L170.2847,79.37416L167.16681,82.01197zM184.91479,71.70052L185.6343,71.70052L186.59365,74.09853L184.67495,74.09853      L185.15463,73.85873L184.19528,71.94032L184.19528,71.22092L184.43511,71.22092L184.91479,71.70052z" />
     <path clip-path="url(#SVG_CP_1)" fill="#cdc3cc" gem="De Friese Meren" id="GM1921" fill-rule="evenodd" stroke="#6E6E6E" stroke-width="0.47991" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" d="      M233.60182,94.48163L231.20345,96.40003L229.04491,96.87964L229.04491,97.59904L226.64653,100.23685L225.44734,102.63486L225.20751,104.31347      L224.00832,106.23188L224.24816,106.47168L223.2888,107.19108L223.52864,107.91049L220.89043,109.82889L220.41075,107.91049L      217.29286,104.79307L215.13433,104.31347L215.614,105.75228L214.17498,105.03287L214.65465,104.31347L213.93514,104.55327L213.6953,105.27267      L212.49611,104.07367L209.37822,104.31347L209.37822,102.87466L208.17904,101.91546L206.0205,103.35427L204.58147,103.11446L      203.14245,103.35427L202.66277,104.79307L202.1831,105.27267L199.54488,105.75228L194.98797,103.59407L191.87008,102.63486L191.3904,102.87466      L191.63024,103.11446L190.67089,103.35427L189.95138,100.47665L189.4717,99.99705L189.95138,99.99705L192.82943,100.47665L193.3091,100.23685      L193.78878,100.71645L195.46764,99.99705L195.94732,99.03785L194.98797,98.31844L195.22781,97.59904L193.78878,95.92043L196.90667,92.32342      L201.22375,89.4458L202.1831,90.16521L203.86196,94.00202L207.9392,93.04282L208.17904,91.12441L212.01644,91.60401L212.25628,83.69058      L213.45546,84.17018L214.89449,82.01197L216.57335,81.53237L216.57335,81.05277L217.29286,80.81296L215.85384,79.85376L216.09368,77.69555      L217.77254,75.29754L217.29286,75.29754L219.21157,75.29754L221.13027,73.61893L221.60994,75.05774L223.76848,76.49654L226.64653,79.37416      L227.36604,82.01197L229.04491,84.40998L227.36604,84.88958L227.84572,87.04779L229.04491,86.56819L229.76442,87.28759L230.00426,87.28759      L233.60182,94.48163zM213.93514,105.51247L214.17498,105.27267L214.17498,105.51247L213.93514,105.51247zM210.57741,105.99208      L212.73595,105.51247L213.21563,105.51247L210.57741,105.99208z" /></svg>
 </div>
+<!-- legend and explanation text -->
+            <section id="about" class="mz-module">
+                <!-- legend -->
+                <div class="row row-0-gutter center-block legend">
+                    <!-- legend title -->
+                    <h4 id="title-change">Gemiddeld stroomverbruik per huishouden in 2014</h4>
+                    <p>Bron: <a href="http://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=81528NED&D1=a&D2=0%2c3%2cl&D3=0-1%2c8%2c11-13%2c15%2c22%2c33%2c74%2c151%2c221%2c331%2c384%2c448&D4=a&HDR=T&STB=G1%2cG2%2cG3&P=D&VW=D" target="_blank">statline.cbs.nl</a></p>
+                    
+                    <!-- legend content -->
+                   <div class="black-legend"></div>
+                    <!-- ./legend content -->
+                </div>
+
+                <!-- explanation -->
+                <div class="light-bg">
+                    <div class="row">
+                        <!-- explanation title -->
+                        <div class="col-lg-12 text-center">
+                            <div class="section-title">
+                                <h2>STROOM VERBRUIK IN NEDERLAND</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- explanation content -->
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <div class="mz-about-container">
+                                <p>Bovenstaande wereldkaart geeft het gemiddelde stroomverbruik per huishouden in 2014 weer. Hoe donkerder de kleur
+                                    hoe hoger het stroomverbruik. Als er geen informatie beschikbaar is, wordt het land grijs weergegeven.</p>
+                                    <p>SJV staat voor het standaard jaar vebruik. Door op het gewenste land te klikken wordt er een jaaroverzicht weergegeven. Het specifieke land wordt vergeleken met Nederland.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <div class="mz-about-container">
+                                    <p>Als Nederland wordt vergeleken met andere landen, is Nederland eigenlijk gemiddeld qua stroomverbruik. </p>
+                                    <p>Over de landen in Afrika is er vrij weinig informatie beschikbaar. Dat komt doordat het stroomverbruik lastig te meten valt.</p>
+                                    <p>Amerika, Noorwegen, Canada en Saudi Arabie verbruiken de huishoudens gemiddeld genomen het meest.
+                                        De oorzaak hiervan is dat deze landen vrij rijk zijn.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- ./explanation content -->
+                </div>
+                <!-- /.explanation -->
+            </section>
+            <!-- ./legend and explanation text -->
 </div>
 <!-- /.Container -->
 
@@ -533,6 +575,8 @@ Sanne Strikkers
 <script src="src/js/netherlands.js"></script>
 <!-- latest Bootstrap compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- dropdown JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
 </body>
 
 </html>
