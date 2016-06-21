@@ -37,7 +37,48 @@ Dan heb ik de hele dag geprobeerd om tekst in de donut te krijgen. Dit werkt hel
 Volgend idee voor de volgende pagina is ook weer veranderd. De kaart van Nederland gaat misschien niet lukken. Als alternatief is er bedacht om bolletjes te tonen van elke plaats of gemeente in Nederland. Hierbij staat het gemiddeld verbruik. Hoe hoger het verbruik hoe groter de bol. Hierbij kan men naar een bol zoeken door middel van een plaats of gemeente in te tikken.
 
 # day 8
+Een rustige dag qua programmeren. Fouten opgelost en enige stijl aanpassingen. Nagedacht over wat ik ga doen met de Nederlandse kaart. De bubbels blijven in gedachte.
 
 # day 9
+De kleuren voor de donut statisch gemaakt zodat men kan zien bij welke kleur ieder hoort.
+Ook een begin gemaakt aan de python script voor de pagina Nederland. Zodat bij iedere postcode een gemeente staat.
 
 # day 10
+Een demo getoond van mijn website. Als advies werd er gegeven om mijn legenda aan te passen. Is te groot. Bij de donut is het handiger om labels te gebruiken. Ook is het beter om inderdaad gemiddeldes te pakken voor Nederland en niet elke postcode. Maar juist gemeentes.
+
+# day 11
+Uiteindelijk voor de bubbles gegaan. Ik denk dat een Nederlandse map te moeilijk wordt. Python script voor Nederland afgemaakt zodat de bubbles werken. Echter zijn de bubbles niet zo overzichtelijk als ik dacht en men kan niet zoeken naar de juiste gemeente. Toch nog even overwegen of de kaart van Nederland beter is.
+
+# day 12
+Bubbles overzichtelijker gemaakt. Men kan zoeken naar gemeente en tussen stroom en gas kiezen. nu zijn er minder bubbles, maar toch nog best veel.
+
+# day 13
+De bubbles aan mensen laten zien, maar weinig enthousiasme. Het ziet er leuk uit, maar geeft geen toegevoegde waarde. SVG kaart van Nederland gevonden en geïmplementeerd in html. 
+
+Ook de python script aangepast. Zodat elk jaar in een apart bestand komt. Nu kan men uit product (stroom of gas) kiezen. Ook kan men uit verschillende jaren kiezen zodat er trend ontstaat.
+
+Kaart is veel overzichtelijker dan de bubbles.
+
+# day 14
+Functionaliteit verbeterd voor de Nederlandse kaart. Kleuren veranderd. Stroom is groen en gas is rood. Zo is de onderscheiding verduidelijkt. De stijl van de knoppen aangepast zodat het dezelfde stijl is als de website.
+
+Geprobeerd om de SVG als een extern bestand in te laden. Via d3 en html geprobeerd, maar geen van beide wil lukken. Dit maar achterwege gelaten en gefocust op de rest van de website.
+
+Legenda wordt nu via d3 aangemaakt. Zo is het HTML overzichtelijker en er is minder code. Ook de lijst met leveranciers aangepast. Nu is het een dropdown. Niet geheel overzichtelijk
+
+# day 15
+Demo van de website gegeven. Labels zitten nog steeds niet bij de donut, maar zijn wel noodzakelijk. Ook is de dropdown bij de leveranciers niet duidelijk, lijst is mooier. Dit meteen terug gezet.
+
+De twee grafieken bij de wereldkaart zijn nu prima, omdat de y-assen het zelfde zijn. Het liefst 2 in 1, maar dit gaat qua skills en tijd denk ik niet lukken.
+
+# day 16
+Code opgeschoond. Legenda is dynamischer zodat het in meerdere bestanden kan worden aangemaakt. Commentaar toegevoegd. Tekst toegevoegd aan de wereld kaart en de kaart van Nederland.
+
+De labels zijn gelukt bij de donut. nu met een lijntje en mooie transitie. Ook als men over de kleuren hovert komt er in het midden van de donut de percentages.
+
+# day 17
+di
+# day 18
+wo
+# day 19
+do

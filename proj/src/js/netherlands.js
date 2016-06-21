@@ -14,11 +14,19 @@ Sanne Strikkers
 var year = "2010";
 var product = "electricity";
 
-var dataList = [];
+// lists to store data
+var dataList = [],
+detailList = [],
+dataElec2010 = [],
+dataElec2012 = [],
+dataElec2014 = [],
+dataGas2010 = [],
+dataGas2012 = [],
+dataGas2014 = [];
 
 // legend information
-var palletteElec = [];
-var palletteGas = [];
+var palletteElec = [],
+palletteGas = [];
 var colorsElec = ["#F2F2F2", "#f6faf4","#f7fcf5","#e5f5e0","#c7e9c0","#a1d99b","#74c476","#41ab5d","#238b45","#006d2c", "#00441b", "#083a1c"];
 var colorsGas = ["#F2F2F2", "#fff5eb", "#fee6ce", "#fdd0a2", "#fdae6b", "#fd8d3c", "#f16913", "#d94801", "#a63603", "#7f2704", "#3f1302"];
 var namesElec = ["Geen data", "< 400", "400 - 800", "800 - 1.200", "1.200 - 1.600", "1.600 - 2.000", "2.000 - 2.400", "2.400 - 2.800", "2.800 - 3.200", "3.200 - 3.600", "3.600 - 4.000", "4.000 >"];
@@ -31,7 +39,16 @@ for (var i = 0; i < colorsGas.length; i++) {
 }
 // setting up the first view
 makeLegend(palletteElec);
-mapUpdate("data/netherlands/electricity/netherlands_elek_2010.json");
+
+// load several files
+queue()
+.defer(d3.json, 'data/netherlands/electricity/netherlands_elek_2010.json')
+.defer(d3.json, 'data/netherlands/electricity/netherlands_elek_2012.json')
+.defer(d3.json, 'data/netherlands/electricity/netherlands_elek_2014.json')
+.defer(d3.json, 'data/netherlands/gas/netherlands_gas_2010.json')
+.defer(d3.json, 'data/netherlands/gas/netherlands_gas_2012.json')
+.defer(d3.json, 'data/netherlands/gas/netherlands_gas_2014.json')
+.await(getData);
 
 // when selecting another variable, the map will be updated
 d3.selectAll("select")
@@ -44,66 +61,79 @@ d3.selectAll(".radio-product")
 	product = d3.select(this).attr("value");
 	choiceUpdate();
 });
+/*
+	Get the data from the external files.
+	Load the data into seperate arrays.
+	One big array with all the information and arrays per year.
+*/
+function getData(error, elec2010, elec2012, elec2014, gas2010, gas2012, gas2014) {
+	if (error) {
+		console.log("We cannot retrieve the data.");
+		alert("We cannot retrieve the data.");
+		throw error;
+	};
+	elec2010.forEach(function (d) {
+		detailList.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv, "year": "2010", "product": "electricity"});
+		dataElec2010.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv});
+	});
+	elec2012.forEach(function (d) {
+		detailList.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv, "year": "2012", "product": "electricity"});
+		dataElec2012.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv});
+	});
+	elec2014.forEach(function (d) {
+		detailList.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv, "year": "2014", "product": "electricity"});
+		dataElec2014.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv});
+	});
+	gas2010.forEach(function (d) {
+		detailList.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv, "year": "2010", "product": "gas"});
+		dataGas2010.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv});
+	});
+	gas2012.forEach(function (d) {
+		detailList.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv, "year": "2012", "product": "gas"});
+		dataGas2012.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv});
+	});
+	gas2014.forEach(function (d) {
+		detailList.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv, "year": "2014", "product": "gas"});
+		dataGas2014.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv});
+	});
+	// set first view
+	setMap(dataElec2010);
+}
 
 /*
 	When selecting an option then change it.
 	Also the legend will update.
 */
 function choiceUpdate() {
+	// if electricity is selected then show the right map with selected year
 	if (product == "electricity") {
 		if (year == "2010") {
-			mapUpdate("data/netherlands/electricity/netherlands_elek_2010.json");
+			setMap(dataElec2010);
 			titleChange("Gemiddeld stroomverbruik per huishouden in 2010");
 		} else if (year == "2012") {
-			mapUpdate("data/netherlands/electricity/netherlands_elek_2012.json");
+			setMap(dataElec2012);
 			titleChange("Gemiddeld stroomverbruik per huishouden in 2012");
 		} else {
-			mapUpdate("data/netherlands/electricity/netherlands_elek_2014.json");
+			setMap(dataElec2014);
 			titleChange("Gemiddeld stroomverbruik per huishouden in 2014");
 		}
+		// show the legend of electricity
 		makeLegend(palletteElec);
+	// otherwise show the information of gas in the map	
 	} else {
 		if (year == "2010") {
-			mapUpdate("data/netherlands/gas/netherlands_gas_2010.json");
+			setMap(dataGas2010);
 			titleChange("Gemiddeld gasverbruik per huishouden in 2010");
 		} else if (year == "2012") {
-			mapUpdate("data/netherlands/gas/netherlands_gas_2012.json");
+			setMap(dataGas2012);
 			titleChange("Gemiddeld gasverbruik per huishouden in 2012");
 		} else {
-			mapUpdate("data/netherlands/gas/netherlands_gas_2014.json");
+			setMap(dataGas2014);
 			titleChange("Gemiddeld gasverbruik per huishouden in 2014");
 		}
+		// show the legend of gas
 		makeLegend(palletteGas);
 	}
-}
-
-/*
-	Changes the title for the map
-	text; text to be shown on the map.
-*/
-function titleChange(text) {
-	d3.select("#title-change").html(text);
-}
-
-/*
-	Updates the map when clicked a variable.
-	file; load the right file with the selected year.
-*/
-function mapUpdate(file) {
-	dataList.length = 0;
-	// get data from json file and update the map with these values
-	d3.json(file, function (error, data) {
-		if (error) {
-			console.log("We cannot retrieve the data.");
-			alert("We cannot retrieve the data.");
-			throw error;
-		};
-	    // update map
-	    data.forEach(function (d) {
-	    	dataList.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv});
-	    });
-	    setMap(dataList);
-	});
 }
 
 /*
@@ -111,10 +141,10 @@ function mapUpdate(file) {
 	Shows the tooltips at the communities.
 	data; data to be shown in the map and tooltips
 */
-function setMap(data) {
-	var svgMap = d3.select('svg');
-	var div = d3.select("body").append("div").attr("class", "donut-d3-tip");
-	
+function setMap(data) {	
+		var svgMap = d3.select('svg');
+		var div = d3.select("body").append("div").attr("class", "nl-tooltip ");
+
 	// fill the communities in the netherlands
 	var path = svgMap.selectAll("path")
 	.data(data, function(d) {return (d && d.code) || d3.select(this).attr("id"); })
@@ -136,4 +166,149 @@ function setMap(data) {
 	.on("mouseout", function(d){
 		div.style("display", "none");
 	});
+
+	path.on("click", function(d){
+		setBarchart(d);
+	});
+}
+
+/*
+*/
+function setBarchart(data) {
+	var dataList = [];
+	var dataListElec = [];
+	var dataListGas = [];
+	// gets data of the community of every year
+	detailList.forEach(function(d){
+		if (d.code == data.code){
+			dataList.push(d);
+		}
+	});
+	// puts the community data into seperate arrays for electricity and gas
+	dataList.forEach(function(d){
+		if (d.product == "electricity") {
+			dataListElec.push(d);
+		} else {
+			dataListGas.push(d);
+		}
+	});
+	// sets the title as a community name
+	d3.select("#bar-chart-title").html(dataList[0].community);
+
+	// shows the electricity chart
+	d3.select("#bar-chart-elec").html("");
+	createBarchart(dataListElec, "#bar-chart-elec");
+	d3.select("#bar-chart-title-elec").html("stroomverbruik");
+
+	// shows the gas chart
+	d3.select("#bar-chart-gas").html("");
+	createBarchart(dataListGas, "#bar-chart-gas");
+	d3.select("#bar-chart-title-gas").html("Gasverbruik");
+
+	// animate to the barchart
+	$("html, body").animate({scrollTop: $('#bar-chart-title').offset().top }, 1000);
+}
+
+/*
+	Creates the barchart.
+	data; the list of information, 
+	position; position of the barchart
+*/
+function createBarchart(data, position) {
+	// checks if there is data
+	data.forEach(function(d){
+		if (d.sjv == "Geen data beschikbaar") {
+			d.sjv = 0;
+		}
+	});
+	// setting up the height and width of the chart
+	var margin = {top: 20, right: 20, bottom: 30, left: 60},
+	width = 500 - margin.left - margin.right,
+	height = 400 - margin.top - margin.bottom;
+
+	// x-axis
+	var x = d3.scale.ordinal()
+		.rangeRoundBands([0, width], .75);
+	var xAxis = d3.svg.axis()
+		.scale(x)
+		.orient("bottom");
+
+	// y-axis
+	var y = d3.scale.linear()
+		.range([height, 0]);
+	var yAxis = d3.svg.axis()
+		.scale(y)
+		.orient("left")
+		.ticks(10);
+
+	// sets the domains for the x and y axis
+	x.domain(data.map(function(d) {return d.year;}));
+	y.domain([0, d3.max(data, function(d) {return d.sjv; })]);
+
+	// tooltip when hovering the bars
+	var tip = d3.tip()
+		.attr('class', 'd3-tip')
+		.offset([-10, 0])
+		.html(function(d) {
+			if (d.product == "electricity") {
+				return "<strong>" + d.sjv + "</strong> kWh";
+			} else {
+				return "<strong>" + d.sjv + "</strong> m3";
+			}
+		});
+
+	// initialze the part for the chart
+	var svg = d3.select(position)
+		.append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+		.append("g")
+			.attr("class", "text-center ")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	// set x-axis
+	svg.append("g")
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + height + ")")
+		.call(xAxis);
+
+	// set y-axis
+	svg.append("g")
+		.attr("class", "y axis")
+		.call(yAxis)
+	.append("text")
+		.attr("transform", "rotate(-90)")
+		.attr("y", 6)
+		.attr("dy", ".71em")
+		.style("text-anchor", "end")
+		.html(function(){
+			if (data[0].product == "electricity"){
+				return "Stroomverbruik (per kWh)";
+			} else {
+				return "Gasverbruik (per m3)";
+			}
+		});
+
+	// add bars
+	svg.selectAll(".bar")
+		.data(data)
+		.enter().append("rect")
+			.attr("class", "bar")
+			.attr("x", function(d) { return x(d.year); })
+			.attr("width", x.rangeBand())
+			.attr("y", function(d) { return y(d.sjv); })
+			.attr("height", function(d) { return height - y(d.sjv); })
+			.on('mouseover', tip.show)
+			.on('mouseout', tip.hide);
+
+	// add tooltip to the chart
+	svg.call(tip);
+}
+
+/*
+	Changes the title for the map
+	text; text to be shown on the map.
+*/
+function titleChange(text) {
+	d3.select("#title-change").html(text);
 }

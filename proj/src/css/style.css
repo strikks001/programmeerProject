@@ -211,6 +211,18 @@ footer p {
   border-radius: 2px;
 }
 
+.nl-tooltip {
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  padding: 12px;
+  background: #F5F5F5;
+  border-radius: 2px;
+  text-align: center;
+}
+
 /* Creates a small triangle extender for the tooltip */
 .d3-tip:after {
   box-sizing: border-box;
@@ -328,44 +340,44 @@ footer p {
   --------------------*/
 
 
-.donut-svg {
-  width: 650px;
-  height: 500px;
-  margin-top: 90px;
-}
+  .donut-svg {
+    width: 650px;
+    height: 500px;
+    margin-top: 90px;
+  }
 
-path.slice{
-  stroke-width:2px;
-}
+  path.slice{
+    stroke-width:2px;
+  }
 
-polyline{
-  opacity: .3;
-  stroke: grey;
-  stroke-width: 1px;
-  fill: none;
-}
+  polyline{
+    opacity: .3;
+    stroke: grey;
+    stroke-width: 1px;
+    fill: none;
+  }
 
-text{
-  font-family: "Raleway", Sans-serif;
-}
+  text{
+    font-family: "Raleway", Sans-serif;
+  }
 
 
 /*--------------------
-  Bubble Chart
+  Netherlands
   --------------------*/
-.btn span.glyphicon {         
-  opacity: 0;       
-}
-.btn.active span.glyphicon {        
-  opacity: 1;       
-}
-.btn-dropwdown {
-  height: 34px;
-}
-#map-form {
-  margin-top: 50px;
-  margin-bottom: 80px;
-}
+  .btn span.glyphicon {         
+    opacity: 0;       
+  }
+  .btn.active span.glyphicon {        
+    opacity: 1;       
+  }
+  .btn-dropwdown {
+    height: 34px;
+  }
+  #map-form {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
 
 
 
