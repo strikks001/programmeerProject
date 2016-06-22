@@ -77,7 +77,7 @@ var map = new Datamap({
 			// set the barchart
 			setBarchart(code, "#bar-chart");
 			// animate to the barchart
-			$("html, body").animate({scrollTop: $('#energy-bar').offset().top }, 1000);
+			$("html, body").animate({scrollTop: $('#energy-bar').offset().top }, 10000);
 			// show the barchart
 			d3.select("#bar-chart")
 				.style("display", "block");
