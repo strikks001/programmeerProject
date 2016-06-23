@@ -9,7 +9,7 @@ Met dit probleem ben ik aan de slag gegaan. De website laat ten eerste een uitle
 
 Als laatste wil ik aan de hand van een donut grafiek laten zien welke energieleveranciers er zijn. Daarbij wil ik ook de afkomst van stroom laten zien bij elke leverancier. Zo kan men ten eerste zien waar de stroom vandaan komt. Ten tweede kan men tegelijkertijd ook zien welke energieleveranciers er zijn in Nederland.
 
-![Voorbeeld website van de pagina netherlands.html](doc/voorbeeld_website.jpg)
+![Voorbeeld website van de pagina netherlands.html](doc/voorbeeld_website.png)
 
 ### Technisch ontwerp
 
