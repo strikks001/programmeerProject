@@ -314,7 +314,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1901", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Bodegraven-Reeuwijk"
     }, 
     {
@@ -632,7 +632,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1903", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Eijsden-Margraten"
     }, 
     {
@@ -698,7 +698,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1921", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "De Friese Meren"
     }, 
     {
@@ -758,7 +758,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1924", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Goeree-Overflakkee"
     }, 
     {
@@ -1040,7 +1040,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1911", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Hollands Kroon"
     }, 
     {
@@ -1400,7 +1400,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1908", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Menameradiel"
     }, 
     {
@@ -1460,7 +1460,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1927", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Molenwaard"
     }, 
     {
@@ -2090,7 +2090,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1904", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Stichtse Vecht"
     }, 
     {
@@ -2102,7 +2102,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1900", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Sœdwest-Frysl‰n"
     }, 
     {
@@ -2666,7 +2666,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0305", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Abcoude"
     }, 
     {
@@ -2744,13 +2744,13 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0364", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Andijk"
     }, 
     {
         "color": "#F2F2F2", 
         "code": "GM0366", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Anna Paulowna"
     }, 
     {
@@ -2948,7 +2948,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0497", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Bodegraven"
     }, 
     {
@@ -2972,7 +2972,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0064", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Bolsward"
     }, 
     {
@@ -3020,7 +3020,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0311", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Breukelen"
     }, 
     {
@@ -3266,7 +3266,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0905", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Eijsden"
     }, 
     {
@@ -3338,7 +3338,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1921", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "De Friese Meren"
     }, 
     {
@@ -3398,7 +3398,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1924", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Goeree-Overflakkee"
     }, 
     {
@@ -3920,7 +3920,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0808", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Lith"
     }, 
     {
@@ -3938,7 +3938,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0329", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Loenen"
     }, 
     {
@@ -3968,7 +3968,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0333", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Maarssen"
     }, 
     {
@@ -4004,7 +4004,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0936", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Margraten"
     }, 
     {
@@ -4034,7 +4034,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0083", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Menaldumadeel"
     }, 
     {
@@ -4100,7 +4100,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1927", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Molenwaard"
     }, 
     {
@@ -4160,7 +4160,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0412", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Niedorp"
     }, 
     {
@@ -4184,7 +4184,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0104", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Nijefurd"
     }, 
     {
@@ -4430,7 +4430,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0595", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Reeuwijk"
     }, 
     {
@@ -4532,7 +4532,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0600", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Rozenburg"
     }, 
     {
@@ -4664,7 +4664,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0091", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Sneek"
     }, 
     {
@@ -5036,7 +5036,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0459", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wervershoof"
     }, 
     {
@@ -5084,13 +5084,13 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0462", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wieringen"
     }, 
     {
         "color": "#F2F2F2", 
         "code": "GM0463", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wieringermeer"
     }, 
     {
@@ -5162,13 +5162,13 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0710", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wžnseradiel"
     }, 
     {
         "color": "#F2F2F2", 
         "code": "GM0683", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wymbritseradiel"
     }, 
     {
@@ -5306,7 +5306,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0305", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Abcoude"
     }, 
     {
@@ -5384,13 +5384,13 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0364", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Andijk"
     }, 
     {
         "color": "#F2F2F2", 
         "code": "GM0366", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Anna Paulowna"
     }, 
     {
@@ -5582,13 +5582,13 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0055", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Boarnsterhim"
     }, 
     {
         "color": "#F2F2F2", 
         "code": "GM0497", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Bodegraven"
     }, 
     {
@@ -5612,7 +5612,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0064", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Bolsward"
     }, 
     {
@@ -5636,7 +5636,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0499", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Boskoop"
     }, 
     {
@@ -5660,7 +5660,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0311", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Breukelen"
     }, 
     {
@@ -5804,7 +5804,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0504", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Dirksland"
     }, 
     {
@@ -5906,7 +5906,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0905", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Eijsden"
     }, 
     {
@@ -5984,7 +5984,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0653", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Gaasterl‰n-Sleat"
     }, 
     {
@@ -6032,7 +6032,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0511", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Goedereede"
     }, 
     {
@@ -6068,7 +6068,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0693", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Graafstroom"
     }, 
     {
@@ -6176,7 +6176,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0395", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Harenkarspel"
     }, 
     {
@@ -6518,7 +6518,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0082", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Lemsterland"
     }, 
     {
@@ -6536,7 +6536,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0694", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Liesveld"
     }, 
     {
@@ -6560,7 +6560,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0808", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Lith"
     }, 
     {
@@ -6578,7 +6578,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0329", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Loenen"
     }, 
     {
@@ -6608,7 +6608,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0333", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Maarssen"
     }, 
     {
@@ -6644,7 +6644,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0936", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Margraten"
     }, 
     {
@@ -6674,7 +6674,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0083", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Menaldumadeel"
     }, 
     {
@@ -6704,7 +6704,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0559", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Middelharnis"
     }, 
     {
@@ -6800,7 +6800,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0412", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Niedorp"
     }, 
     {
@@ -6818,13 +6818,13 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0571", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Nieuw-Lekkerland"
     }, 
     {
         "color": "#F2F2F2", 
         "code": "GM0104", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Nijefurd"
     }, 
     {
@@ -6956,7 +6956,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0580", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Oostflakkee"
     }, 
     {
@@ -7070,7 +7070,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0595", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Reeuwijk"
     }, 
     {
@@ -7124,7 +7124,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1672", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Rijnwoude"
     }, 
     {
@@ -7172,7 +7172,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0600", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Rozenburg"
     }, 
     {
@@ -7274,7 +7274,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0051", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Skarsterl‰n"
     }, 
     {
@@ -7304,7 +7304,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0091", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Sneek"
     }, 
     {
@@ -7676,7 +7676,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0459", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wervershoof"
     }, 
     {
@@ -7724,13 +7724,13 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0462", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wieringen"
     }, 
     {
         "color": "#F2F2F2", 
         "code": "GM0463", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wieringermeer"
     }, 
     {
@@ -7802,13 +7802,13 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0710", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wžnseradiel"
     }, 
     {
         "color": "#F2F2F2", 
         "code": "GM0683", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Wymbritseradiel"
     }, 
     {
@@ -7862,7 +7862,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM0476", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Zijpe"
     }, 
     {
@@ -8234,7 +8234,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1901", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Bodegraven-Reeuwijk"
     }, 
     {
@@ -8552,7 +8552,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1903", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Eijsden-Margraten"
     }, 
     {
@@ -8618,7 +8618,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1921", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "De Friese Meren"
     }, 
     {
@@ -8678,7 +8678,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1924", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Goeree-Overflakkee"
     }, 
     {
@@ -8960,7 +8960,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1911", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Hollands Kroon"
     }, 
     {
@@ -9320,7 +9320,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1908", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Menameradiel"
     }, 
     {
@@ -9380,7 +9380,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1927", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Molenwaard"
     }, 
     {
@@ -10010,7 +10010,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1904", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Stichtse Vecht"
     }, 
     {
@@ -10022,7 +10022,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1900", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Sœdwest-Frysl‰n"
     }, 
     {

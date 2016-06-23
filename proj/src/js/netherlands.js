@@ -158,13 +158,13 @@ function setMap(data) {
 		div.style("display", "inline-block");
 		// if the product is electricity then show kWh otherwise m3
 		if (product == "electricity") {
-			if (d.sjv == "Geen data beschikbaar"){
+			if (d.sjv == 0){
 				div.html("<strong>" + d3.select(this).attr('class') + "</strong><br>Geen informatie beschikbaar");
 			} else {
 				div.html("<strong>" + d3.select(this).attr('class') + "</strong><br>SJV: " + d.sjv + " kWh");
 			}
 		} else if (product == "gas"){
-			if (d.sjv == "Geen data beschikbaar"){
+			if (d.sjv == 0){
 				div.html("<strong>" + d3.select(this).attr('class') + "</strong><br>Geen informatie beschikbaar");
 			} else {
 				div.html("<strong>" + d3.select(this).attr('class') + "</strong><br>SJV: " + d.sjv + " m3");

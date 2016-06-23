@@ -50,7 +50,7 @@ def getResult(data_list, input_year):
         # insert data into a list
         if year == input_year:
             if electricity == 0:
-                data_list_elec.append({"sjv": "Geen data beschikbaar", "color": "#F2F2F2", "community": getCommunity(code), "code": code})
+                data_list_elec.append({"sjv": 0, "color": "#F2F2F2", "community": getCommunity(code), "code": code})
             elif electricity > 0 and electricity <= 400:
                 data_list_elec.append({"sjv": electricity, "color": "#f6faf4", "community": getCommunity(code), "code": code})
             elif electricity > 400 and electricity <= 800:
@@ -75,7 +75,7 @@ def getResult(data_list, input_year):
                 data_list_elec.append({"sjv": electricity, "color": "#083a1c", "community": getCommunity(code), "code": code})
             # gas list
             if gas == 0:
-                data_list_gas.append({"sjv": "Geen data beschikbaar", "color": "#F2F2F2", "community": getCommunity(code), "code": code})
+                data_list_gas.append({"sjv": 0, "color": "#F2F2F2", "community": getCommunity(code), "code": code})
             elif gas > 0 and gas <= 250:
                 data_list_gas.append({"sjv": gas, "color": "#fff5eb", "community": getCommunity(code), "code": code})
             elif gas > 250 and gas <= 500:

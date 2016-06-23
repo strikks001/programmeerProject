@@ -314,7 +314,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1901", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Bodegraven-Reeuwijk"
     }, 
     {
@@ -632,7 +632,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1903", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Eijsden-Margraten"
     }, 
     {
@@ -698,7 +698,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1921", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "De Friese Meren"
     }, 
     {
@@ -758,7 +758,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1924", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Goeree-Overflakkee"
     }, 
     {
@@ -1040,7 +1040,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1911", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Hollands Kroon"
     }, 
     {
@@ -1400,7 +1400,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1908", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Menameradiel"
     }, 
     {
@@ -1460,7 +1460,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1927", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Molenwaard"
     }, 
     {
@@ -2090,7 +2090,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1904", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Stichtse Vecht"
     }, 
     {
@@ -2102,7 +2102,7 @@
     {
         "color": "#F2F2F2", 
         "code": "GM1900", 
-        "sjv": "Geen data beschikbaar", 
+        "sjv": 0, 
         "community": "Sœdwest-Frysl‰n"
     }, 
     {
