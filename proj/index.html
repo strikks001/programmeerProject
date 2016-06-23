@@ -1,6 +1,6 @@
 <!--
 
-index.html
+world.html
 
 Computer Science 50
 Programmeer Project 2016
@@ -23,77 +23,173 @@ Sanne Strikkers
     <!-- JavaScript D3 library -->
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
     <!-- app's own CSS -->
     <link href="src/css/style.css" rel="stylesheet" />
-
-    <!-- Latest Bootstrap compiled and minified CSS -->
+    <!-- latest Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- dropdown styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
 
-    <title>Home</title>
+    <title>Kennis</title>
 </head>
 
 <body>
-    <!-- Navigation -->
+
+    <!-- navigation -->
     <div class="text-center" >
       <img class="navbar-logo" src="src/img/logo.png" width="165" alt="Logo Energy Knowledge">
-      <nav class="navbar navbar-default">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav ">
-                    <li>
-                        <a href="index.html">Kennis</a>
-                    </li>
-                    <li>
-                        <a href="world.html">Wereld</a>
-                    </li>
-                    <li>
-                        <a href="netherlands.html">Nederland</a>
-                    </li>
-                    <li>
-                        <a href="suppliers.html">Energieleveranciers</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+        <!-- brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <!-- /.Navigation -->
-</div>
-
-<!-- Container -->
-<div class="container">
-
-</div>
-<!-- /.Container -->
-
-<!-- Footer -->
-<footer>
-    <div class="container text-center">
-        <p>Sanne Strikkers</p> 
+        <!-- collect the nav links -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+                <li>
+                    <a href="index.html">Kennis</a>
+                </li>
+                <li>
+                    <a href="world.html">Wereld</a>
+                </li>
+                <li>
+                    <a href="netherlands.html">Nederland</a>
+                </li>
+                <li>
+                    <a href="suppliers.html">Energieleveranciers</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-</footer>
-<!-- ./Footer -->
+    <!-- /.container-fluid -->
+</nav>
+<!-- /.navigation -->
 
-<!-- DataMap -->
-<script src="http://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
-<!-- JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<!-- app's own JavaScript -->
-<script src="src/js/app.js"></script>
-<!-- Latest Bootstrap compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- container -->
+<div class="container">
+    <img src="src/img/windpark.jpg" class="img" />
+    <!-- explanation -->
+    <div class="row">
+        <!-- explanation title -->
+        <div class="col-lg-12 text-center">
+            <div class="section-title">
+                <h2>ENERGIE</h2>
+            </div>
+        </div>
+    </div>
+    <!-- explanation content -->
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <div class="mz-about-container">
+                <p>Hoe werkt de energiewereld? Gaan wij minder of juist meer stroom en gas verbruiken? Dit zijn een
+                    paar vragen die men in gedachte heeft. </p>
+                    <p>Allereerst moet energie uitgelegd worden. Energie bestaat uit stroom en gas. Stroom kan vanuit verschillende bronnen ontstaan. Stroom is bijvoorbeeld afkomstig van wind, zon of water. Dit zijn natuurlijke bronnen, oftewel groen. Grijze stroom bestaat vooral uit kernenergie, kolen of aardgas.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="mz-about-container">
+                    <p> Gas komt uit Groningen. Op dit moment is er geen groenere alternatief voor gaswinning. Energielveranciers gebruiken vaak CO2 compensatie. Ook nemen gemeentes initiatieven, zoals stadsverwarming. </p>
+                    <p>Nederland is opgedeeld in verschillende regio's. Elke regio betaald een ander bedrag voor gas. Mensen uit Groningen betalen minder voor gas dan voor mensen die in Zeeland wonen.</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!-- ./explanation content -->
+        <img src="src/img/water.jpg" class="img" />
+        <!-- legend and explanation text -->
+        <section id="about" class="mz-module">
+            <!-- explanation -->
+            <div class="light-bg">
+                <div class="row">
+                    <!-- explanation title -->
+                    <div class="col-lg-12 text-center">
+                        <div class="section-title">
+                            <h2>ENERGIELEVERANCIERS</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- explanation content -->
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <div class="mz-about-container">
+                            <p>Vroeger waren er maar twee energieleveranciers. Waardoor er niet meer nagedacht hoeft te worden over overstappen
+                                en energietarieven. Lopende der jaren zijn er tientallen leveranciers bijgekomen. Men moet nu goed kijken: wat
+                                zijn de energietarieven voor gas en stroom? Welke heeft goede service? Is de leverancier wel groen zoals ze beweren?</p>
+                                <p>Om het nog moeilijker te maken zijn er ook nog netbeheerders in Nederland. Een netbeheerder is verantwoordelijk voor het vervoeren van stroom en gas naar iedere meter in Nederland. Zij beheren dus het net (van stroom en gas). Netbeheerders kunnen de inwoners van Nederland niet kiezen. Zij zijn per regio ingedeeld.</p>
+                                <p> Energieleveranciers geven aan de netbeheerders door wanneer zij een andere leveranciers hebben overgenomen.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <div class="mz-about-container">
+                                <p> Zodat niemand zonder stroom komt te zitten en ook geen meerdere leveranciers hebben. Maar welke leveranciers zijn er eigenlijk in Nederland?</p>
+                                <p>Op dit moment komen er steeds meer groene energieleveranciers bij. Zoals Greenchoice, Qurrent of Vandebron. Een van de grotere energieleveranciers zijn E.on, Nuon of Essent. Deze bedrijven leveren vooral gemengd. Zowel grijs als groen.</p>
+                                <p>Al deze verschillende energielveranciers hebben verschillende energietarieven. Ook geven energielveranciers welkomstkortingen. Waardoor het overstappen nog moeilijker wordt. Ook ontstaat er een gedrag waarbij men ieder jaar overstapt, omdat zij anders geen welkomstkorting mogen ontvangen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./explanation content -->
+                </div>
+                <!-- /.explanation -->
+            </section>
+            <!-- ./legend and explanation text -->
+            <img src="src/img/sunpark.jpg" class="img" />
+            <div class="row">
+                <!-- explanation title -->
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <h2>ONDERZOEK</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- explanation content -->
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <div class="mz-about-container">
+                        <p>Om eerst te gaan vergelijken of Nederland wel zoveel stroom verbruikt. Wordt er op de pagina <a href="world.html">Wereld</a> Nederland vergeleken met andere landen. Canada en Amerika zijn twee enorme landen die veel stroom verbruikt ten opzichte van Nederland. Wel vertienvoudigd!</p>
+                        <p>Op de pagina <a href="netherlands.html">Nederland</a> wordt de kaart van Nederland per gemeente weergegeven. Hier wordt er naar stroom en gas gekeken over drie jaar. Er ontstaat een positieve trend! Om nog meer informatie te achterhalen over een gemeente kan men klikken op het desbetreffende gemeente. Dan kan er worden vergeleken hoeveel er verbuikt wordt over de drie jaren. Komt daar een positief of negatief resultaat uit?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="mz-about-container">
+                        <p>Last but not least, de pagina <a href="suppliers.html">Energieleveranciers</a>. Om toch een duidelijk beeld te krijgen hoeveel energieleveranciers er zijn in Nederland, worden ze in een lijst weergegeven. Door een op een leverancier te klikken wordt de samenstelling van stroom laten zien. Zo weet men ook gelijk of het wel een groene leverancier is.</p>
+                        <p>Het onderzoek is eigenlijk een informatief onderzoek. Energie is een lastig begrip dat verduidelijkt moet worden. Aan de hand van dit onderzoek wordt er eigenlijk een begin gemaakt. Verbruikt Nederland veel? Wordt er minder verbruikt? Hoe werkt het met energieleveranciers?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ./explanation content -->
+        </div>
+    </div>
+    <!-- /.Container -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Sanne Strikkers</p> 
+        </div>
+    </footer>
+    <!-- ./footer -->
+
+    <!-- dataMap -->
+    <script src="http://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!-- app's own JavaScript -->
+    <script src="src/js/app.js"></script>
+    <!-- latest Bootstrap compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- dropdown JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
 </body>
 
 </html>
