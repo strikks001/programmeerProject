@@ -48,6 +48,9 @@ proj
     - img
       - logo.png
       - nederland_gemeenten.svg
+      - sunpark.jpg
+      - water.jpg
+      - windpark.jpg
     - js
       - app.js
       - netherlands.js
@@ -69,6 +72,8 @@ De eerste uitdaging die op het pad is gekomen zijn de bargrafieken op de ‘worl
 
 #### Kleine obstakels
 Er waren ook enkele kleine obstakels op de pagina ‘suppliers.html’. Een langdurige obstakel was het plaatsen van de labels en lijnen langs de donut grafiek. Dit heeft wel twee weken geduurd voordat deze zichtbaar waren.
+
+Daarbij was ook nog de optie om een SVG bestand in een HTML bestand in te laden. Dit was niet gelukt. De SVG code staat rechtstreeks in de pagina ‘netherlands.html’. De beste optie was om het vanuit een extern bestand in te laden. Dit was gelukt, maar het bewerken met JavaScript en D3 gaf foutmeldingen of werkte helemaal niet.
 
 #### Grootste uitdaging
 De grootste uitdaging was de hele pagina ‘netherlands.html’. Voor deze pagina was er een enorme dataset beschikbaar. De dataset bestond uit het gemiddelde verbruik per postcode in Nederland. Het waren iets meer dan zeven miljoen resultaten. Het idee was om een kaart van Nederland te weergeven waarbij elke postcode is gekleurd aan de hand van de beschikbare dataset. Als eerste is het niet gelukt om een Nederlandse SVG bestand te vinden die elke postcode weergeeft. Als tweede mislukte het inladen van de enorme dataset. Het duurde een enige tijd voordat de pagina was geladen.
