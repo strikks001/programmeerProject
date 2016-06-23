@@ -13,6 +13,9 @@ Het doel is om men te informeren over de energiewereld met name in Nederland. Ve
 ### Pagina’s
 
 #### Wereld
+![Index pagina 1](doc/index_pagina1.png)
+
+#### Wereld
 ![Wereld pagina 1](doc/wereld_pagina1.png)
 
 ![Wereld pagina 1](doc/wereld_pagina2.png)
