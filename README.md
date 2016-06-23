@@ -12,7 +12,7 @@ Het doel is om men te informeren over de energiewereld met name in Nederland. Ve
 
 ### Pagina’s
 
-#### Wereld
+#### Kennis
 ![Index pagina 1](doc/index_pagina1.png)
 
 #### Wereld
@@ -43,8 +43,11 @@ Het doel is om men te informeren over de energiewereld met name in Nederland. Ve
 - [D3 DataMaps](http://datamaps.github.io)
 - [jQuery](http://jquery.com)
 
+#### Afbeeldingen
+Afbeeldingen komen van [Flickr](http://flickr.com). De afbeeldingen hebben een open licentie. Dit wordt niet voor commerciële doeleinden gebruikt.
 
-### License
+
+### Licentie
 
 [The MIT License (MIT)
 Copyright © 2016 Sanne Strikkers](../master/LICENCE.md)

@@ -15,35 +15,35 @@ Sanne Strikkers
 @import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
 
 /*--------------------
- General
- --------------------*/
- body {
-   margin: 0px;
-   font-family: "Raleway", Sans-serif;
- }
+General
+--------------------*/
+body {
+  margin: 0px;
+  font-family: "Raleway", Sans-serif;
+}
 
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-   font-weight: 200;
-   letter-spacing: 0.4px;
-   font-family: "Raleway", Sans-serif;
-   color: #232323;
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 200;
+  letter-spacing: 0.4px;
+  font-family: "Raleway", Sans-serif;
+  color: #232323;
+}
 
- p {
-   font-family: 'Raleway', sans-serif;
-   font-size: 17px;
-   font-weight: 300;
-   line-height: 28px;
-   letter-spacing: 0.2px;
-   color: #252525;
- }
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #252525;
+}
 
- a:hover, a:focus, a:active, a.active {
+a:hover, a:focus, a:active, a.active {
   color: #fec503;
 }
 a, a:hover, a:focus, a:active, a.active {
@@ -56,20 +56,20 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 .section-title h3 {
-	text-transform: uppercase;
-	font-weight: 200;
+  text-transform: uppercase;
+  font-weight: 200;
   letter-spacing: 0.4px;
   font-family: "Raleway", Sans-serif;
 }
 
 @media (min-width: 768px) {
-	section {
-   padding: 150px 0;
- }
+  section {
+    padding: 150px 0;
+  }
 }
 
 section {
-	padding: 35px 0 60px;
+  padding: 35px 0 60px;
 }
 
 /*automatic dropdown*/
@@ -90,30 +90,30 @@ section {
 }
 
 /*--------------------
- Reset bootstrap
- --------------------*/
+Reset bootstrap
+--------------------*/
 
- .row-0-gutter {
+.row-0-gutter {
   margin-left: -13px;
   margin-right: -13px;
 }
 
 .col-0-gutter {
-	padding-left: 0;
-	padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*--------------------
- Navigation
- --------------------*/
- .navbar-default {
-   background-color: #fff!important;
-   border-color: transparent!important;
- }
- .navbar-default .navbar-collapse {
-   border-color: rgba(255,255,255,.02)
- }
- .navbar-default .nav li a {
+Navigation
+--------------------*/
+.navbar-default {
+  background-color: #fff!important;
+  border-color: transparent!important;
+}
+.navbar-default .navbar-collapse {
+  border-color: rgba(255,255,255,.02)
+}
+.navbar-default .nav li a {
   font-family: "Roboto",sans-serif;
   text-transform: uppercase;
   font-size: 13px;
@@ -127,8 +127,8 @@ section {
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	border-color: #94C137;
-	outline: 0
+  border-color: #94C137;
+  outline: 0
 }
 
 .navbar .navbar-nav {
@@ -142,27 +142,26 @@ section {
 }
 
 .navbar-logo {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
-
 @media (min-width:768px) {
-	.navbar-default
-	{
-		background-color: transparent;
-		padding: 5px 0 0px;
-   -webkit-transition:padding .3s;
-   -moz-transition:padding .3s;
-   transition:padding .3s;
-   border:0
- }
+  .navbar-default
+  {
+    background-color: transparent;
+    padding: 5px 0 0px;
+    -webkit-transition:padding .3s;
+    -moz-transition:padding .3s;
+    transition:padding .3s;
+    border:0
+  }
 }
 
 /*--------------------
- Footer
- --------------------*/
+Footer
+--------------------*/
 
- footer {
+footer {
   padding: 30px;
   background-color: #000;
   margin-top: 50px;
@@ -179,35 +178,8 @@ footer p {
 }
 
 /*--------------------
- Barchart
- --------------------*/
-
- .charts {
-
- }
-
- .bar {
-  fill: grey;
-}
-
-.bar:hover {
-  fill: #252525;
-}
-
-#bar-chart {
-  display: none;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #B7B7B7;
-  shape-rendering: crispEdges;
-}
-
-.x.axis path {
-  display: none;
-}
+Tooltips
+--------------------*/
 
 /* Creates the tooltip */
 .d3-tip {
@@ -215,18 +187,6 @@ footer p {
   padding: 12px;
   background: #F5F5F5;
   border-radius: 2px;
-}
-
-.nl-tooltip {
-  position: absolute;
-  display: none;
-  width: auto;
-  height: auto;
-  line-height: 1;
-  padding: 12px;
-  background: #F5F5F5;
-  border-radius: 2px;
-  text-align: center;
 }
 
 /* Creates a small triangle extender for the tooltip */
@@ -249,64 +209,109 @@ footer p {
   left: 0;
 }
 
+.world-tip {
+  line-height: 1;
+  padding: 12px;
+  background: #F5F5F5;
+  border-radius: 2px;
+}
+
+.nl-tooltip {
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  padding: 12px;
+  background: #F5F5F5;
+  border-radius: 2px;
+  text-align: center;
+}
+
 /*--------------------
-  Sections
-  --------------------*/
+Barchart
+--------------------*/
+.bar {
+  fill: grey;
+}
 
-  .section-title {
-    padding-bottom: 30px;
-  }
+.bar:hover {
+  fill: #252525;
+}
 
-  .section-title h2 {
-    font-size: 45px;
-    text-transform: uppercase;
-  }
+#bar-chart {
+  display: none;
+}
 
-  .section-title p {
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 33px;
-    margin: 25px 100px 30px 100px;
-  }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #B7B7B7;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
 
 /*--------------------
-  Legend
-  --------------------*/
+Sections
+--------------------*/
 
-  .mz-module .section-title {
-    padding: 40px 0;
-  }
+.section-title {
+  padding-bottom: 30px;
+}
 
-  .light-bg {
-    background: #f1f1f1;
-    padding-bottom: 50px;
-  }
+.section-title h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+}
 
-  .mz-about-dark {
-    background-color: #2B2B2B;
-  }
-  .mz-about-container {
-    padding: 0 50px;
-  }
+.section-title p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 33px;
+  margin: 25px 100px 30px 100px;
+}
 
-  .mz-module-about {
-    padding: 20px;
-  }
+/*--------------------
+Legend
+--------------------*/
 
-  .mz-about-default {
-    background-color: #252525;
-  }
+.mz-module .section-title {
+  padding: 40px 0;
+}
 
-  .mz-module-about-legend p{
-   font-size: 10px;
-   font-weight: 300;
-   line-height: 10px;
-   letter-spacing: 0.1px;
-   text-transform: uppercase;
-   color: #FFFFFF;
- }
+.light-bg {
+  background: #f1f1f1;
+  padding-bottom: 50px;
+}
 
- .mz-module-about p {
+.mz-about-dark {
+  background-color: #2B2B2B;
+}
+.mz-about-container {
+  padding: 0 50px;
+}
+
+.mz-module-about {
+  padding: 20px;
+}
+
+.mz-about-default {
+  background-color: #252525;
+}
+
+.mz-module-about-legend p{
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 10px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.mz-module-about p {
   font-size: 14px;
   font-weight: 400;
   line-height: 27px;
@@ -314,12 +319,12 @@ footer p {
 }
 
 .full-circle {
- height: 15px;
- -moz-border-radius:12px;
- -webkit-border-radius: 12px;
- width: 15px;
- line-height: 18px;
- margin: 10px;
+  height: 15px;
+  -moz-border-radius:12px;
+  -webkit-border-radius: 12px;
+  width: 15px;
+  line-height: 18px;
+  margin: 10px;
 }
 
 .legend {
@@ -342,48 +347,45 @@ footer p {
 }
 
 /*--------------------
-  Donut Chart
-  --------------------*/
+Donut Chart
+--------------------*/
+.donut-svg {
+  width: 650px;
+  height: 500px;
+  margin-top: 90px;
+}
 
+path.slice{
+  stroke-width:2px;
+}
 
-  .donut-svg {
-    width: 650px;
-    height: 500px;
-    margin-top: 90px;
-  }
+polyline{
+  opacity: .3;
+  stroke: grey;
+  stroke-width: 1px;
+  fill: none;
+}
 
-  path.slice{
-    stroke-width:2px;
-  }
-
-  polyline{
-    opacity: .3;
-    stroke: grey;
-    stroke-width: 1px;
-    fill: none;
-  }
-
-  text{
-    font-family: "Raleway", Sans-serif;
-  }
-
+text{
+  font-family: "Raleway", Sans-serif;
+}
 
 /*--------------------
-  Netherlands
-  --------------------*/
-  .btn span.glyphicon {         
-    opacity: 0;       
-  }
-  .btn.active span.glyphicon {        
-    opacity: 1;       
-  }
-  .btn-dropwdown {
-    height: 34px;
-  }
-  #map-form {
-    margin-top: 50px;
-    margin-bottom: 80px;
-  }
+Netherlands
+--------------------*/
+.btn span.glyphicon {         
+  opacity: 0;       
+}
+.btn.active span.glyphicon {        
+  opacity: 1;       
+}
+.btn-dropwdown {
+  height: 34px;
+}
+#map-form {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
 
 
 

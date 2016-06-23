@@ -62,7 +62,7 @@ var map = new Datamap({
 		highlightBorderColor: '#A4A4A4',
 		highlightFillColor: '#F2F2F2',
 		popupTemplate: function (geo, data) {
-            return ['<div class="hoverinfo text-center">',
+            return ['<div class="world-tip text-center">',
                     'Country: <strong>' + geo.properties.name,
                     '</strong><br>SJV: <strong>' + data.data,
                     '</div>'].join('');
@@ -177,7 +177,14 @@ function createBarchart(data, position) {
 		.ticks(15);
 
 	x.domain(data.map(function(d) { return d.year;}));
-	y.domain([0, 25000]);
+
+	if(data[0].value > 30000) {
+		y.domain([0, 60000]);
+		d3.select("#bar-chart-title")
+		.html(data[0].country + "<p class='text-danger'>Let op! Y-assen zijn verschillend.</p>");
+	} else {
+		y.domain([0, 25000]);
+	}
 
 	// tooltip when hovering the bars
 	var tip = d3.tip()

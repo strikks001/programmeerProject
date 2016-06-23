@@ -24,6 +24,10 @@ dataGas2010 = [],
 dataGas2012 = [],
 dataGas2014 = [];
 
+// set up for the map view
+var svgMap = d3.select('svg');
+var div = d3.select("body").append("div").attr("class", "nl-tooltip");
+
 // legend information
 var palletteElec = [],
 palletteGas = [];
@@ -31,14 +35,6 @@ var colorsElec = ["#F2F2F2", "#f6faf4","#f7fcf5","#e5f5e0","#c7e9c0","#a1d99b","
 var colorsGas = ["#F2F2F2", "#fff5eb", "#fee6ce", "#fdd0a2", "#fdae6b", "#fd8d3c", "#f16913", "#d94801", "#a63603", "#7f2704", "#3f1302"];
 var namesElec = ["Geen data", "< 400", "400 - 800", "800 - 1.200", "1.200 - 1.600", "1.600 - 2.000", "2.000 - 2.400", "2.400 - 2.800", "2.800 - 3.200", "3.200 - 3.600", "3.600 - 4.000", "4.000 >"];
 var namesGas = ["Geen data", "< 250", "250 - 500", "500 - 750", "750 - 1.000", "1.000 - 1.250", "1.250 - 1.500", "1.500 - 1.750", "1.750 - 2.000", "2.000 - 2.250", "2.250 >"];
-for (var i = 0; i < colorsElec.length; i++) {
-	palletteElec.push({"name": namesElec[i], "color": colorsElec[i]})
-}
-for (var i = 0; i < colorsGas.length; i++) {
-	palletteGas.push({"name": namesGas[i], "color": colorsGas[i]})
-}
-// setting up the first view
-makeLegend(palletteElec);
 
 // load several files
 queue()
@@ -53,25 +49,31 @@ queue()
 // when selecting another variable, the map will be updated
 d3.selectAll("select")
 .on("change", function () {
+	// update the year of the map
 	year = d3.select(this).property('value');
 	choiceUpdate();
 });
 d3.selectAll(".radio-product")
 .on("click", function () {
+	// update the product (electricity or gas) of the map
 	product = d3.select(this).attr("value");
 	choiceUpdate();
 });
+
 /*
 	Get the data from the external files.
 	Load the data into seperate arrays.
 	One big array with all the information and arrays per year.
 */
 function getData(error, elec2010, elec2012, elec2014, gas2010, gas2012, gas2014) {
+	// error checking
 	if (error) {
 		console.log("We cannot retrieve the data.");
 		alert("We cannot retrieve the data.");
 		throw error;
 	};
+
+	// push every year and product to a different list
 	elec2010.forEach(function (d) {
 		detailList.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv, "year": "2010", "product": "electricity"});
 		dataElec2010.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv});
@@ -96,7 +98,8 @@ function getData(error, elec2010, elec2012, elec2014, gas2010, gas2012, gas2014)
 		detailList.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv, "year": "2014", "product": "gas"});
 		dataGas2014.push({"code": d.code, "color": d.color, "community": d.community, "sjv": d.sjv});
 	});
-	// set first view
+	// setting up the first view
+	makeLegend(makeLegendData(namesElec, colorsElec));
 	setMap(dataElec2010);
 }
 
@@ -118,7 +121,7 @@ function choiceUpdate() {
 			titleChange("Gemiddeld stroomverbruik per huishouden in 2014");
 		}
 		// show the legend of electricity
-		makeLegend(palletteElec);
+		makeLegend(makeLegendData(namesElec,colorsElec));
 	// otherwise show the information of gas in the map	
 	} else {
 		if (year == "2010") {
@@ -132,7 +135,7 @@ function choiceUpdate() {
 			titleChange("Gemiddeld gasverbruik per huishouden in 2014");
 		}
 		// show the legend of gas
-		makeLegend(palletteGas);
+		makeLegend(makeLegendData(namesGas,colorsGas));
 	}
 }
 
@@ -142,9 +145,6 @@ function choiceUpdate() {
 	data; data to be shown in the map and tooltips
 */
 function setMap(data) {	
-		var svgMap = d3.select('svg');
-		var div = d3.select("body").append("div").attr("class", "nl-tooltip ");
-
 	// fill the communities in the netherlands
 	var path = svgMap.selectAll("path")
 	.data(data, function(d) {return (d && d.code) || d3.select(this).attr("id"); })
@@ -158,21 +158,32 @@ function setMap(data) {
 		div.style("display", "inline-block");
 		// if the product is electricity then show kWh otherwise m3
 		if (product == "electricity") {
-			div.html("<strong>" + d.community + "</strong><br>SJV: " + d.sjv + " kWh");
-		} else {
-			div.html("<strong>" + d.community + "</strong><br>SJV: " + d.sjv + " m3");
+			if (d.sjv == "Geen data beschikbaar"){
+				div.html("<strong>" + d3.select(this).attr('class') + "</strong><br>Geen informatie beschikbaar");
+			} else {
+				div.html("<strong>" + d3.select(this).attr('class') + "</strong><br>SJV: " + d.sjv + " kWh");
+			}
+		} else if (product == "gas"){
+			if (d.sjv == "Geen data beschikbaar"){
+				div.html("<strong>" + d3.select(this).attr('class') + "</strong><br>Geen informatie beschikbaar");
+			} else {
+				div.html("<strong>" + d3.select(this).attr('class') + "</strong><br>SJV: " + d.sjv + " m3");
+			}
 		}
 	})
 	.on("mouseout", function(d){
 		div.style("display", "none");
 	});
 
+	// on click a community, will show a barchart
 	path.on("click", function(d){
 		setBarchart(d);
 	});
 }
 
 /*
+	Creating data for the barchart and will change the titles at the barcharts
+	data; data to be changed.
 */
 function setBarchart(data) {
 	var dataList = [];
@@ -243,7 +254,7 @@ function createBarchart(data, position) {
 
 	// sets the domains for the x and y axis
 	x.domain(data.map(function(d) {return d.year;}));
-	y.domain([0, d3.max(data, function(d) {return d.sjv; })]);
+	y.domain([0, d3.max(data, function(d) {return d.sjv;})]);
 
 	// tooltip when hovering the bars
 	var tip = d3.tip()
@@ -294,10 +305,10 @@ function createBarchart(data, position) {
 		.data(data)
 		.enter().append("rect")
 			.attr("class", "bar")
-			.attr("x", function(d) { return x(d.year); })
+			.attr("x", function(d) {return x(d.year);})
 			.attr("width", x.rangeBand())
-			.attr("y", function(d) { return y(d.sjv); })
-			.attr("height", function(d) { return height - y(d.sjv); })
+			.attr("y", function(d) {return y(d.sjv);})
+			.attr("height", function(d) {return height - y(d.sjv);})
 			.on('mouseover', tip.show)
 			.on('mouseout', tip.hide);
 
@@ -311,4 +322,18 @@ function createBarchart(data, position) {
 */
 function titleChange(text) {
 	d3.select("#title-change").html(text);
+}
+
+/*
+	Making legend information
+	nameData; text for the labels.
+	colorData: color codes for the labels
+*/
+function makeLegendData(nameData, colorData) {
+	var result = [];
+	// connect names and colors together
+	for (var i = 0; i < nameData.length; i++) {
+		result.push({"name": nameData[i], "color": colorData[i]})
+	}
+	return result;
 }
