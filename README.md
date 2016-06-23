@@ -44,6 +44,6 @@ Het doel is om men te informeren over de energiewereld met name in Nederland. Ve
 ### License
 
 [The MIT License (MIT)
-Copyright © 2016 Sanne Strikkers](../blob/master/LICENCE.md)
+Copyright © 2016 Sanne Strikkers](../master/LICENCE.md)
 
 
