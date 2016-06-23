@@ -33,17 +33,17 @@ Het doel is om men te informeren over de energiewereld met name in Nederland. Ve
 - [CBS Energieverbruik particuliere woningen](http://statline.cbs.nl/StatWeb/publication/?DM=SLNL&PA=81528NED)
 
 #### Website
-- [D3 JavaScript](www.d3js.org)
-- [Library Bootstrap](www.getbootstrap.com)
-- [D3-tooltips plugin](www.labratrevenge.com/d3-tip)
-- [Bootstrap-select plugin](www.silviomoreto.github.io/bootstrap-select/)
-- [D3 DataMaps](www.datamaps.github.io)
-- [jQuery](www.jquery.com)
+- [D3 JavaScript](https://d3js.org)
+- [Library Bootstrap](http://getbootstrap.com)
+- [D3-tooltips plugin](http://labratrevenge.com/d3-tip/)
+- [Bootstrap-select plugin](http://silviomoreto.github.io/bootstrap-select/)
+- [D3 DataMaps](http://datamaps.github.io)
+- [jQuery](http://jquery.com)
 
 
 ### License
 
 [The MIT License (MIT)
-Copyright © 2016 Sanne Strikkers](LICENSE.md)
+Copyright © 2016 Sanne Strikkers](../blob/master/LICENCE.md)
 
 

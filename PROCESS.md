@@ -83,4 +83,4 @@ Wanneer men op een gemeente klikt dan komt er een bargrafiek tevoorschijn net al
 Aan verslag begonnen.
 
 # day 19
-do
+Alles geüpdatet, zoals de README, verslag en Process.
