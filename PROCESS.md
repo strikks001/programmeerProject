@@ -77,8 +77,10 @@ Code opgeschoond. Legenda is dynamischer zodat het in meerdere bestanden kan wor
 De labels zijn gelukt bij de donut. nu met een lijntje en mooie transitie. Ook als men over de kleuren hovert komt er in het midden van de donut de percentages.
 
 # day 17
-di
+Wanneer men op een gemeente klikt dan komt er een bargrafiek tevoorschijn net als bij de wereldmap. Het liefst wil ik hier 1 functie voor, maar helaas zijn het er twee. Hopelijk lukt het nog om de code te reduceren.
+
 # day 18
-wo
+Aan verslag begonnen.
+
 # day 19
 do
